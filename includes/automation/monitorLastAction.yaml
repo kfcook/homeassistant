@@ -1,3 +1,6 @@
+#Monitor last light action (only on/off at the moment) and record that action in shell_outputs/lastChange.sh
+#via shell_command/saveState.yaml (save_state)
+
 - alias: 'Monitor last action'
   trigger:
     platform: state

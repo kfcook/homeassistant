@@ -1,3 +1,6 @@
+#Change the home mode from "away" to "home" when any light in the house is turned on.
+#Save home mode to shell_outputs/homeMode.sh via shell_command/homeMode.yaml (home_mode)
+
 - alias: 'Away to home mode'
   trigger:
     platform: state
