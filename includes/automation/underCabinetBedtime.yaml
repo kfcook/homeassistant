@@ -1,0 +1,15 @@
+#Turn off under cabinet lights 15 mins after "Bedtime" scene is triggered:
+
+- alias: 'Turn off under cabinet lights after bedtime'
+  trigger:
+    platform: event
+    event_type: call_service
+    event_data:
+      service_data:
+        entity_id: scene.bedtime
+      domain: scene
+      service: turn_on
+  action:
+    - delay: '00:15:00'
+    - service: light.turn_off
+      entity_id: light.under_cabinet
