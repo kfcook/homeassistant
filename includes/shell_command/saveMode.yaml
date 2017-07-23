@@ -1,0 +1,1 @@
+save_mode: bash -c 'echo {{ value }} > /home/homeassistant/.homeassistant/shell_outputs/homeMode.sh'
