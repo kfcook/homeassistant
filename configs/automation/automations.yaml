@@ -1,4 +1,4 @@
-alias: 'Turn on balcony lights at sunset'
+- alias: 'Turn on balcony lights at sunset'
   trigger:
     platform: sun
     event: sunset
@@ -10,7 +10,7 @@ alias: 'Turn on balcony lights at sunset'
       brightness: 255
       transition: 300
 
-alias: 'Turn balcony lights to 50% at 11'
+- alias: 'Turn balcony lights to 50% at 11'
   trigger:
     platform: time
     at: "23:00:00"
@@ -21,7 +21,7 @@ alias: 'Turn balcony lights to 50% at 11'
       brightness: 128
       transition: 300
 
-alias: 'Turn off balcony lights at 1'
+- alias: 'Turn off balcony lights at 1'
   trigger:
     platform: time
     at: "01:00:00"
@@ -31,7 +31,7 @@ alias: 'Turn off balcony lights at 1'
     data:
       transition: 300 
 
-alias: 'Monitor last action'
+- alias: 'Monitor last action'
   trigger:
     platform: state
     entity_id:
@@ -65,7 +65,7 @@ alias: 'Monitor last action'
       data_template:
         value: "echo {{trigger.to_state.attributes.friendly_name}} changed to {{trigger.to_state.state}} at {{now().strftime('%l:%M%p %Z on %b %d, %Y')}}"
 
-alias: 'Away to home mode'
+- alias: 'Away to home mode'
   trigger:
     platform: state
     entity_id: group.everything
