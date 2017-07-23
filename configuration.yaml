@@ -85,10 +85,12 @@ wink:
 ecobee:
   api_key: !secret ecobee_api_key
 
-group: !include_dir_merge_named group
-automation: !include automations.yaml
-script: !include script.yaml
-scene: !include scene.yaml
+group: !include_dir_merge_named configs/group
+automation: !include_dir_merge_named configs/automation
+script: !include_dir_merge_named configs/script
+scene: !include_dir_merge_named configs/scene
+sensor: !include_dir_merge_named configs/sensor
+shell_command: !include_dir_merge_named configs/shell_command
 
 panel_custom: 
   - name: floorplan
@@ -101,38 +103,6 @@ media_player:
   - platform: spotify
     client_id: !secret media_player_spotify_client_id
     client_secret: !secret media_player_spotify_client_secret
-
-sensor:
-  - platform: darksky
-    api_key: !secret sensor_darksky_api_key
-    monitored_conditions:
-      - icon
-      - temperature
-      - temperature_max
-      - temperature_min
-      - humidity
-  - platform: time_date
-    display_options:
-      - 'time'
-      - 'date'
-  - platform: template
-    sensors:
-      bedroom_humidity:
-        value_template: '{{ states.sensor.living_room_humidity.state }}'
-        friendly_name: 'Bedroom Humidity'
-        unit_of_measurement: '%'
-  - platform: command_line
-    name : last_message
-    command: /home/homeassistant/.homeassistant/shell_outputs/lastChange.sh
-    scan_interval: 3
-  - platform: command_line
-    name : home_mode
-    command: /home/homeassistant/.homeassistant/shell_outputs/homeMode.sh
-    scan_interval: 3
-
-shell_command:
-  save_state: bash -c "echo {{ value[:65] +  (value[65:] and '...') }} > /home/homeassistant/.homeassistant/shell_outputs/lastChange.sh"
-  save_mode: bash -c 'echo {{ value }} > /home/homeassistant/.homeassistant/shell_outputs/homeMode.sh'
 
 ios:
 
