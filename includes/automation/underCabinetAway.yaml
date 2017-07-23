@@ -1,0 +1,32 @@
+#Turn on under cabinet lights to 35% when:
+#Home mode is already set to away and the sun sets
+#OR
+#Home mode is set to away and the sun has already set
+
+- alias: 'Turn on under cabinet lights when away/sunset'
+  trigger:
+    platform: sun
+    event: sunset
+  condition: 
+    condition: state
+    entity_id: sensor.home_mode
+    state: Away
+  action:
+    service: light.turn_on
+    entity_id: light.under_cabinet
+    data:
+      brightness: 90
+
+- alias: 'Turn on under cabinet lights when away set/dark'
+  trigger:
+    platform: state
+    entity_id: group.everything
+    to: 'Away'
+  condition:
+    condition: sun
+    after: sunset
+  action:
+    service: light.turn_on
+    entity_id: light.under_cabinet
+    data:
+      brightness: 90
