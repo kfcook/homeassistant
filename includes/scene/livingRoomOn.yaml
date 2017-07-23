@@ -1,0 +1,8 @@
+- name: Living Room On
+  entities:
+    group.living_room:
+      state: on
+      brightness: 255
+    light.zha_fe0299d3_10:
+      state: on
+      brightness: 255

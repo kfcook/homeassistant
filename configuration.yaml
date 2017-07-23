@@ -85,12 +85,12 @@ wink:
 ecobee:
   api_key: !secret ecobee_api_key
 
-group: !include_dir_merge_named configs/group
-automation: !include_dir_merge_list configs/automation
-script: !include_dir_merge_named configs/script
-scene: !include_dir_merge_list configs/scene
-sensor: !include_dir_merge_list configs/sensor
-shell_command: !include_dir_merge_named configs/shell_command
+group: !include_dir_merge_named includes/group
+automation: !include_dir_merge_list includes/automation
+script: !include_dir_merge_named includes/script
+scene: !include_dir_merge_list includes/scene
+sensor: !include_dir_merge_list includes/sensor
+shell_command: !include_dir_merge_named includes/shell_command
 
 panel_custom: 
   - name: floorplan

@@ -1,0 +1,3 @@
+- name: Away
+  entities:
+    group.everything: off

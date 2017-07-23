@@ -1,0 +1,11 @@
+- name: Home
+  entities:
+    light.pendant:
+      state: on
+      brightness: 255
+    light.zha_fe0299d3_10:
+      state: on
+      brightness: 255
+    light.couch:
+      state: on
+      brightness: 255

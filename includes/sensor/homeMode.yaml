@@ -1,0 +1,4 @@
+- platform: command_line
+  name : home_mode
+  command: /home/homeassistant/.homeassistant/shell_outputs/homeMode.sh
+  scan_interval: 3

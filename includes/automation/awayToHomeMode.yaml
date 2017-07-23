@@ -1,0 +1,19 @@
+- alias: 'Away to home mode'
+  trigger:
+    platform: state
+    entity_id: group.everything
+    from: 'off'
+    to: 'on'
+  condition:
+    condition: and
+    conditions:
+      - condition: state
+        entity_id: sensor.home_mode
+        state: Away
+  action:
+    - service: shell_command.save_mode
+      data_template:
+        value: "echo Home"
+    - service: media_player.media_pause
+      data:
+        entity_id: media_player.spotify

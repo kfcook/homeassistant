@@ -1,0 +1,33 @@
+- alias: 'Monitor last action'
+  trigger:
+    platform: state
+    entity_id:
+      - light.balcony
+      - light.bathroom_overhead
+      - light.bullet
+      - light.zha_fe0299fd_10
+      - light.chris
+      - light.closet
+      - light.couch
+      - light.den_overhead
+      - light.floor
+      - light.zha_fe0299d3_10
+      - light.guest_bathroom_overhead
+      - light.guest_bathroom_shower
+      - light.hallway_light
+      - light.kevins
+      - light.office_lamp
+      - light.pendant
+      - light.shower
+      - light.tv
+      - light.under_cabinet
+      - switch.bathroom_fan
+      - switch.entry
+      - switch.guest_bathroom_fan
+      - switch.kitchen_overhead
+      - switch.laundry
+      - switch.office_fan
+  action:
+    - service: shell_command.save_state
+      data_template:
+        value: "echo {{trigger.to_state.attributes.friendly_name}} changed to {{trigger.to_state.state}} at {{now().strftime('%l:%M%p %Z on %b %d, %Y')}}"

@@ -1,0 +1,7 @@
+- name: Cooking Lights
+  entities:
+    group.kitchen:
+      state: on
+      brightness: 255
+    switch.entry: on
+    switch.kitchen_overhead: on

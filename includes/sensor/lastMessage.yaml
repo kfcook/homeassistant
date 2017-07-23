@@ -1,0 +1,4 @@
+- platform: command_line
+  name : last_message
+  command: /home/homeassistant/.homeassistant/shell_outputs/lastChange.sh
+  scan_interval: 3

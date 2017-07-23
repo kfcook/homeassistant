@@ -1,0 +1,32 @@
+- alias: 'Turn on balcony lights at sunset'
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "00:00:00"
+  action:
+    service: light.turn_on
+    entity_id: light.balcony
+    data:
+      brightness: 255
+      transition: 300
+
+- alias: 'Turn balcony lights to 50% at 11'
+  trigger:
+    platform: time
+    at: "23:00:00"
+  action:
+    service: light.turn_on
+    entity_id: light.balcony
+    data:
+      brightness: 128
+      transition: 300
+
+- alias: 'Turn off balcony lights at 1'
+  trigger:
+    platform: time
+    at: "01:00:00"
+  action:
+    service: light.turn_off
+    entity_id: light.balcony
+    data:
+      transition: 300 

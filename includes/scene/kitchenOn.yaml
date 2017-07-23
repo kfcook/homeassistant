@@ -1,0 +1,11 @@
+- name: Kitchen On
+  entities:
+    light.pendant:
+      state: on
+      brightness: 255
+    light.under_cabinet:
+      state: on
+      brightness: 255
+    light.zha_fe0299d3_10:
+      state: on
+      brightness: 255

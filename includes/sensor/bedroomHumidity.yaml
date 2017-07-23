@@ -1,0 +1,6 @@
+- platform: template
+  sensors:
+    bedroom_humidity:
+      value_template: '{{ states.sensor.living_room_humidity.state }}'
+      friendly_name: 'Bedroom Humidity'
+      unit_of_measurement: '%'
