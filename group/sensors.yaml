@@ -1,0 +1,14 @@
+temp_humidity:
+  name: Indoor Temperature and Humidity
+  entities:
+    - sensor.bedroom_temperature
+    - sensor.bedroom_humidity
+    - sensor.living_room_temperature
+    - sensor.living_room_humidity
+    - climate.living_room
+
+occupancy:
+  name: Occupancy
+  entities:
+    - binary_sensor.bedroom_occupancy
+    - binary_sensor.living_room_occupancy

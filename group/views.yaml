@@ -1,0 +1,43 @@
+#default_view:
+#  view: yes
+
+lights_fans_view:
+  view: yes
+  name: Lights and Fans
+  entities:
+    - group.master_bedroom
+    - group.master_bathroom
+    - group.living_room
+    - group.kitchen
+    - group.den
+    - group.guest_bathroom
+    - group.office
+    - group.hallway
+    - group.balcony
+
+climate_view:
+  name: Climate
+  view: yes
+  entities:
+#    - climate.downstairs
+#    - sensor.dark_sky_cloud_coverage
+#    - sensor.dark_sky_minutely_summary
+#    - sensor.dark_sky_nearest_storm_distance
+#    - sensor.dark_sky_precip_intensity
+#    - sensor.dark_sky_daily_max_precip_intensity
+#    - sensor.dark_sky_wind_speed
+#    - sensor.dark_sky_humidity
+#    - sensor.dark_sky_temperature
+#    - sensor.moon
+    - group.temp_humidity
+
+entertainment:
+  name: Entertainment
+  view: yes
+  entities:
+    - group.all_remotes
+    - media_player.living_room_apple_tv
+    - media_player.tv_box_1_living_room
+    - media_player.tv_box_2_master_bedroom
+    - remote.harmony_hub
+    - media_player.spotify

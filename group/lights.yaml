@@ -1,0 +1,72 @@
+master_bedroom:
+  name: Master Bedroom
+  entities:
+    - light.chris
+    - light.kevins
+
+master_bathroom:
+  name: Master Bathroom
+  entities:
+    - light.bathroom_overhead
+    - light.closet
+    - light.shower
+    - switch.bathroom_fan
+
+living_room:
+  name: Living Room
+  entities:
+    - light.zha_fe0299fd_10
+    - light.couch
+    - light.tv
+
+kitchen:
+  name: Kitchen
+  entities:
+    - light.pendant
+    - light.under_cabinet
+    - switch.entry
+    - switch.kitchen_overhead
+    - light.zha_fe0299d3_10
+
+den:
+  name: Den
+  entities:
+    - light.bullet
+    - light.den_overhead
+    - light.floor
+
+guest_bathroom:
+  name: Guest Bathroom
+  entities:
+    - light.guest_bathroom_overhead
+    - light.guest_bathroom_shower
+    - switch.guest_bathroom_fan
+
+office:
+  name: Office
+  entities:
+    - light.office_lamp
+    - switch.office_fan
+
+hallway:
+  name: Hallway
+  entities:
+    - light.hallway_light
+    - switch.laundry
+
+balcony:
+  name: Balcony
+  entities:
+    - light.balcony
+
+everything:
+  name: Everything
+  entities:
+    - group.master_bedroom
+    - group.master_bathroom
+    - group.living_room
+    - group.kitchen
+    - group.den
+    - group.guest_bathroom
+    - group.office
+    - group.hallway

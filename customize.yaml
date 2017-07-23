@@ -1,0 +1,83 @@
+light.balcony:
+  friendly_name: Balcony Lights
+  emulated_hue_name: Balcony
+light.bathroom_overhead:
+  friendly_name: Master Bathroom Overhead Light
+  emulated_hue_name: Bathroom Overhead
+light.bullet:
+  friendly_name: Den Bullet Lamp
+  emulated_hue_name: Den Bullet
+light.zha_fe0299fd_10:
+  friendly_name: Living Room Chair Lamp
+  emulated_hue_name: Chair
+light.chris:
+  friendly_name: Chris' Lamp
+  emulated_hue_name: Chris
+light.closet:
+  friendly_name: Master Closet Overhead Light
+  emulated_hue_name: Closet Overhead
+light.couch:
+  friendly_name: Couch Lamp
+  emulated_hue_name: Couch
+light.den_overhead:
+  friendly_name: Den Overhead Light
+  emulated_hue_name: Den Overhead
+light.floor:
+  friendly_name: Den Floor Lamp
+  emulated_hue_name: Den Floor
+light.zha_fe0299d3_10:
+  friendly_name: Foyer Lamp
+  emulated_hue_name: Foyer
+light.guest_bathroom_overhead:
+  friendly_name: Guest Bathroom Overhead Light
+  emulated_hue_name: Guest Bathroom Overhead
+light.guest_bathroom_shower:
+  friendly_name: Guest Bathroom Shower Light
+  emulated_hue_name: Guest Bathroom Shower
+light.hallway_light:
+  friendly_name: Hallway Overhead Light
+  emulated_hue_name: Hallway
+light.kevins:
+  friendly_name: Kevin's Lamp
+  emulated_hue_name: Kevins
+light.office_lamp:
+  friendly_name: Office Lamps
+  emulated_hue_name: Office
+light.pendant:
+  friendly_name: Kitchen Pendant Lights
+  emulated_hue_name: Pendant
+light.shower:
+  friendly_name: Master Bathroom Shower Light
+  emulated_hue_name: Shower
+light.tv:
+  friendly_name: TV Lamp
+  emulated_hue_name: TV Lamp
+light.under_cabinet:
+  friendly_name: Kitchen Under Cabinet Lights
+  emulated_hue_name: Under Cabinet
+switch.bathroom_fan:
+  friendly_name: Master Bathroom Fan
+  emulated_hue_name: Bathroom Fan
+switch.entry:
+  friendly_name: Entry Light
+  emulated_hue_name: Entry
+switch.guest_bathroom_fan:
+  friendly_name: Guest Bathroom Fan
+  emulated_hue_name: Guest Bathroom Fan
+switch.kitchen_overhead:
+  friendly_name: Kitchen Overhead Lights
+  emulated_hue_name: Kitchen Overhead
+switch.laundry:
+  friendly_name: Laundry Light
+  emulated_hue_name: Laundry
+switch.office_fan:
+  friendly_name: Office Fan
+  emulated_hue_name: Office Fan
+climate.living_room:
+  friendly_name: Thermostat
+
+zone.home:
+  beacon:
+    uuid: E00675D7-3AFC-4919-B04D-E9394A867767
+    major: 1
+    minor: 0

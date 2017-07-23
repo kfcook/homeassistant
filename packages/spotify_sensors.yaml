@@ -1,0 +1,22 @@
+#-------------------------------------------
+#  Clean data for the Floorplan UI.
+#-------------------------------------------
+homeassistant:
+  customize_glob:
+    "sensor.floorplan_*":
+      hidden: True
+#---Sensor for Spotify.-----------------------------
+sensor:
+  - platform: template
+    sensors:
+      floorplan_song:
+        friendly_name: 'Spotify Now Playing Song'
+        value_template: >-
+          {{ "Song: " + states.media_player.spotify.attributes.media_title[:49] + (states.media_player.spotify.attributes.media_title[49:] and "...") if states.media_player.spotify.state == 'playing' else "Song: Not Playing" }}
+
+  - platform: template
+    sensors:
+      floorplan_artist:
+        friendly_name: 'Spotify Now Playing Artist'
+        value_template: >-
+          {{ "Artist: " + states.media_player.spotify.attributes.media_artist[:49] + (states.media_player.spotify.attributes.media_artist[49:] and "...") if states.media_player.spotify.state == 'playing' else "Artist: Not Playing" }}

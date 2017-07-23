@@ -1,0 +1,26 @@
+away_spotify:
+  alias: 'Away with Spotify'
+  sequence:
+    - service: scene.turn_on
+      entity_id: scene.away
+    - service: media_player.select_source
+      data:
+        entity_id: media_player.spotify
+        source: Living Room Echo
+    - service: media_player.volume_set
+      data:
+        entity_id: media_player.spotify
+        volume_level: 0.5
+    - service: media_player.play_media
+      data: 
+        entity_id: media_player.spotify
+        media_content_type: playlist
+      data_template:
+        media_content_id: 'spotify:user:nglarson:playlist:6P14RaLuS5f7iWlIrp8SBM'
+    - service: media_player.shuffle_set
+      data:
+        entity_id: media_player.spotify
+        shuffle: 'true'
+    - service: shell_command.save_mode
+      data_template:
+        value: "echo Away"

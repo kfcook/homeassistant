@@ -1,0 +1,192 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: !secret homeassistant_name
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret homeassistant_latitude
+  longitude: !secret homeassistant_longitude
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: !secret homeassistant_elevation
+  # metric for Metric, imperial for Imperial
+  unit_system: imperial
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/New_York
+  customize: !include customize.yaml
+  packages: !include_dir_named packages
+
+#enable logging
+#logger: 
+#  default: critical
+#  logs:
+#    homeassistant.components.light: debug
+#    homeassistant.components.light.template: debug
+#    homeassistant.core: debug
+
+#recorder:
+#  purge_days: 3
+#  exclude:
+#    entities:
+#      - sun.sun
+#      - sensor.floorplan_song
+#      - sensor.floorplan_artist
+#      - sensor.dark*
+#      - sensor.floorplan_date
+#      - sensor.floorplan_time
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  api_password: !secret http_api_password
+  ssl_certificate: !secret http_ssl_certificate
+  ssl_key: !secret http_ssl_key
+  base_url: !secret http_base_url
+  #server_port: 443
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+  ignore:
+    - google_cast
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+sun:
+
+# Text to speech
+tts:
+  platform: google
+
+wink:
+  email: !secret wink_email
+  password: !secret wink_password
+  client_id: !secret wink_client_id
+  client_secret: !secret wink_client_secret
+
+ecobee:
+  api_key: !secret ecobee_api_key
+
+group: !include_dir_merge_named group
+automation: !include automations.yaml
+script: !include script.yaml
+scene: !include scene.yaml
+
+panel_custom: 
+  - name: floorplan
+    sidebar_title: Floorplan
+    sidebar_icon: mdi:home
+    url_path: floorplan
+    config: !include floorplan.yaml
+
+media_player:
+  - platform: spotify
+    client_id: !secret media_player_spotify_client_id
+    client_secret: !secret media_player_spotify_client_secret
+
+sensor:
+  - platform: darksky
+    api_key: !secret sensor_darksky_api_key
+    monitored_conditions:
+      - icon
+      - temperature
+      - temperature_max
+      - temperature_min
+      - humidity
+  - platform: time_date
+    display_options:
+      - 'time'
+      - 'date'
+  - platform: template
+    sensors:
+      bedroom_humidity:
+        value_template: '{{ states.sensor.living_room_humidity.state }}'
+        friendly_name: 'Bedroom Humidity'
+        unit_of_measurement: '%'
+  - platform: command_line
+    name : last_message
+    command: /home/homeassistant/.homeassistant/shell_outputs/lastChange.sh
+    scan_interval: 3
+  - platform: command_line
+    name : home_mode
+    command: /home/homeassistant/.homeassistant/shell_outputs/homeMode.sh
+    scan_interval: 3
+
+shell_command:
+  save_state: bash -c "echo {{ value[:65] +  (value[65:] and '...') }} > /home/homeassistant/.homeassistant/shell_outputs/lastChange.sh"
+  save_mode: bash -c 'echo {{ value }} > /home/homeassistant/.homeassistant/shell_outputs/homeMode.sh'
+
+ios:
+
+lutron_caseta:
+  host: !secret lutron_caseta_host
+
+emulated_hue:
+  type: alexa
+  expose_by_default: true
+  exposed_domains:
+    - light
+    - switch
+    - group
+
+#zwave:
+#  usb_path: /dev/zwave
+
+zha:
+  usb_path: /dev/zigbee
+  database_path: /home/homeassistant/.homeassistant/zigbee.db
+
+#light:
+#  - platform: template
+#    lights:
+#      foyer:
+#        friendly_name: "Foyer Lamp"
+#        turn_on:
+#          service: light.turn_on
+#          entity_id: light.zha_fe0299d3_10
+#        turn_off:
+#          service: light.turn_off
+#          entity_id: light.zha_fe0299d3_10
+#        set_level:
+#          service: light.turn_on
+#          data:
+#            entity_id: light.zha_fe0299d3_10
+#          data_template:
+#            brightness: '{{ brightness }}'
+#        entity_id: light.zha_fe0299d3_10
+#  - platform: template
+#    lights:
+#      chair:
+#        friendly_name: "Living Room Chair Lamp"
+#        turn_on:
+#          service: light.turn_on
+#          entity_id: light.zha_fe0299fd_10
+#        turn_off:
+#          service: light.turn_off
+#          entity_id: light.zha_fe0299fd_10
+#        set_level:
+#          service: light.turn_on
+#          data:
+#            entity_id: light.zha_fe0299fd_10
+#          data_template:
+#            brightness: '{{ brightness }}'
+#        entity_id: light.zha_fe0299fd_10
+

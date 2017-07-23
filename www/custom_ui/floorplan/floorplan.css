@@ -1,0 +1,239 @@
+@media screen and (min-width: 1281px) {    
+  #floorplan {
+    font-size : 16px;
+  }
+}
+
+/* SVG shapes */
+
+svg, svg * {
+  vector-effect: non-scaling-stroke !important;
+  pointer-events: all !important;
+}
+/*
+/* SVG Text */
+
+/*Info Box Headings*/
+*[id^='header']{
+  fill: #FFFFFF;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight : bold;
+  font-size : 1.5em;
+}
+
+/*Internal Climate*/ 
+*[id^='temp']{
+  fill: #333333;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.406em;
+}
+
+/*Raleigh*/
+*[id^='panel']{
+  fill: #FFFFFF;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.406em;
+}
+
+/*Kevin,Chris*/
+*[id^='status']{
+  fill: #333333;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight : bold;
+  font-size : 1.5em;
+}
+
+*[id^='button']{
+  fill: #FFFFFF;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight : bold;
+  font-size : 1.5em;
+}
+
+
+/* Dynamic Static Text */
+.static-text
+{
+  fill: #FFFFA6;
+  font-family : Verdana;
+  font-weight : bold;
+  font-size : .875em;
+}
+
+.static-text-mode
+{
+  fill: #333333;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.406em;
+}
+
+.static-text-date
+{
+  fill: #FFFFFF;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.5em;
+}
+
+.static-text-time
+{
+  fill: #FFFFFF;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 3em;
+}
+
+.static-temp-int
+{
+  fill: #333333;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.406em;
+}
+
+.static-temp-ext
+{
+  fill: #FFFFFF;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 4.688em;
+}
+
+.static-temp-high
+{
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.5em;
+  font-weight : bold;
+  fill : #E84534;
+}
+
+.static-temp-low
+{
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.5em;
+  font-weight : bold; 
+  fill : #0597D5;
+}
+
+.static-text-message
+{
+  fill: #FFFFFF;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.094em;
+}
+
+.static-text-media
+{
+  fill: #333333;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.094em;
+}
+
+/* Weather */
+.skycon-clear-day,
+.skycon-clear-night,
+.skycon-partly-cloudy-day,
+.skycon-partly-cloudy-night,
+.skycon-cloudy,
+.skycon-rain,
+.skycon-sleet,
+.skycon-snow,
+.skycon-wind,
+.skycon-fog
+{
+ stroke: #000000;
+}
+
+*/
+/* Presence */
+/*
+.presence-on {
+  fill: #BDF271 !important;
+}
+
+.presence-off {
+  fill: #3D3B3F !important;
+}
+*/
+/* Text Home/Away */
+
+.text-home {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.5em;
+  fill: #95C11E !important;
+}
+
+.text-away {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size : 1.5em;
+  fill: #ED6D2F !important;
+}
+
+/* switches */
+
+.switch-on {
+  fill: #FFC200 !important;
+}
+
+.switch-off {
+  fill: #6F6F6E !important;
+}
+
+/* fans */
+
+.fan-on {
+  fill: #1D70B7 !important;
+}
+
+.fan-off {
+  fill: #6F6F6E !important;
+}
+
+/* Buttons */
+
+.button-on {
+  fill: #B2B28E !important;
+}
+
+.button-off {
+  fill: #B2B2B2 !important;
+}
+
+/* Windows / Doors / Entry Points */
+/*
+.window-open {
+  fill: #c60919 !important;
+}
+
+.window-closed {
+  fill: #00FFFF !important;
+}
+*/
+/* Blinds */
+
+.blind-open {
+  fill: #006532 !important;
+}
+
+.blind-closed {
+  fill: #951B81 !important;
+}
+
+/* Light */
+
+.light-on {
+  fill: #FFC200 !important;
+}
+
+.light-off {
+  fill: #6F6F6E !important;
+}
+/*
+.light-off:hover {
+  transform-origin: center;
+  transform: scale(2);
+}
+*/
+
+/*
+.light-on:hover {
+  transform-origin: center;
+  transform: scale(3);
+}
+*/

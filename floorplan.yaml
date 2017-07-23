@@ -1,0 +1,207 @@
+name: 222 213 Floorplan
+image: /local/custom_ui/floorplan/floorplan.svg
+stylesheet: /local/custom_ui/floorplan/floorplan.css
+
+# These options are optional
+warnings:            # enable warnings (to find out why things might ot be working correctly)
+#pan_zoom:            # enable experimental panning / zooming
+# hide_app_toolbar:    # hide the application toolbar (when used as a custom panel)
+
+#last_motion_entity: sensor.template_last_motion
+#last_motion_class: last-motion
+
+groups:
+
+    - name: temp_round_int
+      entities:
+        - sensor.bedroom_temperature
+        - sensor.living_room_temperature
+      text_template: '${entity.state ? Math.round(entity.state)+"°F" : "undefined"}'
+      class_template: 'return "static-temp-int";'
+
+    - name: humidity_round_int
+      entities:
+        - sensor.living_room_humidity
+        - sensor.bedroom_humidity
+      text_template: '${entity.state ? Math.round(entity.state)+"%" : "undefined"}'
+      class_template: 'return "static-temp-int";'
+
+    - name: temp_round_ext_temp
+      entities:
+        - sensor.dark_sky_temperature
+        #- sensor.dark_sky_humidity
+      text_template: '${entity.state ? Math.round(entity.state)+"°F" : "undefined"}'
+      class_template: 'return "static-temp-ext";'
+
+    - name: temp_round_high_temp
+      entities:
+        - sensor.dark_sky_daily_high_temperature
+      text_template: '${entity.state ? Math.round(entity.state)+"°F" : "undefined"}'
+      class_template: 'return "static-temp-high";'
+
+    - name: temp_round_low_temp
+      entities:
+        - sensor.dark_sky_daily_low_temperature
+      text_template: '${entity.state ? Math.round(entity.state)+"°F" : "undefined"}'
+      class_template: 'return "static-temp-low";'
+
+    - name: text_states
+      entities:
+        - sensor.last_message
+      text_template: '${entity.state ? entity.state.replace(/\s{3,}/g,"") : "undefined"}'
+      class_template: 'return "static-text-message";'
+
+    - name: text_font_date
+      entities:
+        - sensor.floorplan_date
+      text_template: '${entity.state ? entity.state : "undefined"}'
+      class_template: 'return "static-text-date";'
+
+    - name: text_font_time
+      entities:
+        - sensor.floorplan_time
+      text_template: '${entity.state ? entity.state : "undefined"}'
+      class_template: 'return "static-text-time";'
+
+    - name: spotify
+      entities:
+        - sensor.floorplan_song
+        - sensor.floorplan_artist
+      text_template: '${entity.state ? entity.state : "Not Playing"}'
+      class_template: 'return "static-text-media";'
+
+    - name: Family
+      entities:
+        - device_tracker.kevins_iphone
+        - device_tracker.cedrone88_iphone
+      text_template: '${entity.state ? entity.state.replace("not_home", "Away").replace("home", "Home") : "undefined"}'
+
+      states:
+        - state: 'home'
+          class: 'text-home'
+        - state: 'not_home'
+          class: 'text-away'
+
+    - name: home_mode
+      entities:
+        - sensor.home_mode
+      text_template: '${entity.state ? entity.state + " Mode" : "undefined"}'
+      class_template: 'return "static-text-mode";'
+
+    - name: Dark Sky Sensors
+      entities:
+        - sensor.dark_sky_icon
+      image_template: 
+        '
+        var imageName = "";
+
+        switch (entity.state) {
+          case "clear-day":
+            imageName = "clear-day";
+            break;
+
+          case "clear-night":
+            imageName = "clear-night";
+            break;
+
+          case "partly-cloudy-day":
+            imageName = "partly-cloudy-day";
+            break;
+
+          case "partly-cloudy-night":
+            imageName = "partly-cloudy-night";
+            break;
+
+          case "cloudy":
+            imageName = "cloudy";
+            break;
+
+          case "fog":
+            imageName = "fog";
+            break;
+
+          case "rain":
+            imageName = "rain";
+            break;
+
+          case "snow":
+            imageName = "snow";
+            break;
+
+          case "sleet":
+            imageName = "sleet";
+            break;
+
+          case "wind":
+            imageName = "wind";
+            break;
+        }
+
+        return "local/custom_ui/floorplan/icons/" + imageName + ".svg";
+        '
+
+    - name: mode_scripts
+      entities:
+        - script.away_spotify
+        #- input_boolean.guest_mode
+      text_template: ' '
+      action:
+        service: toggle
+
+    - name: scene_buttons
+      entities:
+        - scene.living_room_on
+        - scene.tv_time
+        - scene.kitchen_on
+        - scene.cooking_lights
+        - scene.bedtime
+        - scene.away
+        - scene.home
+      text_template: ' '
+      action:
+        service: turn_on
+
+    - name: Lights
+      entities:
+        - light.balcony
+        - light.bathroom_overhead
+        - light.bullet
+        - light.zha_fe0299fd_10
+        - light.chris
+        - light.closet
+        - light.couch
+        - light.den_overhead
+        - light.floor
+        - light.zha_fe0299d3_10
+        - light.guest_bathroom_overhead
+        - light.guest_bathroom_shower
+        - light.hallway_light
+        - light.kevins
+        - light.office_lamp
+        - light.pendant
+        - light.shower
+        - light.tv
+        - light.under_cabinet
+        - switch.entry
+        - switch.kitchen_overhead
+        - switch.laundry
+      states:
+        - state: 'on'
+          class: 'light-on'
+        - state: 'off'
+          class: 'light-off'
+      action:
+        service: toggle
+
+    - name: Fans
+      entities:
+        - switch.bathroom_fan
+        - switch.guest_bathroom_fan
+        - switch.office_fan
+      states:
+        - state: 'on'
+          class: 'fan-on'
+        - state: 'off'
+          class: 'fan-off'
+      action:
+        service: toggle
