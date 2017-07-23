@@ -1,4 +1,4 @@
-- platform: darksky
+platform: darksky
   api_key: !secret sensor_darksky_api_key
   monitored_conditions:
     - icon
@@ -6,21 +6,21 @@
     - temperature_max
     - temperature_min
     - humidity
-- platform: time_date
+platform: time_date
   display_options:
     - 'time'
     - 'date'
-- platform: template
+platform: template
   sensors:
     bedroom_humidity:
       value_template: '{{ states.sensor.living_room_humidity.state }}'
       friendly_name: 'Bedroom Humidity'
       unit_of_measurement: '%'
-- platform: command_line
+platform: command_line
   name : last_message
   command: /home/homeassistant/.homeassistant/shell_outputs/lastChange.sh
   scan_interval: 3
-- platform: command_line
+platform: command_line
   name : home_mode
   command: /home/homeassistant/.homeassistant/shell_outputs/homeMode.sh
   scan_interval: 3

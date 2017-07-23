@@ -1,2 +1,2 @@
-save_state: bash -c "echo {{ value[:65] +  (value[65:] and '...') }} > /home/homeassistant/.homeassistant/shell_outputs/lastChange.sh"
+save_state: bash -c 'echo {{ value[:65] +  (value[65:] and "...") }} > /home/homeassistant/.homeassistant/shell_outputs/lastChange.sh'
 save_mode: bash -c 'echo {{ value }} > /home/homeassistant/.homeassistant/shell_outputs/homeMode.sh'

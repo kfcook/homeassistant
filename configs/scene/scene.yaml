@@ -1,4 +1,4 @@
-- name: Living Room On
+name: Living Room On
   entities:
     group.living_room:
       state: on
@@ -7,7 +7,7 @@
       state: on
       brightness: 255
 
-- name: Cooking Lights
+name: Cooking Lights
   entities:
     group.kitchen:
       state: on
@@ -15,11 +15,11 @@
     switch.entry: on
     switch.kitchen_overhead: on
 
-- name: Away
+name: Away
   entities:
     group.everything: off
 
-- name: TV Time
+name: TV Time
   entities:
     light.couch:
       state: on
@@ -40,7 +40,7 @@
     light.zha_fe0299fd_10: off
     light.tv: off
 
-- name: Kitchen On
+name: Kitchen On
   entities:
     light.pendant:
       state: on
@@ -52,7 +52,7 @@
       state: on
       brightness: 255
 
-- name: Bedtime
+name: Bedtime
   entities:
     light.kevins:
       state: on
@@ -79,7 +79,7 @@
     switch.kitchen_overhead: off
     light.zha_fe0299d3_10: off
 
-- name: Home
+name: Home
   entities:
     light.pendant:
       state: on
