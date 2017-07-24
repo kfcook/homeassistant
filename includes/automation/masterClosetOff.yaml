@@ -1,6 +1,7 @@
 #Turn off the master closet lights when the master bathroom overhead lights turn off
 
-- alias: 'Turn off master closet light with bathroom'
+- id: closet_off_bathroom
+  alias: 'Turn off master closet light with bathroom'
   trigger:
     platform: state
     entity_id: light.bathroom_overhead

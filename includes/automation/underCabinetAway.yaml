@@ -3,7 +3,8 @@
 #OR
 #Home mode is set to away and the sun has already set
 
-- alias: 'Turn on under cabinet lights when away/sunset'
+- id: under_cabinet_away_sunset
+  alias: 'Turn on under cabinet lights when away/sunset'
   trigger:
     platform: sun
     event: sunset
@@ -17,7 +18,8 @@
     data:
       brightness: 90
 
-- alias: 'Turn on under cabinet lights when away set/dark'
+- id: under_cabinet_away_dark
+  alias: 'Turn on under cabinet lights when away set/dark'
   trigger:
     platform: state
     entity_id: group.everything

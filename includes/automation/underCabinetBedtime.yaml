@@ -1,6 +1,7 @@
 #Turn off under cabinet lights 15 mins after "Bedtime" scene is triggered:
 
-- alias: 'Turn off under cabinet lights after bedtime'
+- under_cabinet_off_bedtime
+  alias: 'Turn off under cabinet lights after bedtime'
   trigger:
     platform: event
     event_type: call_service
