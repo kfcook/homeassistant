@@ -4,10 +4,18 @@
 - id: away_home
   alias: 'Away to home mode'
   trigger:
-    platform: state
-    entity_id: group.everything
-    from: 'off'
-    to: 'on'
+    - platform: state
+      entity_id: group.everything_except_under_cabinet
+      from: 'off'
+      to: 'on'
+    - platform: numeric_state
+      entity_id: light.under_cabinet
+      value_template: '{{ state.attributes.brightness }}'
+      above: 89
+    - platform: numeric_state
+      entity_id: light.under_cabinet
+      value_template: '{{ state.attributes.brightness }}'
+      below: 89
   condition:
     condition: and
     conditions:

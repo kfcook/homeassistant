@@ -70,3 +70,19 @@ everything:
     - group.guest_bathroom
     - group.office
     - group.hallway
+
+everything_except_under_cabinet:
+  name: Everything Except Under Cabinet Lights
+  control: hidden
+  entities:
+    - group.master_bedroom
+    - group.master_bathroom
+    - group.living_room
+    - group.den
+    - group.guest_bathroom
+    - group.office
+    - group.hallway
+    - light.pendant
+    - switch.entry
+    - switch.kitchen_overhead
+    - light.zha_fe0299d3_10

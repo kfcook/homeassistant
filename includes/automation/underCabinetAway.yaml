@@ -16,7 +16,7 @@
     service: light.turn_on
     entity_id: light.under_cabinet
     data:
-      brightness: 90
+      brightness: 89
 
 - id: under_cabinet_away_dark
   alias: 'Turn on under cabinet lights when away set/dark'
@@ -31,4 +31,4 @@
     service: light.turn_on
     entity_id: light.under_cabinet
     data:
-      brightness: 90
+      brightness: 89
