@@ -21,6 +21,9 @@ away_spotify:
       data:
         entity_id: media_player.spotify
         shuffle: 'true'
+    - service: media_player.media_next_track
+      data:
+        entity_id: media_player.spotify
     - service: shell_command.save_mode
       data_template:
         value: "echo Away"
