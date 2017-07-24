@@ -2,10 +2,10 @@
   entities:
     light.kevins:
       state: on
-      brightness: 128
+      brightness: 38
     light.chris:
       state: on
-      brightness: 128
+      brightness: 38
     light.bathroom_overhead:
       state: on
       brightness: 255
