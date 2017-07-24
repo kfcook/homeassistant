@@ -1,12 +1,15 @@
 <!--
   Floorplan for Home Assistant
-  Version: 1.0.4
+  Version: 1.0.5
   https://github.com/pkozul/ha-floorplan
 -->
 
 <script src="lib/jquery-3.2.1.min.js"></script>
 <script src="lib//moment.min.js"></script>
 <script src="lib/svg-pan-zoom.min.js"></script>
+
+<!-- As documented here for chrome, removes the need for touchstart -->
+<meta name="viewport" content="width=device-width">
 
 <dom-module id="ha-floorplan">
 
@@ -31,6 +34,11 @@
         color: #FF851B;
         display: none;
       }
+
+      #debug {
+        color: #000000;
+        display: none;
+      }
     </style>
 
     <template is='dom-if' if='[[isLoading]]'>
@@ -44,6 +52,10 @@
     </div>
 
     <div id="warnings">
+      <ul></ul>
+    </div>
+
+    <div id="debug">
       <ul></ul>
     </div>
 
@@ -233,7 +245,6 @@
 
               if (svgElement.length) {
                 $(svgElement).on('click', this.instance.onElementClick.bind({ instance: this.instance, elementId: elementId }));
-                $(svgElement).on('touchstart', this.instance.onElementClick.bind({ instance: this.instance, elementId: elementId }));
                 $(svgElement).css('cursor', 'pointer');
 
                 let elementConfig = {
@@ -334,8 +345,7 @@
                 if (svgElement.length) {
                   svgElementConfig.svgElement = svgElement[0];
 
-                  $(svgElement).on('click touchstart', this.instance.onEntityClick.bind({ instance: this.instance, entityId: entityId }));
-                  //$(svgElement).on('touchstart', this.instance.onEntityClick.bind({ instance: this.instance, entityId: entityId }));
+                  $(svgElement).on('click', this.instance.onEntityClick.bind({ instance: this.instance, entityId: entityId }));
                   $(svgElement).css('cursor', 'pointer');
                   $(svgElement).addClass('ha-entity');
 
@@ -461,12 +471,6 @@
             this.setHoverOverText(embeddedSvg, entityState);
           }
 
-          if (entityConfig.group.layer_toggle) {
-            let layerId = entityId.split('.')[1] + "_layer"
-            let svgLayerElement = $(svg).find(`[id="${layerId}"]`)[0];
-            svgLayerElement.style.display = (entityState.state == 'on') ? 'inline' : 'none';
-          }
-
           let targetClass = undefined;
           let obsoleteClasses = [];
 
@@ -560,8 +564,7 @@
             .attr('y', bbox.y);
 
           $(embeddedSvg).find('*').append(document.createElementNS('http://www.w3.org/2000/svg', 'title'))
-            .on('click touchstart', this.onEntityClick.bind({ instance: this, entityId: entityId }))
-            //.on('touchstart', this.onEntityClick.bind({ instance: this, entityId: entityId }))
+            .on('click', this.onEntityClick.bind({ instance: this, entityId: entityId }))
             .css('cursor', 'pointer')
             .addClass('ha-entity');
 
@@ -569,7 +572,6 @@
           let previousEmbeddedSvg = $(svg).find(`[id="${embeddedSvg.attr('id')}"]`);
           $(previousEmbeddedSvg).find('*')
             .off('click')
-            .off('touchstart')
             .remove();
 
           $(svg).append(embeddedSvg);
@@ -745,7 +747,6 @@
     },
 
     onEntityClick(e) {
-      e.stopPropagation(); e.preventDefault();
       let entityId = this.entityId;
 
       let entityConfig = this.instance.entityConfigs[entityId];
@@ -767,8 +768,9 @@
             data = JSON.parse(result);
           }
 
-          if (!data.entity_id)
+          if (!data.entity_id) {
             data['entity_id'] = entityId;
+          }
 
           this.instance.hass.callService(domain, action.service, data);
         }
@@ -865,6 +867,12 @@
         $(warnings).find('ul').append(`<li>${message}</li>`)
         $(warnings).css('display', 'block');
       }
+    },
+
+    debug(message) {
+      let debug = Polymer.dom(this.$.debug).node;
+      $(debug).find('ul').append(`<li>${message}</li>`)
+      $(debug).css('display', 'block');
     },
 
     rgbToHex(rgb) {
