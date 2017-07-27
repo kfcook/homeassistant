@@ -1,4 +1,4 @@
 - name: Bedtime
   entities:
     scene.bedtime_lutron: on
-    group.non-lutron: off
+    group.nonlutron: off

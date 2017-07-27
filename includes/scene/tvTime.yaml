@@ -1,4 +1,4 @@
 - name: TV Time
   entities:
     scene.tv_time_lutron: on
-    group.non-lutron: off
+    group.nonlutron: off

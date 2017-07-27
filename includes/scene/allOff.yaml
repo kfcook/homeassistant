@@ -1,4 +1,4 @@
 - name: All Off
   entities:
     scene.all_off_lutron: on
-    group.non-lutron: off
+    group.nonlutron: off
