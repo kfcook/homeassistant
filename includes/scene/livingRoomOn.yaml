@@ -1,8 +1,6 @@
 - name: Living Room On
   entities:
-    group.living_room:
-      state: on
-      brightness: 255
-    light.foyer:
+    scene.living_room_lutron: on
+    light.zha_fe0299fd_10:
       state: on
       brightness: 255

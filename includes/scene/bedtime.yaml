@@ -1,26 +1,4 @@
 - name: Bedtime
   entities:
-    light.kevins:
-      state: on
-      brightness: 38
-    light.chris:
-      state: on
-      brightness: 38
-    light.bathroom_overhead:
-      state: on
-      brightness: 255
-    light.under_cabinet:
-      state: on
-      brightness: 64
-    group.living_room: off
-    group.den: off
-    group.guest_bathroom: off
-    group.office: off
-    group.hallway: off
-    light.closet: off
-    light.shower: off
-    switch.bathroom_fan: off
-    light.pendant: off
-    switch.entry: off
-    switch.kitchen_overhead: off
-    light.foyer: off
+    scene.bedtime_lutron: on
+    group.non-lutron: off

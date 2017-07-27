@@ -1,11 +1,3 @@
 - name: Kitchen On
   entities:
-    light.pendant:
-      state: on
-      brightness: 255
-    light.under_cabinet:
-      state: on
-      brightness: 255
-    light.foyer:
-      state: on
-      brightness: 255
+    scene.kitchen_lutron: on

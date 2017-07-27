@@ -1,11 +1,3 @@
 - name: Home
   entities:
-    light.pendant:
-      state: on
-      brightness: 255
-    light.foyer:
-      state: on
-      brightness: 255
-    light.couch:
-      state: on
-      brightness: 255
+    scene.home_lutron: on

@@ -155,7 +155,7 @@ groups:
         - scene.kitchen_on
         - scene.cooking_lights
         - scene.bedtime
-        - scene.away
+        - scene.all_off
         - scene.home
       text_template: ' '
       action:

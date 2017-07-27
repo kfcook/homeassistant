@@ -1,20 +1,4 @@
 - name: TV Time
   entities:
-    light.couch:
-      state: on
-      brightness: 128
-    light.under_cabinet:
-      state: on
-      brightness: 64
-    group.master_bedroom: off
-    group.master_bathroom: off
-    group.den: off
-    group.guest_bathroom: off
-    group.office: off
-    group.hallway: off
-    light.pendant: off
-    switch.entry: off
-    switch.kitchen_overhead: off
-    light.foyer: off
-    light.zha_fe0299fd_10: off
-    light.tv: off
+    scene.tv_time_lutron: on
+    group.non-lutron: off

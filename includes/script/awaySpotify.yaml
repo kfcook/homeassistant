@@ -2,7 +2,7 @@ away_spotify:
   alias: 'Away with Spotify'
   sequence:
     - service: scene.turn_on
-      entity_id: scene.away
+      entity_id: scene.all_off
     - service: media_player.select_source
       data:
         entity_id: media_player.spotify

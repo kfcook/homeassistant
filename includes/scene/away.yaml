@@ -1,3 +1,4 @@
-- name: Away
+- name: All Off
   entities:
-    group.everything: off
+    scene.all_off_lutron: on
+    group.non-lutron: off

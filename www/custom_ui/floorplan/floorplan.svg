@@ -2727,7 +2727,7 @@
 	<rect id="scene.kitchen_on" x="326.375" y="297.928" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.898"/>
 	<rect id="scene.cooking_lights" x="326.375" y="366.854" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.258"/>
 	<rect id="scene.bedtime" x="326.375" y="435.779" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.5"/>
-	<rect id="scene.away" x="326.375" y="504.705" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+	<rect id="scene.all_off" x="326.375" y="504.705" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 	<rect id="refresh_button" onclick="location.reload();" x="1082.254" y="556.173" fill="#FFFFFF" fill-opacity="0" width="69.746" height="69.327"/>
 </g>
 </svg>
