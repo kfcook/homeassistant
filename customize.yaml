@@ -25,7 +25,7 @@ light.den_overhead:
 light.floor:
   friendly_name: Den Floor Lamp
   emulated_hue_name: Den Floor
-light.zha_fe0299d3_10:
+light.foyer:
   friendly_name: Foyer Lamp
   emulated_hue_name: Foyer
 light.guest_bathroom_overhead:
@@ -73,6 +73,9 @@ switch.laundry:
 switch.office_fan:
   friendly_name: Office Fan
   emulated_hue_name: Office Fan
+switch.bedroom_fan:
+  friendly_name: Master Bedroom Fan
+  emulated_hue_name: Master Bedroom Fan
 climate.living_room:
   friendly_name: Thermostat
 

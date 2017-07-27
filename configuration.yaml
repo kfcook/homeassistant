@@ -127,23 +127,6 @@ zha:
 #light:
 #  - platform: template
 #    lights:
-#      foyer:
-#        friendly_name: "Foyer Lamp"
-#        turn_on:
-#          service: light.turn_on
-#          entity_id: light.zha_fe0299d3_10
-#        turn_off:
-#          service: light.turn_off
-#          entity_id: light.zha_fe0299d3_10
-#        set_level:
-#          service: light.turn_on
-#          data:
-#            entity_id: light.zha_fe0299d3_10
-#          data_template:
-#            brightness: '{{ brightness }}'
-#        entity_id: light.zha_fe0299d3_10
-#  - platform: template
-#    lights:
 #      chair:
 #        friendly_name: "Living Room Chair Lamp"
 #        turn_on:

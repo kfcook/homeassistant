@@ -3,7 +3,7 @@
     light.pendant:
       state: on
       brightness: 255
-    light.zha_fe0299d3_10:
+    light.foyer:
       state: on
       brightness: 255
     light.couch:

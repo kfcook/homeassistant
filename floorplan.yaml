@@ -172,7 +172,7 @@ groups:
         - light.couch
         - light.den_overhead
         - light.floor
-        - light.zha_fe0299d3_10
+        - light.foyer
         - light.guest_bathroom_overhead
         - light.guest_bathroom_shower
         - light.hallway_light
@@ -185,6 +185,7 @@ groups:
         - switch.entry
         - switch.kitchen_overhead
         - switch.laundry
+        - switch.bedroom_fan
       states:
         - state: 'on'
           class: 'light-on'

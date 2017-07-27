@@ -26,7 +26,7 @@ kitchen:
     - light.under_cabinet
     - switch.entry
     - switch.kitchen_overhead
-    - light.zha_fe0299d3_10
+    - light.foyer
 
 den:
   name: Den
@@ -85,4 +85,11 @@ everything_except_under_cabinet:
     - light.pendant
     - switch.entry
     - switch.kitchen_overhead
-    - light.zha_fe0299d3_10
+    - light.foyer
+
+non-lutron:
+  name: Non-Lutron
+  entities:
+    - light.zha_fe0299fd_10
+    - switch.entry
+    - switch.kitchen_overhead
