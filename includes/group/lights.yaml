@@ -1,11 +1,13 @@
 master_bedroom:
   name: Master Bedroom
+  icon: mdi:hotel
   entities:
     - light.chris
     - light.kevins
 
 master_bathroom:
   name: Master Bathroom
+  icon: mdi:broom
   entities:
     - light.bathroom_overhead
     - light.closet
@@ -14,6 +16,7 @@ master_bathroom:
 
 living_room:
   name: Living Room
+  icon: mdi:television
   entities:
     - light.zha_fe0299fd_10
     - light.couch
@@ -21,6 +24,7 @@ living_room:
 
 kitchen:
   name: Kitchen
+  icon: mdi:kettle
   entities:
     - light.pendant
     - light.under_cabinet
@@ -37,6 +41,7 @@ den:
 
 guest_bathroom:
   name: Guest Bathroom
+  icon: mdi:hotel
   entities:
     - light.guest_bathroom_overhead
     - light.guest_bathroom_shower
@@ -44,6 +49,7 @@ guest_bathroom:
 
 office:
   name: Office
+  icon: mdi:desktop-classic
   entities:
     - light.office_lamp
     - switch.office_fan
