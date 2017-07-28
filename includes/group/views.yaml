@@ -13,6 +13,7 @@ default_view:
     - group.guest_bathroom
     - group.office
     - group.hallway
+    - group.living_room_blinds
     - group.balcony
 
 scenes:

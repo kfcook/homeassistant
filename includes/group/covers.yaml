@@ -1,0 +1,7 @@
+living_room_blinds:
+  name: Living Room Blinds
+  icon: mdi:window-closed
+  entities:
+    - cover.living_room_left
+    - cover.living_room_middle
+    - cover.living_room_right
