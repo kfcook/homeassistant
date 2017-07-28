@@ -2330,11 +2330,11 @@
 		
 			<line id="cover.office_2_" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="998.085" y1="489.773" x2="1063.435" y2="489.773"/>
 		
-			<line id="cover.living_middle_2_" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="809.606" y1="481.406" x2="847.662" y2="481.406"/>
+			<line id="cover.living_room_middle" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="809.606" y1="481.406" x2="847.662" y2="481.406"/>
 		
-			<line id="cover.living_right_2_" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="763.801" y1="481.31" x2="800.856" y2="481.31"/>
+			<line id="cover.living_room_right" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="763.801" y1="481.31" x2="800.856" y2="481.31"/>
 		
-			<line id="cover.living_left_2_" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="856.412" y1="481.31" x2="892.764" y2="481.31"/>
+			<line id="cover.living_room_left" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="856.412" y1="481.31" x2="892.764" y2="481.31"/>
 	</g>
 	<g id="switch.bathroom_fan">
 		<path fill="#706F6F" d="M621.211,109.396c-0.617-0.619-1.544-0.568-2.11,0.204c-1.597,2.626-1.339,6.23,0.927,8.496

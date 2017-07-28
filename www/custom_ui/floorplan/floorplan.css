@@ -223,16 +223,3 @@ svg, svg * {
 .light-off {
   fill: #6F6F6E !important;
 }
-/*
-.light-off:hover {
-  transform-origin: center;
-  transform: scale(2);
-}
-*/
-
-/*
-.light-on:hover {
-  transform-origin: center;
-  transform: scale(3);
-}
-*/

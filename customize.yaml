@@ -94,6 +94,18 @@ switch.bedroom_fan:
   emulated_hue_name: Master Bedroom Fan
 climate.living_room:
   friendly_name: Thermostat
+cover.living_room_left:
+  friendly_name: Living Room Window Left
+  icon: mdi:window-closed
+  emulated_hue_name: Left Living Room Window
+cover.living_room_Middle:
+  friendly_name: Living Room Window Middle
+  icon: mdi:window-closed
+  emulated_hue_name: Middle Living Room Window
+cover.living_room_Right:
+  friendly_name: Living Room Window Right
+  icon: mdi:window-closed
+  emulated_hue_name: Right Living Room Window
 
 zone.home:
   beacon:
