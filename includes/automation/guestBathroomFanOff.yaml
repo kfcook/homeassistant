@@ -1,0 +1,19 @@
+#Turn off the guest bathroom fan when the guest closet 
+#overhead or shower lights turn off
+
+- id: fan_off_guest_bathroom
+  alias: 'Turn off fan in guest bathroom'
+  trigger:
+    - platform: state
+      entity_id: light.guest_bathroom_overhead
+      from: 'on'
+      to: 'off'
+      for: '01:30:00'
+    - platform: state
+      entity_id: light.guest_bathroom_shower
+      from: 'on'
+      to: 'off'
+      for: '01:30:00'
+  action:
+    - service: switch.turn_off
+      entity_id: switch.guest_bathroom_fan
