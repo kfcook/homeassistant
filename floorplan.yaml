@@ -185,7 +185,6 @@ groups:
         - switch.entry
         - switch.kitchen_overhead
         - switch.laundry
-        - switch.bedroom_fan
       states:
         - state: 'on'
           class: 'light-on'
@@ -199,6 +198,7 @@ groups:
         - switch.bathroom_fan
         - switch.guest_bathroom_fan
         - switch.office_fan
+        - switch.bedroom_fan
       states:
         - state: 'on'
           class: 'fan-on'
