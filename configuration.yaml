@@ -111,12 +111,14 @@ lutron_caseta:
   host: !secret lutron_caseta_host
 
 emulated_hue:
-  type: alexa
+  expose_by_default: false
+  off_maps_to_on_domains:
+    - script
+    - scene
   expose_by_default: true
   exposed_domains:
     - light
     - switch
-    - group
 
 #zwave:
 #  usb_path: /dev/zwave
