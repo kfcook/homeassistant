@@ -217,5 +217,3 @@ groups:
           class: 'blind-open'
         - state: 'closed'
           class: 'blind-closed'
-      action:
-        service: toggle
