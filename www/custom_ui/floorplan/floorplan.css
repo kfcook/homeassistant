@@ -207,11 +207,11 @@ svg, svg * {
 /* Blinds */
 
 .blind-open {
-  stroke: #006532 !important;
+  stroke: #9CFF00 !important;
 }
 
 .blind-closed {
-  stroke: #951B81 !important;
+  stroke: #FF4200 !important;
 }
 
 /* Light */

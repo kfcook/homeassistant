@@ -1531,12 +1531,12 @@
 	</g>
 </pattern>
 <g id="Background">
-	<rect id="Full_2_" x="316.375" y="-89.5" fill="#B3B3B3" width="835.625" height="715"/>
+	<rect id="Full" x="316.375" y="-89.5" fill="#B3B3B3" width="835.625" height="715"/>
 	<g id="Middle" display="none">
 		<g display="inline">
 			<g>
 				
-					<image overflow="visible" opacity="0.5" width="175" height="561" xlink:href="FD6F3779.png"  transform="matrix(1 0 0 1 344.5 -12.5)">
+					<image overflow="visible" opacity="0.5" width="175" height="561" xlink:href="ACA4D216.png"  transform="matrix(1 0 0 1 344.5 -12.5)">
 				</image>
 				<rect x="352.723" fill="#727272" width="150.59" height="536"/>
 			</g>
@@ -1554,18 +1554,18 @@
 			</g>
 		</g>
 		<g>
-			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="326.5449" y1="-8.2144" x2="492.5605" y2="-8.2144">
+			<linearGradient id="SVGID" gradientUnits="userSpaceOnUse" x1="326.5449" y1="-8.2144" x2="492.5605" y2="-8.2144">
 				<stop  offset="0" style="stop-color:#F3944C"/>
 				<stop  offset="0.5" style="stop-color:#ED6D05"/>
 				<stop  offset="1" style="stop-color:#D25917"/>
 			</linearGradient>
-			<rect x="326.545" y="-40.5" fill="url(#SVGID_1_)" width="166.016" height="64.571"/>
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="326.5449" y1="-8.2144" x2="492.5605" y2="-8.2144">
+			<rect x="326.545" y="-40.5" fill="url(#SVGID)" width="166.016" height="64.571"/>
+			<linearGradient id="SVGID" gradientUnits="userSpaceOnUse" x1="326.5449" y1="-8.2144" x2="492.5605" y2="-8.2144">
 				<stop  offset="0" style="stop-color:#F3944C"/>
 				<stop  offset="0.5" style="stop-color:#ED6D05"/>
 				<stop  offset="1" style="stop-color:#D25917"/>
 			</linearGradient>
-			<rect x="326.545" y="-40.5" fill="url(#SVGID_2_)" width="166.016" height="64.571"/>
+			<rect x="326.545" y="-40.5" fill="url(#SVGID)" width="166.016" height="64.571"/>
 		</g>
 		
 			<text id="buttonHOME" transform="matrix(0.9822 0 0 1 380.6201 -0.3242)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">HOME</text>
@@ -1651,22 +1651,22 @@
 <g id="Left_Panel">
 	<g id="Layout_Original" display="none">
 		
-			<image display="inline" overflow="visible" enable-background="new    " width="589" height="561" xlink:href="FD6F377F.jpg"  transform="matrix(0.9235 0 0 0.9216 240.0518 10.9795)">
+			<image display="inline" overflow="visible" enable-background="new    " width="589" height="561" xlink:href="ACA4D21A.jpg"  transform="matrix(0.9235 0 0 0.9216 240.0518 10.9795)">
 		</image>
 	</g>
 	<rect id="message_box" x="-128" y="592.376" fill="#666666" width="455.625" height="33.124"/>
 	
 		<text id="sensor.last_message" transform="matrix(1 0 0 1 -119.2754 614.249)" fill="#F2F2F2" font-family="'ArialNarrow'" font-size="17.5">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</text>
 	
-		<rect id="LR_Box_2" x="-99.563" y="446.797" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="398.438" height="58.205"/>
+		<rect id="LR_Box_2" x="-99.563" y="471.797" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="398.438" height="58.205"/>
 	
-		<rect id="LR_Box1" x="-105.525" y="407.834" fill="#31B29D" stroke="#31B29D" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="410.025" height="33.55"/>
+		<rect id="LR_Box1" x="-105.525" y="432.834" fill="#31B29D" stroke="#31B29D" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="410.025" height="33.55"/>
 	
-		<text id="headerNOWPLAYING" transform="matrix(1 0 0 1 -58.042 433.6504)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">NOW PLAYING</text>
+		<text id="headerNOWPLAYING" transform="matrix(1 0 0 1 -58.042 458.6504)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">NOW PLAYING</text>
 	
-		<text id="sensor.floorplan_artist" transform="matrix(1 0 0 1 -94.6885 500.0303)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="17.5">ARTIST:</text>
+		<text id="sensor.floorplan_artist" transform="matrix(1 0 0 1 -94.6885 525.0303)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="17.5">ARTIST:</text>
 	
-		<text id="sensor.floorplan_song" transform="matrix(1 0 0 1 -94.6885 472.6055)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="17.5">SONG:</text>
+		<text id="sensor.floorplan_song" transform="matrix(1 0 0 1 -94.6885 497.6055)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="17.5">SONG:</text>
 	
 		<rect id="Status_box" x="118.875" y="191.064" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="180" height="75"/>
 	
@@ -1730,38 +1730,38 @@
 	
 		<text id="sensor.dark_sky_temperature" transform="matrix(1 0 0 1 -95.7046 101.0049)" fill="#FFFFFF" font-family="'ArialNarrow'" font-size="75">1XX</text>
 	
-		<text id="sensor.dark_sky_daily_high_temperature" transform="matrix(1 0 0 1 225.1904 81.4624)" fill="#FFFFFF" font-family="'ArialNarrow'" font-size="22.5">1XX</text>
+		<text id="sensor.dark_sky_daily_high_temperature" transform="matrix(1 0 0 1 225.1904 81.4624)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">1XX</text>
 	
-		<text id="sensor.dark_sky_daily_low_temperature" transform="matrix(1 0 0 1 225.1904 118.8086)" fill="#FFFFFF" font-family="'ArialNarrow'" font-size="22.5">1XX</text>
+		<text id="sensor.dark_sky_daily_low_temperature" transform="matrix(1 0 0 1 225.1904 118.8086)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">1XX</text>
 	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="286.375" y1="92.485" x2="216.755" y2="92.485"/>
 	<g id="weathericon">
-		<rect id="sensor.dark_sky_icon" x="48.127" y="2.021" fill="#F2F2F2" fill-opacity="0" width="173.628" height="173.627"/>
+		<rect id="sensor.dark_sky_icon" x="40.127" y="2.021" fill="#F2F2F2" fill-opacity="0" width="173.628" height="173.627"/>
 	</g>
 	
 		<text id="sensor.floorplan_time" transform="matrix(1 0 0 1 -97.0654 -34.48)" fill="#FFFFFF" font-family="'ArialNarrow'" font-size="48">XX:XX AM</text>
 	
 		<text id="sensor.floorplan_date" transform="matrix(1 0 0 1 -96.7754 -8.834)" fill="#FFFFFF" font-family="'ArialNarrow'" font-size="24">SATURDAY, SEPTEMBER 09</text>
 	<g id="spotifylogo">
-		<path fill="#FFFFFF" d="M-80.059,410.746c-7.758,0-14.069,6.313-14.069,14.069c0,7.756,6.311,14.068,14.069,14.068
-			c7.757,0,14.068-6.313,14.068-14.068C-65.99,417.059-72.301,410.746-80.059,410.746z M-74.602,431.173
+		<path fill="#FFFFFF" d="M-80.059,435.746c-7.758,0-14.069,6.313-14.069,14.069c0,7.756,6.311,14.068,14.069,14.068
+			c7.757,0,14.068-6.313,14.068-14.068C-65.99,442.059-72.301,435.746-80.059,435.746z M-74.602,456.173
 			c-0.224,0-0.394-0.057-0.562-0.225c-1.969-1.182-4.389-1.802-6.976-1.802c-1.463,0-2.925,0.171-4.276,0.45
 			c-0.224,0.059-0.505,0.112-0.675,0.112c-0.506,0-0.844-0.392-0.844-0.844c0-0.563,0.338-0.845,0.731-0.899
 			c1.688-0.394,3.319-0.619,5.063-0.619c2.982,0,5.569,0.674,7.875,2.025c0.338,0.17,0.563,0.395,0.563,0.899
-			C-73.759,430.834-74.152,431.173-74.602,431.173z M-73.084,427.628c-0.281,0-0.45-0.112-0.675-0.224
+			C-73.759,455.834-74.152,456.173-74.602,456.173z M-73.084,452.628c-0.281,0-0.45-0.112-0.675-0.224
 			c-2.193-1.295-5.232-2.196-8.55-2.196c-1.688,0-3.206,0.225-4.388,0.563c-0.282,0.057-0.394,0.169-0.675,0.169
 			c-0.563,0-1.068-0.451-1.068-1.066c0-0.564,0.281-0.96,0.843-1.127c1.52-0.395,3.095-0.732,5.345-0.732
-			c3.542,0,6.975,0.899,9.619,2.475c0.451,0.282,0.62,0.563,0.62,1.069C-72.07,427.123-72.521,427.628-73.084,427.628z
-			 M-71.451,423.467c-0.282,0-0.45-0.058-0.674-0.228c-2.419-1.461-6.246-2.251-9.903-2.251c-1.855,0-3.713,0.17-5.4,0.675
+			c3.542,0,6.975,0.899,9.619,2.475c0.451,0.282,0.62,0.563,0.62,1.069C-72.07,452.123-72.521,452.628-73.084,452.628z
+			 M-71.451,448.467c-0.282,0-0.45-0.058-0.674-0.228c-2.419-1.461-6.246-2.251-9.903-2.251c-1.855,0-3.713,0.17-5.4,0.675
 			c-0.168,0.058-0.449,0.17-0.674,0.17c-0.732,0-1.294-0.563-1.294-1.295c0-0.729,0.449-1.124,0.958-1.292
 			c1.912-0.562,4.05-0.845,6.412-0.845c3.939,0,8.159,0.788,11.195,2.587c0.394,0.229,0.674,0.564,0.674,1.238
-			C-70.156,422.903-70.776,423.467-71.451,423.467z"/>
+			C-70.156,447.903-70.776,448.467-71.451,448.467z"/>
 	</g>
 </g>
 <g id="Floorplan">
 	<g id="Exterior_Trace">
 	</g>
 	<g id="Interior_Trace">
-		<g id="XMLID_1_">
+		<g id="XMLID">
 			<g>
 				<g>
 					<polygon fill="#51AEE2" points="855.447,-17.441 861.627,-17.441 871.38,-17.441 912.021,-17.441 912.021,-16.64 
@@ -2324,17 +2324,24 @@
 		
 			<line fill="none" stroke="#F9B233" stroke-width="3" stroke-miterlimit="10" x1="1034.368" y1="307.498" x2="1110.447" y2="307.498"/>
 	</g>
-	<g id="Windows">
+	
+		<line id="cover.bedroom" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="568.173" y1="451.128" x2="683.522" y2="451.128"/>
+	
+		<line id="cover.office" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="998.085" y1="489.773" x2="1063.435" y2="489.773"/>
+	<g id="cover.living_room_middle">
 		
-			<line id="cover.bedroom_2_" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="568.173" y1="451.128" x2="683.522" y2="451.128"/>
+			<line id="middle" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="809.606" y1="481.406" x2="847.662" y2="481.406"/>
+		<ellipse opacity="0" fill="#FFDE00" cx="829.628" cy="481.406" rx="23.83" ry="24.757"/>
+	</g>
+	<g id="cover.living_room_right">
 		
-			<line id="cover.office_2_" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="998.085" y1="489.773" x2="1063.435" y2="489.773"/>
+			<line id="right" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="763.801" y1="481.31" x2="800.856" y2="481.31"/>
+		<ellipse opacity="0" fill="#FFDE00" cx="782.329" cy="481.31" rx="23.83" ry="24.757"/>
+	</g>
+	<g id="cover.living_room_left">
+		<ellipse opacity="0" fill="#FFDE00" cx="877.288" cy="481.31" rx="23.83" ry="24.757"/>
 		
-			<line id="cover.living_room_middle" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="809.606" y1="481.406" x2="847.662" y2="481.406"/>
-		
-			<line id="cover.living_room_right" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="763.801" y1="481.31" x2="800.856" y2="481.31"/>
-		
-			<line id="cover.living_room_left" fill="none" stroke="#006633" stroke-width="6" stroke-miterlimit="10" x1="856.412" y1="481.31" x2="892.764" y2="481.31"/>
+			<line id="left" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="856.412" y1="481.31" x2="892.764" y2="481.31"/>
 	</g>
 	<g id="switch.bathroom_fan">
 		<path fill="#706F6F" d="M621.211,109.396c-0.617-0.619-1.544-0.568-2.11,0.204c-1.597,2.626-1.339,6.23,0.927,8.496
@@ -2345,6 +2352,7 @@
 			c-2.265,2.264-2.677,5.817-0.978,8.546c0.516,0.721,1.493,0.823,2.11,0.206C633.311,114.595,637.327,110.58,639.179,108.675z"/>
 		<path fill="#706F6F" d="M621.982,127.415c-0.617,0.619-0.566,1.545,0.208,2.112c2.624,1.597,6.229,1.338,8.493-0.927
 			c2.268-2.265,2.678-5.766,0.928-8.495c-0.514-0.721-1.492-0.824-2.11-0.207C627.854,121.546,623.89,125.51,621.982,127.415z"/>
+		<circle opacity="0" fill="#FFDE00" cx="630.135" cy="117.485" r="24.758"/>
 	</g>
 	<g id="light.bathroom_overhead" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -2365,6 +2373,7 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="560.005" cy="92.522" r="24.758"/>
 	</g>
 	<g id="light.shower" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -2384,6 +2393,7 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="480.53" cy="20.146" r="24.758"/>
 	</g>
 	<g id="light.closet" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -2403,6 +2413,7 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="526.546" cy="-73.476" r="24.758"/>
 	</g>
 	<g id="light.pendant" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -2422,6 +2433,7 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="724.596" cy="-9.175" r="24.758"/>
 	</g>
 	<g id="light.under_cabinet" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -2441,6 +2453,7 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="613.622" cy="-96.591" r="24.758"/>
 	</g>
 	<g id="switch.kitchen_overhead" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -2461,6 +2474,7 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="690.943" cy="-67.328" r="24.758"/>
 	</g>
 	<g id="switch.entry" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -2480,18 +2494,22 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="820.864" cy="-54.573" r="24.758"/>
 	</g>
 	<g id="light.foyer">
 		<polygon fill="#010202" points="914.873,180.572 921.811,180.572 918.822,170.079 907.712,170.079 905.471,180.572 
 			912.406,180.572 912.406,193.381 909.628,193.381 909.628,195.079 917.653,195.079 917.653,193.381 914.873,193.381 		"/>
+		<circle opacity="0" fill="#FFDE00" cx="913.641" cy="179.256" r="24.758"/>
 	</g>
 	<g id="light.floor">
 		<polygon fill="#010202" points="983.912,-6.146 990.848,-6.146 987.859,-16.64 976.748,-16.64 974.508,-6.146 981.443,-6.146 
 			981.443,6.663 978.665,6.663 978.665,8.36 986.689,8.36 986.689,6.663 983.912,6.663 		"/>
+		<circle opacity="0" fill="#FFDE00" cx="983.678" cy="-6.552" r="24.758"/>
 	</g>
 	<g id="light.bullet">
 		<polygon fill="#010202" points="1115.07,85.079 1122.006,85.079 1119.018,74.585 1107.907,74.585 1105.666,85.079 
 			1112.602,85.079 1112.602,97.888 1109.822,97.888 1109.822,99.585 1117.849,99.585 1117.849,97.888 1115.07,97.888 		"/>
+		<circle opacity="0" fill="#FFDE00" cx="1114.836" cy="83.789" r="24.758"/>
 	</g>
 	<g id="light.den_overhead" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -2512,6 +2530,7 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="973.026" cy="-47.35" r="24.758"/>
 	</g>
 	<g id="switch.guest_bathroom_fan">
 		<path fill="#010202" d="M1006.351,121.335c-0.618-0.619-1.546-0.568-2.112,0.205c-1.594,2.626-1.336,6.229,0.928,8.495
@@ -2526,6 +2545,7 @@
 		<path fill="#010202" d="M1007.122,139.354c-0.618,0.619-0.565,1.545,0.208,2.111c2.624,1.597,6.227,1.339,8.493-0.927
 			c2.266-2.264,2.679-5.766,0.928-8.495c-0.515-0.721-1.494-0.823-2.112-0.207C1012.991,133.486,1009.029,137.45,1007.122,139.354z"
 			/>
+		<circle opacity="0" fill="#FFDE00" cx="1015.168" cy="130.985" r="24.758"/>
 	</g>
 	<g id="light.guest_bathroom_shower" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -2546,6 +2566,7 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="1031.98" cy="59.935" r="24.758"/>
 	</g>
 	<g id="light.guest_bathroom_overhead" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
@@ -2566,11 +2587,12 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="1030.979" cy="141.995" r="24.758"/>
 	</g>
 	<g id="switch.laundry" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
 			<g>
-				<g id="a_2_">
+				<g id="a">
 					<path fill="#010202" d="M907.651,106.01h-3.762c0.254,0.718,0.881,1.095,1.88,1.126
 						C906.758,107.167,907.385,106.792,907.651,106.01 M903.125,104.486c-0.205,0.031-0.3,0.195-0.287,0.493
 						c0.01,0.286,0.112,0.428,0.303,0.428h5.291c0.183-0.052,0.272-0.211,0.272-0.476s-0.108-0.413-0.321-0.444L903.125,104.486
@@ -2586,14 +2608,17 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="905.778" cy="91.522" r="24.758"/>
 	</g>
 	<g id="light.office_lamp">
 		<polygon fill="#010202" points="952.953,461.871 959.89,461.871 956.901,451.377 945.79,451.377 943.549,461.871 950.485,461.871 
 			950.485,474.679 947.707,474.679 947.707,476.378 955.731,476.378 955.731,474.679 952.953,474.679 		"/>
+		<circle opacity="0" fill="#FFDE00" cx="951.719" cy="460.651" r="24.758"/>
 	</g>
 	<g id="light.tv">
 		<polygon fill="#706F6F" points="728.356,396.93 735.291,396.93 732.304,386.437 721.193,386.437 718.952,396.93 725.888,396.93 
 			725.888,409.738 723.109,409.738 723.109,411.437 731.135,411.437 731.135,409.738 728.356,409.738 		"/>
+		<circle opacity="0" fill="#FFDE00" cx="727.122" cy="395.916" r="24.758"/>
 	</g>
 	<g id="switch.office_fan">
 		<path fill="#010202" d="M1025.049,381.905c-0.617-0.617-1.545-0.566-2.111,0.205c-1.594,2.627-1.337,6.229,0.928,8.496
@@ -2608,14 +2633,17 @@
 		<path fill="#010202" d="M1025.82,399.926c-0.617,0.617-0.564,1.545,0.208,2.11c2.624,1.598,6.227,1.339,8.493-0.927
 			c2.266-2.266,2.679-5.767,0.928-8.494c-0.515-0.722-1.494-0.824-2.111-0.207C1031.689,394.057,1027.728,398.021,1025.82,399.926z"
 			/>
+		<circle opacity="0" fill="#FFDE00" cx="1034.533" cy="390.003" r="24.758"/>
 	</g>
 	<g id="light.couch">
 		<polygon fill="#010202" points="914.873,418.666 921.811,418.666 918.822,408.173 907.712,408.173 905.471,418.666 
 			912.406,418.666 912.406,431.476 909.628,431.476 909.628,433.173 917.653,433.173 917.653,431.476 914.873,431.476 		"/>
+		<circle opacity="0" fill="#FFDE00" cx="913.641" cy="417.376" r="24.758"/>
 	</g>
 	<g id="light.zha_fe0299fd_10">
-		<polygon fill="#010202" points="770.062,449.121 776.998,449.121 774.01,438.628 762.898,438.628 760.657,449.121 
-			767.594,449.121 767.594,461.93 764.814,461.93 764.814,463.628 772.84,463.628 772.84,461.93 770.062,461.93 		"/>
+		<polygon fill="#010202" points="753.681,446.731 760.617,446.731 757.629,436.238 746.518,436.238 744.276,446.731 
+			751.213,446.731 751.213,459.54 748.434,459.54 748.434,461.238 756.459,461.238 756.459,459.54 753.681,459.54 		"/>
+		<circle opacity="0" fill="#FFDE00" cx="752.447" cy="445.431" r="24.758"/>
 	</g>
 	<g id="switch.bedroom_fan">
 		<path fill="#1D71B8" d="M608.763,353.478c-0.618-0.617-1.544-0.566-2.11,0.205c-1.596,2.627-1.338,6.229,0.926,8.496
@@ -2626,14 +2654,17 @@
 			c-2.266,2.266-2.679,5.818-0.979,8.546c0.516,0.722,1.494,0.824,2.112,0.207C620.862,358.678,624.88,354.662,626.731,352.758z"/>
 		<path fill="#1D71B8" d="M609.535,371.498c-0.617,0.617-0.564,1.545,0.208,2.109c2.624,1.599,6.228,1.34,8.493-0.926
 			c2.268-2.264,2.68-5.767,0.928-8.493c-0.515-0.723-1.494-0.825-2.111-0.208C615.404,365.629,611.442,369.594,609.535,371.498z"/>
+		<circle opacity="0" fill="#FFDE00" cx="617.081" cy="362.576" r="24.758"/>
 	</g>
 	<g id="light.chris">
 		<polygon fill="#010202" points="547.686,418.666 554.623,418.666 551.635,408.173 540.524,408.173 538.283,418.666 
 			545.219,418.666 545.219,431.476 542.44,431.476 542.44,433.173 550.466,433.173 550.466,431.476 547.686,431.476 		"/>
+		<circle opacity="0" fill="#FFDE00" cx="545.444" cy="420.674" r="24.758"/>
 	</g>
 	<g id="light.kevins">
 		<polygon fill="#010202" points="547.686,313.974 554.623,313.974 551.635,303.48 540.524,303.48 538.283,313.974 545.219,313.974 
 			545.219,326.782 542.44,326.782 542.44,328.48 550.466,328.48 550.466,326.782 547.686,326.782 		"/>
+		<circle opacity="0" fill="#FFDE00" cx="545.444" cy="314.598" r="24.758"/>
 	</g>
 	<path fill="#010202" d="M751.487,333.287h-32.692c-0.531,0-0.964,0.43-0.964,0.962v18.269c0,0.53,0.433,0.963,0.964,0.963h11.537
 		v2.885h-6.73c-0.531,0-0.962,0.431-0.962,0.963c0,0.531,0.431,0.962,0.962,0.962h23.076c0.531,0,0.963-0.431,0.963-0.962
@@ -2643,7 +2674,7 @@
 	<g id="light.hallway_light" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
 			<g>
-				<g id="a_1_">
+				<g id="a">
 					<path fill="#010202" d="M906.758,161.756h-3.763c0.254,0.719,0.882,1.095,1.88,1.126
 						C905.864,162.914,906.492,162.538,906.758,161.756 M902.231,160.233c-0.205,0.031-0.3,0.194-0.286,0.492
 						c0.01,0.286,0.112,0.429,0.303,0.429h5.292c0.182-0.053,0.271-0.211,0.271-0.476c0-0.265-0.107-0.413-0.319-0.444
@@ -2659,6 +2690,7 @@
 				</g>
 			</g>
 		</g>
+		<circle opacity="0" fill="#FFDE00" cx="904.769" cy="146.627" r="24.758"/>
 	</g>
 	<g id="light.balcony">
 		<path d="M809.75,549.936c-0.008,0.05-0.041,0.213,0.219,0.271c0.209,0.048,0.475-0.02,0.571-0.177
