@@ -22,7 +22,7 @@
   alias: 'Turn on under cabinet lights when away set/dark'
   trigger:
     platform: state
-    entity_id: group.everything
+    entity_id: sensor.home_mode
     to: 'Away'
   condition:
     condition: sun
