@@ -1,0 +1,6 @@
+living_room_tv:
+  name: Living Room TV
+  icon: mdi:monitor
+  entities:
+    - remote.living_room_tv
+    - input_select.living_room_tv

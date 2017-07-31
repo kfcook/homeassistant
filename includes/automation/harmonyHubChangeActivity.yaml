@@ -1,0 +1,81 @@
+#Change remote.living_room_tv activity based on living_room_tv input_select selection
+
+- id: lr_tv_powered_off_ha
+  alias: "Living Room TV powered off from HA"
+  trigger:
+    platform: state
+    entity_id: input_select.living_room_tv
+    to: 'Powered Off'
+  action:
+    service: script.turn_on
+    entity_id: script.lr_tv_powered_off
+
+- id: lr_tv_watch_tv_ha
+  alias: "Watch TV triggered on Living Room TV from HA"
+  trigger:
+    platform: state
+    entity_id: input_select.living_room_tv
+    to: 'Watch TV'
+  action:
+    service: script.turn_on
+    entity_id: script.lr_tv_watch_tv
+
+- id: lr_tv_watch_apple_tv_ha
+  alias: "Watch Apple TV triggered on Living Room TV from HA"
+  trigger:
+    platform: state
+    entity_id: input_select.living_room_tv
+    to: 'Watch Apple TV'
+  action:
+    service: script.turn_on
+    entity_id: script.lr_tv_watch_apple_tv
+
+- id: lr_tv_watch_fire_tv_ha
+  alias: "Watch Fire TV triggered on Living Room TV from HA"
+  trigger:
+    platform: state
+    entity_id: input_select.living_room_tv
+    to: 'Watch Fire TV'
+  action:
+    service: script.turn_on
+    entity_id: script.lr_tv_watch_fire_tv
+
+- id: lr_tv_listen_to_music_ha
+  alias: "Listen to Music triggered on Living Room TV from HA"
+  trigger:
+    platform: state
+    entity_id: input_select.living_room_tv
+    to: 'Listen to Music'
+  action:
+    service: script.turn_on
+    entity_id: script.lr_tv_listen_to_music
+
+- id: lr_tv_play_ps3_ha
+  alias: "Play PS3 triggered on Living Room TV from HA"
+  trigger:
+    platform: state
+    entity_id: input_select.living_room_tv
+    to: 'Play PS3'
+  action:
+    service: script.turn_on
+    entity_id: script.lr_tv_play_ps3
+
+- id: lr_tv_play_wii_ha
+  alias: "Play Wii triggered on Living Room TV from HA"
+  trigger:
+    platform: state
+    entity_id: input_select.living_room_tv
+    to: 'Play Wii'
+  action:
+    service: script.turn_on
+    entity_id: script.lr_tv_play_wii
+
+- id: lr_tv_watch_dlna_ha
+  alias: "Watch DLNA triggered on Living Room TV from HA"
+  trigger:
+    platform: state
+    entity_id: input_select.living_room_tv
+    to: 'Watch DLNA'
+  action:
+    service: script.turn_on
+    entity_id: script.lr_tv_watch_dlna

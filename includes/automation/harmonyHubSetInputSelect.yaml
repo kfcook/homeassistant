@@ -1,0 +1,114 @@
+#Change the living_room_tv input_select to the proper value when
+#the harmony hub changes inputs
+
+- id: lr_tv_powered_off_hub
+  alias: "Living Room TV powered off from Hub"
+  trigger:
+    platform: state
+    entity_id: remote.living_room_tv
+  condition:
+    condition: template
+    value_template: '{{ trigger.to_state.attributes.current_activity == "PowerOff" }}'
+  action:
+    service: input_select.select_option
+    entity_id: input_select.living_room_tv
+    data:
+      option: "Powered Off"
+
+- id: lr_tv_watch_tv_hub
+  alias: "Watch TV triggered on Living Room TV from Hub"
+  trigger:
+    platform: state
+    entity_id: remote.living_room_tv
+  condition:
+    condition: template
+    value_template: '{{ trigger.to_state.attributes.current_activity == "Watch TV" }}'
+  action:
+    service: input_select.select_option
+    entity_id: input_select.living_room_tv
+    data:
+      option: "Watch TV"
+
+- id: lr_tv_watch_apple_tv_hub
+  alias: "Watch Apple TV triggered on Living Room TV from Hub"
+  trigger:
+    platform: state
+    entity_id: remote.living_room_tv
+  condition:
+    condition: template
+    value_template: '{{ trigger.to_state.attributes.current_activity == "Watch Apple TV" }}'
+  action:
+    service: input_select.select_option
+    entity_id: input_select.living_room_tv
+    data:
+      option: "Watch Apple TV"
+
+- id: lr_tv_watch_fire_tv_hub
+  alias: "Watch Fire TV triggered on Living Room TV from Hub"
+  trigger:
+    platform: state
+    entity_id: remote.living_room_tv
+  condition:
+    condition: template
+    value_template: '{{ trigger.to_state.attributes.current_activity == "Watch Fire TV" }}'
+  action:
+    service: input_select.select_option
+    entity_id: input_select.living_room_tv
+    data:
+      option: "Watch Fire TV"
+
+- id: lr_tv_listen_to_music_hub
+  alias: "Listen to Music triggered on Living Room TV from Hub"
+  trigger:
+    platform: state
+    entity_id: remote.living_room_tv
+  condition:
+    condition: template
+    value_template: '{{ trigger.to_state.attributes.current_activity == "Listen to Music" }}'
+  action:
+    service: input_select.select_option
+    entity_id: input_select.living_room_tv
+    data:
+      option: "Listen to Music"
+
+- id: lr_tv_play_ps3_hub
+  alias: "Play PS3 triggered on Living Room TV from Hub"
+  trigger:
+    platform: state
+    entity_id: remote.living_room_tv
+  condition:
+    condition: template
+    value_template: '{{ trigger.to_state.attributes.current_activity == "Play PS3" }}'
+  action:
+    service: input_select.select_option
+    entity_id: input_select.living_room_tv
+    data:
+      option: "Play PS3"
+
+- id: lr_tv_play_wii_hub
+  alias: "Play Wii triggered on Living Room TV from Hub"
+  trigger:
+    platform: state
+    entity_id: remote.living_room_tv
+  condition:
+    condition: template
+    value_template: '{{ trigger.to_state.attributes.current_activity == "Play Wii" }}'
+  action:
+    service: input_select.select_option
+    entity_id: input_select.living_room_tv
+    data:
+      option: "Play Wii"
+
+- id: lr_tv_watch_dlna_hub
+  alias: "Watch DLNA triggered on Living Room TV from Hub"
+  trigger:
+    platform: state
+    entity_id: remote.living_room_tv
+  condition:
+    condition: template
+    value_template: '{{ trigger.to_state.attributes.current_activity == "Watch DLNA" }}'
+  action:
+    service: input_select.select_option
+    entity_id: input_select.living_room_tv
+    data:
+      option: "Watch DLNA"

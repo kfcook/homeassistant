@@ -1,0 +1,46 @@
+lr_tv_powered_off:
+  sequence:
+    - service: remote.turn_off
+      entity_id: remote.living_room_tv
+lr_tv_watch_tv:
+  sequence:
+    - service: remote.turn_on
+      entity_id: remote.living_room_tv
+      data:
+        activity: "24644619"
+lr_tv_watch_apple_tv:
+  sequence:
+    - service: remote.turn_on
+      entity_id: remote.living_room_tv
+      data:
+        activity: "23778214"
+lr_tv_watch_fire_tv:
+  sequence:
+    - service: remote.turn_on
+      entity_id: remote.living_room_tv
+      data:
+        activity: "23344587"
+lr_tv_listen_to_music:
+  sequence:
+    - service: remote.turn_on
+      entity_id: remote.living_room_tv
+      data:
+        activity: "23778917"
+lr_tv_play_ps3:
+  sequence:
+    - service: remote.turn_on
+      entity_id: remote.living_room_tv
+      data:
+        activity: "23779905"
+lr_tv_play_wii:
+  sequence:
+    - service: remote.turn_on
+      entity_id: remote.living_room_tv
+      data:
+        activity: "23779443"
+lr_tv_watch_dlna:
+  sequence:
+    - service: remote.turn_on
+      entity_id: remote.living_room_tv
+      data:
+        activity: "23878200"

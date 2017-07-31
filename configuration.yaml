@@ -126,6 +126,26 @@ zha:
   usb_path: /dev/zigbee
   database_path: /home/homeassistant/.homeassistant/zigbee.db
 
+remote:
+  - platform: harmony
+    name: Living Room TV
+    host: !secret remote_harmony_host
+
+input_select:
+  living_room_tv:
+    name: Living Room TV
+    options:
+      - Powered Off
+      - Watch TV
+      - Watch Apple TV
+      - Watch Fire TV
+      - Listen to Music
+      - Play PS3
+      - Play Wii
+      - Watch DLNA
+    initial: Powered Off
+    icon: mdi:monitor
+
 #light:
 #  - platform: template
 #    lights:

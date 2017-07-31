@@ -39,9 +39,8 @@ entertainment:
   name: Entertainment
   view: yes
   entities:
-    - group.all_remotes
+    - group.living_room_tv
     - media_player.living_room_apple_tv
     - media_player.tv_box_1_living_room
     - media_player.tv_box_2_master_bedroom
-    - remote.harmony_hub
     - media_player.spotify

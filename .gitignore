@@ -17,7 +17,7 @@ known_devices.yaml
 *.conf
 plex.conf
 phue.conf
-harmony_media_room.conf
+harmony_living_room_tv.conf
 pyozw.sqlite
 .*
 !/.gitignore
