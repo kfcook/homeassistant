@@ -177,7 +177,7 @@
 }
         ]]></style>
     </defs>
-    <g filter="url(#blur)" id="cloudy-night-3">
+    <g id="cloudy-night-3">
         <g transform="translate(20,10)">
             <g transform="translate(16,4), scale(0.8)">
                 <g class="am-weather-moon-star-1">

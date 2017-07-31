@@ -8,7 +8,7 @@
     height="64"
     viewBox="0 0 64 64">
     <defs>
-        <filter id="blur" width="200%" height="200%">
+<!--        <filter id="blur" width="200%" height="200%">
             <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
             <feOffset dx="0" dy="4" result="offsetblur"/>
             <feComponentTransfer>
@@ -18,7 +18,7 @@
                 <feMergeNode/>
                 <feMergeNode in="SourceGraphic"/> 
             </feMerge>
-        </filter>
+        </filter>-->
         <style type="text/css"><![CDATA[
 /*
 ** CLOUDS
@@ -123,10 +123,10 @@
      -moz-animation-name: am-weather-sun;
       -ms-animation-name: am-weather-sun;
           animation-name: am-weather-sun;
-  -webkit-animation-duration: 9s;
-     -moz-animation-duration: 9s;
-      -ms-animation-duration: 9s;
-          animation-duration: 9s;
+  -webkit-animation-duration: 20s;
+     -moz-animation-duration: 20s;
+      -ms-animation-duration: 20s;
+          animation-duration: 20s;
   -webkit-animation-timing-function: linear;
      -moz-animation-timing-function: linear;
       -ms-animation-timing-function: linear;
@@ -159,10 +159,10 @@
      -moz-animation-name: am-weather-sun-shiny;
       -ms-animation-name: am-weather-sun-shiny;
           animation-name: am-weather-sun-shiny;
-  -webkit-animation-duration: 2s;
-     -moz-animation-duration: 2s;
-      -ms-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 6s;
+     -moz-animation-duration: 6s;
+      -ms-animation-duration: 6s;
+          animation-duration: 6s;
   -webkit-animation-timing-function: linear;
      -moz-animation-timing-function: linear;
       -ms-animation-timing-function: linear;
@@ -485,11 +485,16 @@
           animation-timing-function: ease-in-out;
 }
 
+.no-flick {
+  -webkit-transform:translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+}
+
         ]]></style>
     </defs>
-    <g filter="url(#blur)" id="day">
+    <g id="day">
         <g transform="translate(32,32)">
-            <g class="am-weather-sun am-weather-sun-shiny am-weather-easing-ease-in-out">
+            <g class="am-weather-sun am-weather-sun-shiny am-weather-easing-ease-in-out no-flick">
                 <g>
                     <line fill="none" stroke="orange" stroke-linecap="round" stroke-width="2" transform="translate(0,9)" x1="0" x2="0" y1="0" y2="3" />
                 </g>
