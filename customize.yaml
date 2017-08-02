@@ -99,15 +99,17 @@ cover.living_room_left:
   friendly_name: Left Living Room Window
   icon: mdi:window-closed
   emulated_hue_name: Left Living Room Window
+  homebridge_cover_type: rollershutter
 cover.living_room_Middle:
   friendly_name: Middle Living Room Window
   icon: mdi:window-closed
   emulated_hue_name: Middle Living Room Window
+  homebridge_cover_type: rollershutter
 cover.living_room_Right:
   friendly_name: Right Living Room Window
   icon: mdi:window-closed
   emulated_hue_name: Right Living Room Window
-
+  homebridge_cover_type: rollershutter
 
 zone.home:
   beacon:
