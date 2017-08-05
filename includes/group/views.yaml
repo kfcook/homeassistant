@@ -28,6 +28,9 @@ scenes:
     - scene.kitchen_on
     - scene.living_room_on
     - scene.tv_time
+    - scene.living_room_windows_closed
+    - scene.living_room_windows_half
+    - scene.living_room_windows_open
 
 climate_view:
   name: Climate
