@@ -9,7 +9,11 @@ svg, svg * {
   vector-effect: non-scaling-stroke !important;
   pointer-events: all !important;
 }
-/*
+/* SVG Shadows */
+*[id^='shadow']{
+  mix-blend-mode: multiply;
+}
+
 /* SVG Text */
 
 /*Info Box Headings*/

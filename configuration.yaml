@@ -164,4 +164,3 @@ input_select:
 #          data_template:
 #            brightness: '{{ brightness }}'
 #        entity_id: light.zha_fe0299fd_10
-
