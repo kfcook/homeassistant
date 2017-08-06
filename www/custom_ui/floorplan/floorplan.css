@@ -57,7 +57,7 @@ svg, svg * {
 }
 
 *[id^='button']{
-  fill: #FFFFFF;
+  fill: #FFFFFF !important;
   font-family: "Arial Narrow", Arial, sans-serif;
   font-weight : bold;
   font-size : 1.5em;
@@ -241,9 +241,9 @@ svg, svg * {
 
 /* Room */
 .room-on {
-  fill: #FFC200 !important;
+  fill: #FFC200;
 }
 
 .room-off {
-  fill: #6F6F6E !important;
+  fill: #00A5D0;
 }

@@ -1,0 +1,3 @@
+- name: Kitchen Dim
+  entities:
+    scene.kitchen_dim_lutron: on

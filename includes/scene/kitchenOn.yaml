@@ -1,3 +1,0 @@
-- name: Kitchen On
-  entities:
-    scene.kitchen_lutron: on

@@ -1,6 +1,0 @@
-- name: Living Room On
-  entities:
-    scene.living_room_lutron: on
-    light.zha_fe0299fd_10:
-      state: on
-      brightness: 255

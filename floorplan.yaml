@@ -150,23 +150,27 @@ groups:
 
     - name: scene_buttons
       entities:
-        - scene.living_room_on
         - scene.tv_time
-        - scene.kitchen_on
-        - scene.cooking_lights
+        - scene.kitchen_dim
         - scene.bedtime
         - scene.all_off
         - scene.home
         - scene.entertain
+        - scene.dining
       text_template: ' '
       action:
         service: turn_on
 
     - name: Rooms
       entities:
+        - switch.master_bedroom_group
+        - switch.master_bathroom_group
         - switch.living_room_group
         - switch.kitchen_group
         - switch.den_group
+        - switch.guest_bathroom_group
+        - switch.office_group
+        - switch.hallway_group
       states:
         - state: 'on'
           class: 'room-on'

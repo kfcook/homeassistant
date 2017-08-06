@@ -14,6 +14,14 @@ master_bathroom:
     - light.shower
     - switch.bathroom_fan
 
+master_bathroom_minus_fan:
+  name: Master Bathroom Minus Fan
+  icon: mdi:broom
+  entities:
+    - light.bathroom_overhead
+    - light.closet
+    - light.shower
+
 living_room:
   name: Living Room
   icon: mdi:television
@@ -47,12 +55,25 @@ guest_bathroom:
     - light.guest_bathroom_shower
     - switch.guest_bathroom_fan
 
+guest_bathroom_minus_fan:
+  name: Guest Bathroom Minus Fan
+  icon: mdi:hotel
+  entities:
+    - light.guest_bathroom_overhead
+    - light.guest_bathroom_shower
+
 office:
   name: Office
   icon: mdi:desktop-classic
   entities:
     - light.office_lamp
     - switch.office_fan
+
+office_minus_fan:
+  name: Office Minus Fan
+  icon: mdi:desktop-classic
+  entities:
+    - light.office_lamp
 
 hallway:
   name: Hallway

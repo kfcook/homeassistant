@@ -12,7 +12,7 @@
       value_template: "{{ is_state('group.master_bathroom', 'on') }}"
       turn_on:
         service: homeassistant.turn_on
-        entity_id: group.master_bathroom
+        entity_id: group.master_bathroom_minus_fan
       turn_off:
         service: homeassistant.turn_off
         entity_id: group.master_bathroom
@@ -44,7 +44,7 @@
       value_template: "{{ is_state('group.guest_bathroom', 'on') }}"
       turn_on:
         service: homeassistant.turn_on
-        entity_id: group.guest_bathroom
+        entity_id: group.guest_bathroom_minus_fan
       turn_off:
         service: homeassistant.turn_off
         entity_id: group.guest_bathroom
@@ -52,7 +52,7 @@
       value_template: "{{ is_state('group.office', 'on') }}"
       turn_on:
         service: homeassistant.turn_on
-        entity_id: group.office
+        entity_id: group.office_minus_fan
       turn_off:
         service: homeassistant.turn_off
         entity_id: group.office
