@@ -3,6 +3,8 @@ away_spotify:
   sequence:
     - service: scene.turn_on
       entity_id: scene.all_off
+    - service: remote.turn_off
+      entity_id: remote.living_room_tv
     - service: media_player.select_source
       data:
         entity_id: media_player.spotify
