@@ -93,6 +93,23 @@ switch.bedroom_fan:
   icon: mdi:fan
   emulated_hue_name: Bedroom Fan
 
+switch.master_bedroom_group:
+  emulated_hue: false
+switch.master_bathroom_group:
+  emulated_hue: false
+switch.living_room_group:
+  emulated_hue: false
+switch.kitchen_group:
+  emulated_hue: false
+switch.den_group:
+  emulated_hue: false
+switch.guest_bathroom_group:
+  emulated_hue: false
+switch.office_group:
+  emulated_hue: false
+switch.hallway_group:
+  emulated_hue: false
+
 climate.living_room:
   friendly_name: Thermostat
 cover.living_room_left:

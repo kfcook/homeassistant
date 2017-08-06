@@ -9,9 +9,19 @@ svg, svg * {
   vector-effect: non-scaling-stroke !important;
   pointer-events: all !important;
 }
+
 /* SVG Shadows */
 *[id^='shadow']{
   mix-blend-mode: multiply;
+}
+
+/* Layer Hiding */
+.layer-visible {
+  display: initial !important;
+}
+
+.layer-hidden {
+  display: none !important;
 }
 
 /* SVG Text */
@@ -226,5 +236,14 @@ svg, svg * {
 }
 
 .light-off {
+  fill: #6F6F6E !important;
+}
+
+/* Room */
+.room-on {
+  fill: #FFC200 !important;
+}
+
+.room-off {
   fill: #6F6F6E !important;
 }

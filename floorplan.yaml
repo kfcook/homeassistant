@@ -162,6 +162,33 @@ groups:
       action:
         service: turn_on
 
+    - name: Rooms
+      entities:
+        - switch.living_room_group
+        - switch.kitchen_group
+        - switch.den_group
+      states:
+        - state: 'on'
+          class: 'room-on'
+        - state: 'off'
+          class: 'room-off'
+      action:
+        service: toggle
+
+    - name: Room Buttons
+      elements:
+        - rooms_button
+      action:
+        domain: class
+        service: toggle
+        data:
+          elements:
+            - room_buttons_layer
+          classes:
+            - layer-visible
+            - layer-hidden
+          default_class: layer-hidden
+
     - name: Lights
       entities:
         - light.balcony

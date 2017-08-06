@@ -1,0 +1,66 @@
+- platform: template
+  switches:
+    master_bedroom_group:
+      value_template: "{{ is_state('group.master_bedroom', 'on') }}"
+      turn_on:
+        service: homeassistant.turn_on
+        entity_id: group.master_bedroom
+      turn_off:
+        service: homeassistant.turn_off
+        entity_id: group.master_bedroom
+    master_bathroom_group:
+      value_template: "{{ is_state('group.master_bathroom', 'on') }}"
+      turn_on:
+        service: homeassistant.turn_on
+        entity_id: group.master_bathroom
+      turn_off:
+        service: homeassistant.turn_off
+        entity_id: group.master_bathroom
+    living_room_group:
+      value_template: "{{ is_state('group.living_room', 'on') }}"
+      turn_on:
+        service: homeassistant.turn_on
+        entity_id: group.living_room
+      turn_off:
+        service: homeassistant.turn_off
+        entity_id: group.living_room
+    kitchen_group:
+      value_template: "{{ is_state('group.kitchen', 'on') }}"
+      turn_on:
+        service: homeassistant.turn_on
+        entity_id: group.kitchen
+      turn_off:
+        service: homeassistant.turn_off
+        entity_id: group.kitchen
+    den_group:
+      value_template: "{{ is_state('group.den', 'on') }}"
+      turn_on:
+        service: homeassistant.turn_on
+        entity_id: group.den
+      turn_off:
+        service: homeassistant.turn_off
+        entity_id: group.den
+    guest_bathroom_group:
+      value_template: "{{ is_state('group.guest_bathroom', 'on') }}"
+      turn_on:
+        service: homeassistant.turn_on
+        entity_id: group.guest_bathroom
+      turn_off:
+        service: homeassistant.turn_off
+        entity_id: group.guest_bathroom
+    office_group:
+      value_template: "{{ is_state('group.office', 'on') }}"
+      turn_on:
+        service: homeassistant.turn_on
+        entity_id: group.office
+      turn_off:
+        service: homeassistant.turn_off
+        entity_id: group.office
+    hallway_group:
+      value_template: "{{ is_state('group.hallway', 'on') }}"
+      turn_on:
+        service: homeassistant.turn_on
+        entity_id: group.hallway
+      turn_off:
+        service: homeassistant.turn_off
+        entity_id: group.hallway

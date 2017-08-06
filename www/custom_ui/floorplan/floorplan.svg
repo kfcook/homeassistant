@@ -1536,7 +1536,7 @@
 		<g display="inline">
 			<g>
 				
-					<image overflow="visible" opacity="0.5" width="175" height="561" xlink:href="423A8662.png"  transform="matrix(1 0 0 1 344.5 -12.5)">
+					<image overflow="visible" opacity="0.5" width="175" height="561" xlink:href="6F2BFFBA.png"  transform="matrix(1 0 0 1 344.5 -12.5)">
 				</image>
 				<rect x="352.723" fill="#727272" width="150.59" height="536"/>
 			</g>
@@ -1554,93 +1554,101 @@
 			</g>
 		</g>
 		<g>
-			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="326.5449" y1="-8.2144" x2="492.5605" y2="-8.2144">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="326.5449" y1="-39.2144" x2="492.5605" y2="-39.2144">
 				<stop  offset="0" style="stop-color:#F3944C"/>
 				<stop  offset="0.5" style="stop-color:#ED6D05"/>
 				<stop  offset="1" style="stop-color:#D25917"/>
 			</linearGradient>
-			<rect x="326.545" y="-40.5" fill="url(#SVGID_1_)" width="166.016" height="64.571"/>
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="326.5449" y1="-8.2144" x2="492.5605" y2="-8.2144">
+			<rect x="326.545" y="-71.5" fill="url(#SVGID_1_)" width="166.016" height="64.571"/>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="326.5449" y1="-39.2144" x2="492.5605" y2="-39.2144">
 				<stop  offset="0" style="stop-color:#F3944C"/>
 				<stop  offset="0.5" style="stop-color:#ED6D05"/>
 				<stop  offset="1" style="stop-color:#D25917"/>
 			</linearGradient>
-			<rect x="326.545" y="-40.5" fill="url(#SVGID_2_)" width="166.016" height="64.571"/>
+			<rect x="326.545" y="-71.5" fill="url(#SVGID_2_)" width="166.016" height="64.571"/>
 		</g>
 		
-			<text id="buttonHOME" transform="matrix(0.9822 0 0 1 380.6201 -0.3242)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">HOME</text>
+			<text id="buttonHOME" transform="matrix(0.9822 0 0 1 380.5908 -31.3242)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">HOME</text>
 		<g>
-			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="326.375" y1="57.6104" x2="492.3906" y2="57.6104">
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="326.375" y1="26.6104" x2="492.3906" y2="26.6104">
 				<stop  offset="0" style="stop-color:#F3944C"/>
 				<stop  offset="0.5" style="stop-color:#ED6D05"/>
 				<stop  offset="1" style="stop-color:#D25917"/>
 			</linearGradient>
-			<rect x="326.375" y="25.325" fill="url(#SVGID_3_)" width="166.016" height="64.571"/>
-			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="326.375" y1="57.6104" x2="492.3906" y2="57.6104">
+			<rect x="326.375" y="-5.675" fill="url(#SVGID_3_)" width="166.016" height="64.571"/>
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="326.375" y1="26.6104" x2="492.3906" y2="26.6104">
 				<stop  offset="0" style="stop-color:#F3944C"/>
 				<stop  offset="0.5" style="stop-color:#ED6D05"/>
 				<stop  offset="1" style="stop-color:#D25917"/>
 			</linearGradient>
-			<rect x="326.375" y="25.325" fill="url(#SVGID_4_)" width="166.016" height="64.571"/>
+			<rect x="326.375" y="-5.675" fill="url(#SVGID_4_)" width="166.016" height="64.571"/>
 		</g>
 		
-			<text id="buttonAWAYMODE" transform="matrix(0.9822 0 0 1 350.5254 67.2246)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">AWAY MODE</text>
-		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="326.375" y1="124.9844" x2="492.4053" y2="124.9844">
+			<text id="buttonAWAYMODE" transform="matrix(0.9822 0 0 1 382.0112 36.2246)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">AWAY</text>
+		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="326.375" y1="93.9844" x2="492.4053" y2="93.9844">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="91.146" fill="url(#SVGID_5_)" width="166.03" height="67.676"/>
+		<rect x="326.375" y="60.146" fill="url(#SVGID_5_)" width="166.03" height="67.676"/>
 		
-			<text id="buttonGUESTMODE" transform="matrix(1 0 0 1 343.4634 133.0586)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">GUEST MODE</text>
-		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="326.375" y1="193.9111" x2="492.4053" y2="193.9111">
+			<text id="buttonGUESTMODE" transform="matrix(1 0 0 1 354.0161 102.0586)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ENTERTAIN</text>
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="326.375" y1="162.9111" x2="492.4053" y2="162.9111">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="160.072" fill="url(#SVGID_6_)" width="166.03" height="67.678"/>
+		<rect x="326.375" y="129.072" fill="url(#SVGID_6_)" width="166.03" height="67.678"/>
 		
-			<text id="buttonLIVINGROOM" transform="matrix(1 0 0 1 343.4575 203.0537)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">LIVING ROOM</text>
-		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="326.375" y1="262.8389" x2="492.4053" y2="262.8389">
+			<text id="buttonLIVINGROOM" transform="matrix(1 0 0 1 343.4282 172.0537)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">LIVING ROOM</text>
+		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="326.375" y1="231.8389" x2="492.4053" y2="231.8389">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="229" fill="url(#SVGID_7_)" width="166.03" height="67.678"/>
+		<rect x="326.375" y="198" fill="url(#SVGID_7_)" width="166.03" height="67.678"/>
 		
-			<text id="buttonTVTIME" transform="matrix(1 0 0 1 370.7974 272.0186)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">TV TIME</text>
-		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="326.375" y1="331.7656" x2="492.4053" y2="331.7656">
+			<text id="buttonTVTIME" transform="matrix(1 0 0 1 370.7681 241.0186)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">TV TIME</text>
+		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="326.375" y1="300.7656" x2="492.4053" y2="300.7656">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="297.928" fill="url(#SVGID_8_)" width="166.03" height="67.676"/>
+		<rect x="326.375" y="266.928" fill="url(#SVGID_8_)" width="166.03" height="67.676"/>
 		
-			<text id="buttonKITCHEN" transform="matrix(1 0 0 1 365.8989 340.8252)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">KITCHEN</text>
-		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="326.375" y1="400.6914" x2="492.4053" y2="400.6914">
+			<text id="buttonKITCHEN" transform="matrix(1 0 0 1 365.8696 309.8252)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">KITCHEN</text>
+		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="326.375" y1="369.6914" x2="492.4053" y2="369.6914">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="366.854" fill="url(#SVGID_9_)" width="166.03" height="67.676"/>
+		<rect x="326.375" y="335.854" fill="url(#SVGID_9_)" width="166.03" height="67.676"/>
 		
-			<text id="buttonCOOKING" transform="matrix(1 0 0 1 362.6001 410.3613)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">COOKING</text>
-		<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="326.375" y1="469.6172" x2="492.4053" y2="469.6172">
+			<text id="buttonCOOKING" transform="matrix(1 0 0 1 362.5708 379.3613)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">COOKING</text>
+		<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="326.375" y1="438.6172" x2="492.4053" y2="438.6172">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="435.779" fill="url(#SVGID_10_)" width="166.03" height="67.676"/>
+		<rect x="326.375" y="404.779" fill="url(#SVGID_10_)" width="166.03" height="67.676"/>
 		
-			<text id="buttonBEDTIME" transform="matrix(1 0 0 1 365.3423 478.6621)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">BEDTIME</text>
-		<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="326.375" y1="538.8564" x2="492.73" y2="538.8564">
+			<text id="buttonBEDTIME" transform="matrix(1 0 0 1 365.313 447.6621)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">BEDTIME</text>
+		<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="326.375" y1="507.8564" x2="492.73" y2="507.8564">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="504.705" fill="url(#SVGID_11_)" width="166.355" height="68.303"/>
+		<rect x="326.375" y="473.705" fill="url(#SVGID_11_)" width="166.355" height="68.303"/>
 		
-			<text id="buttonALLOFF" transform="matrix(1 0 0 1 368.2427 545.9961)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ALL OFF</text>
+			<text id="buttonALLOFF" transform="matrix(1 0 0 1 368.2134 514.9961)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ALL OFF</text>
+		<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="326.625" y1="577.3486" x2="492.98" y2="577.3486">
+			<stop  offset="0.0112" style="stop-color:#44AFCD"/>
+			<stop  offset="0.5" style="stop-color:#008EB4"/>
+			<stop  offset="0.9944" style="stop-color:#00747D"/>
+		</linearGradient>
+		<rect x="326.625" y="543.197" fill="url(#SVGID_12_)" width="166.355" height="68.303"/>
+		
+			<text id="buttonALLOFF_1_" transform="matrix(1 0 0 1 372.4087 585.376)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ROOMS &gt;&gt;</text>
 	</g>
 	<g id="Left">
 		<g>
@@ -1651,7 +1659,7 @@
 <g id="Left_Panel">
 	<g id="Layout_Original" display="none">
 		
-			<image display="inline" overflow="visible" enable-background="new    " width="589" height="561" xlink:href="423A8662.jpg"  transform="matrix(0.9235 0 0 0.9216 240.0518 10.9795)">
+			<image display="inline" overflow="visible" enable-background="new    " width="589" height="561" xlink:href="6F2BFFBA.jpg"  transform="matrix(0.9235 0 0 0.9216 240.0518 10.9795)">
 		</image>
 	</g>
 	<rect id="message_box" x="-128" y="592.376" fill="#666666" width="455.625" height="33.124"/>
@@ -1867,9 +1875,9 @@
 			</g>
 			<g>
 				<g>
-					<pattern  id="SVGID_12_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
+					<pattern  id="SVGID_13_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polygon fill="url(#SVGID_12_)" stroke="#FFFFFF" stroke-miterlimit="10" points="855.363,-17.066 861.543,-17.066 
+					<polygon fill="url(#SVGID_13_)" stroke="#FFFFFF" stroke-miterlimit="10" points="855.363,-17.066 861.543,-17.066 
 						871.296,-17.066 911.938,-17.066 911.938,-16.265 927.883,-16.265 927.883,-25.829 966.527,-25.829 1131.878,-25.829 
 						1131.878,105.659 1131.878,189.713 1131.878,270.996 1131.878,307.873 1131.878,490.148 1099.414,490.148 1063.351,490.148 
 						998.001,490.148 984.064,490.148 908.852,490.148 905.268,490.148 905.268,561.377 754.776,561.377 754.776,481.781 
@@ -1878,168 +1886,168 @@
 						668.891,-25.806 855.363,-25.806 					"/>
 				</g>
 				<g>
-					<pattern  id="SVGID_13_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
-					</pattern>
-					<polyline fill="url(#SVGID_13_)" stroke="#FFFFFF" stroke-miterlimit="10" points="523.06,-29.414 523.06,-25.806 523.06,79.6 
-						523.06,232.77 523.06,451.503 523.06,455.09 					"/>
 					<pattern  id="SVGID_14_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_14_)" stroke="#FFFFFF" stroke-miterlimit="10" points="523.06,-25.806 668.891,-25.806 
-						855.363,-25.806 					"/>
+					<polyline fill="url(#SVGID_14_)" stroke="#FFFFFF" stroke-miterlimit="10" points="523.06,-29.414 523.06,-25.806 523.06,79.6 
+						523.06,232.77 523.06,451.503 523.06,455.09 					"/>
 					<pattern  id="SVGID_15_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_15_)" stroke="#FFFFFF" stroke-miterlimit="10" points="1131.878,-25.829 1131.878,105.659 
-						1131.878,189.713 1131.878,270.996 1131.878,307.873 1131.878,490.148 1131.878,492.944 					"/>
+					<polyline fill="url(#SVGID_15_)" stroke="#FFFFFF" stroke-miterlimit="10" points="523.06,-25.806 668.891,-25.806 
+						855.363,-25.806 					"/>
 					<pattern  id="SVGID_16_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_16_)" stroke="#FFFFFF" stroke-miterlimit="10" points="1099.414,490.148 1131.878,490.148 
-						1135.477,490.148 					"/>
+					<polyline fill="url(#SVGID_16_)" stroke="#FFFFFF" stroke-miterlimit="10" points="1131.878,-25.829 1131.878,105.659 
+						1131.878,189.713 1131.878,270.996 1131.878,307.873 1131.878,490.148 1131.878,492.944 					"/>
 					<pattern  id="SVGID_17_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_17_)" stroke="#FFFFFF" stroke-miterlimit="10" points="905.268,490.148 908.852,490.148 
-						984.064,490.148 					"/>
+					<polyline fill="url(#SVGID_17_)" stroke="#FFFFFF" stroke-miterlimit="10" points="1099.414,490.148 1131.878,490.148 
+						1135.477,490.148 					"/>
 					<pattern  id="SVGID_18_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_18_)" stroke="#FFFFFF" stroke-miterlimit="10" points="705.551,481.781 709.138,481.781 
-						733.439,481.781 754.776,481.781 763.717,481.781 					"/>
-					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="523.06" y1="451.503" x2="568.089" y2="451.503"/>
+					<polyline fill="url(#SVGID_18_)" stroke="#FFFFFF" stroke-miterlimit="10" points="905.268,490.148 908.852,490.148 
+						984.064,490.148 					"/>
 					<pattern  id="SVGID_19_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_19_)" stroke="#FFFFFF" stroke-miterlimit="10" points="683.438,451.503 709.138,451.503 
-						710.931,451.503 712.521,451.503 					"/>
+					<polyline fill="url(#SVGID_19_)" stroke="#FFFFFF" stroke-miterlimit="10" points="705.551,481.781 709.138,481.781 
+						733.439,481.781 754.776,481.781 763.717,481.781 					"/>
+					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="523.06" y1="451.503" x2="568.089" y2="451.503"/>
 					<pattern  id="SVGID_20_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_20_)" stroke="#FFFFFF" stroke-miterlimit="10" points="709.138,449.113 709.138,451.503 
-						709.138,479.39 					"/>
+					<polyline fill="url(#SVGID_20_)" stroke="#FFFFFF" stroke-miterlimit="10" points="683.438,451.503 709.138,451.503 
+						710.931,451.503 712.521,451.503 					"/>
 					<pattern  id="SVGID_21_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_21_)" stroke="#FFFFFF" stroke-miterlimit="10" points="927.883,-25.829 966.527,-25.829 
-						1131.878,-25.829 1135.466,-25.829 					"/>
+					<polyline fill="url(#SVGID_21_)" stroke="#FFFFFF" stroke-miterlimit="10" points="709.138,449.113 709.138,451.503 
+						709.138,479.39 					"/>
 					<pattern  id="SVGID_22_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_22_)" stroke="#FFFFFF" stroke-miterlimit="10" points="855.363,-29.295 855.363,-25.806 
-						855.363,-17.066 855.363,-15.07 					"/>
+					<polyline fill="url(#SVGID_22_)" stroke="#FFFFFF" stroke-miterlimit="10" points="927.883,-25.829 966.527,-25.829 
+						1131.878,-25.829 1135.466,-25.829 					"/>
 					<pattern  id="SVGID_23_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_23_)" stroke="#FFFFFF" stroke-miterlimit="10" points="927.883,-29.414 927.883,-25.829 
-						927.883,-16.265 927.883,-15.07 					"/>
+					<polyline fill="url(#SVGID_23_)" stroke="#FFFFFF" stroke-miterlimit="10" points="855.363,-29.295 855.363,-25.806 
+						855.363,-17.066 855.363,-15.07 					"/>
 					<pattern  id="SVGID_24_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_24_)" stroke="#FFFFFF" stroke-miterlimit="10" points="861.543,-17.066 855.363,-17.066 
-						851.777,-17.066 					"/>
+					<polyline fill="url(#SVGID_24_)" stroke="#FFFFFF" stroke-miterlimit="10" points="927.883,-29.414 927.883,-25.829 
+						927.883,-16.265 927.883,-15.07 					"/>
 					<pattern  id="SVGID_25_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_25_)" stroke="#FFFFFF" stroke-miterlimit="10" points="931.469,-16.265 927.883,-16.265 
+					<polyline fill="url(#SVGID_25_)" stroke="#FFFFFF" stroke-miterlimit="10" points="861.543,-17.066 855.363,-17.066 
+						851.777,-17.066 					"/>
+					<pattern  id="SVGID_26_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
+					</pattern>
+					<polyline fill="url(#SVGID_26_)" stroke="#FFFFFF" stroke-miterlimit="10" points="931.469,-16.265 927.883,-16.265 
 						911.938,-16.265 					"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="809.522" y1="481.685" x2="800.772" y2="481.685"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="856.331" y1="481.781" x2="847.581" y2="481.781"/>
-					<pattern  id="SVGID_26_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
-					</pattern>
-					<polyline fill="url(#SVGID_26_)" stroke="#FFFFFF" stroke-miterlimit="10" points="908.852,478.1 908.852,490.148 
-						908.852,491.343 					"/>
 					<pattern  id="SVGID_27_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_27_)" stroke="#FFFFFF" stroke-miterlimit="10" points="906.26,481.685 905.268,481.685 
-						896.602,481.685 					"/>
-					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="754.776" y1="561.377" x2="905.268" y2="561.377"/>
+					<polyline fill="url(#SVGID_27_)" stroke="#FFFFFF" stroke-miterlimit="10" points="908.852,478.1 908.852,490.148 
+						908.852,491.343 					"/>
 					<pattern  id="SVGID_28_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_28_)" stroke="#FFFFFF" stroke-miterlimit="10" points="754.776,561.976 754.776,561.377 
-						754.776,481.781 					"/>
+					<polyline fill="url(#SVGID_28_)" stroke="#FFFFFF" stroke-miterlimit="10" points="906.26,481.685 905.268,481.685 
+						896.602,481.685 					"/>
+					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="754.776" y1="561.377" x2="905.268" y2="561.377"/>
 					<pattern  id="SVGID_29_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_29_)" stroke="#FFFFFF" stroke-miterlimit="10" points="905.268,561.976 905.268,561.377 
+					<polyline fill="url(#SVGID_29_)" stroke="#FFFFFF" stroke-miterlimit="10" points="754.776,561.976 754.776,561.377 
+						754.776,481.781 					"/>
+					<pattern  id="SVGID_30_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
+					</pattern>
+					<polyline fill="url(#SVGID_30_)" stroke="#FFFFFF" stroke-miterlimit="10" points="905.268,561.976 905.268,561.377 
 						905.268,490.148 905.268,481.685 905.268,479.39 					"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="681.837" y1="451.503" x2="683.438" y2="451.503"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="568.089" y1="451.503" x2="569.679" y2="451.503"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1063.351" y1="490.148" x2="1099.414" y2="490.148"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="984.064" y1="490.148" x2="998.001" y2="490.148"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="861.543" y1="-17.066" x2="871.296" y2="-17.066"/>
-					<pattern  id="SVGID_30_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
-					</pattern>
-					<polyline fill="url(#SVGID_30_)" stroke="#FFFFFF" stroke-miterlimit="10" points="668.891,-25.829 668.891,-25.806 
-						668.891,79.6 668.891,232.77 668.891,233.164 					"/>
 					<pattern  id="SVGID_31_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_31_)" stroke="#FFFFFF" stroke-miterlimit="10" points="710.931,289.703 710.931,291.497 
-						710.931,425.205 710.931,449.914 					"/>
+					<polyline fill="url(#SVGID_31_)" stroke="#FFFFFF" stroke-miterlimit="10" points="668.891,-25.829 668.891,-25.806 
+						668.891,79.6 668.891,232.77 668.891,233.164 					"/>
 					<pattern  id="SVGID_32_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_32_)" stroke="#FFFFFF" stroke-miterlimit="10" points="667.302,291.497 668.891,291.497 
-						710.931,291.497 711.924,291.497 					"/>
+					<polyline fill="url(#SVGID_32_)" stroke="#FFFFFF" stroke-miterlimit="10" points="710.931,289.703 710.931,291.497 
+						710.931,425.205 710.931,449.914 					"/>
 					<pattern  id="SVGID_33_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_33_)" stroke="#FFFFFF" stroke-miterlimit="10" points="668.891,283.369 668.891,291.497 
-						668.891,293.12 					"/>
+					<polyline fill="url(#SVGID_33_)" stroke="#FFFFFF" stroke-miterlimit="10" points="667.302,291.497 668.891,291.497 
+						710.931,291.497 711.924,291.497 					"/>
 					<pattern  id="SVGID_34_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_34_)" stroke="#FFFFFF" stroke-miterlimit="10" points="623.074,232.77 668.891,232.77 
+					<polyline fill="url(#SVGID_34_)" stroke="#FFFFFF" stroke-miterlimit="10" points="668.891,283.369 668.891,291.497 
+						668.891,293.12 					"/>
+					<pattern  id="SVGID_35_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
+					</pattern>
+					<polyline fill="url(#SVGID_35_)" stroke="#FFFFFF" stroke-miterlimit="10" points="623.074,232.77 668.891,232.77 
 						670.685,232.77 					"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="523.06" y1="232.77" x2="581.633" y2="232.77"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="525.247" y1="147.71" x2="575.655" y2="147.71"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="523.06" y1="79.6" x2="579.445" y2="79.6"/>
-					<pattern  id="SVGID_35_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
-					</pattern>
-					<polyline fill="url(#SVGID_35_)" stroke="#FFFFFF" stroke-miterlimit="10" points="623.265,79.6 668.891,79.6 669.883,79.6 
-											"/>
 					<pattern  id="SVGID_36_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_36_)" stroke="#FFFFFF" stroke-miterlimit="10" points="928.17,32.743 929.867,32.743 
-						966.527,32.743 968.321,32.743 					"/>
+					<polyline fill="url(#SVGID_36_)" stroke="#FFFFFF" stroke-miterlimit="10" points="623.265,79.6 668.891,79.6 669.883,79.6 
+											"/>
 					<pattern  id="SVGID_37_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_37_)" stroke="#FFFFFF" stroke-miterlimit="10" points="966.527,34.201 966.527,32.743 
-						966.527,-25.829 					"/>
+					<polyline fill="url(#SVGID_37_)" stroke="#FFFFFF" stroke-miterlimit="10" points="928.17,32.743 929.867,32.743 
+						966.527,32.743 968.321,32.743 					"/>
 					<pattern  id="SVGID_38_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_38_)" stroke="#FFFFFF" stroke-miterlimit="10" points="928.135,105.659 929.867,105.659 
-						992.024,105.659 1037.053,105.659 					"/>
-					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1073.714" y1="105.659" x2="1131.878" y2="105.659"/>
+					<polyline fill="url(#SVGID_38_)" stroke="#FFFFFF" stroke-miterlimit="10" points="966.527,34.201 966.527,32.743 
+						966.527,-25.829 					"/>
 					<pattern  id="SVGID_39_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_39_)" stroke="#FFFFFF" stroke-miterlimit="10" points="929.867,44.301 929.867,32.743 
-						929.867,24.71 					"/>
-					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="929.676" y1="-6.178" x2="929.676" y2="-13.456"/>
+					<polyline fill="url(#SVGID_39_)" stroke="#FFFFFF" stroke-miterlimit="10" points="928.135,105.659 929.867,105.659 
+						992.024,105.659 1037.053,105.659 					"/>
+					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1073.714" y1="105.659" x2="1131.878" y2="105.659"/>
 					<pattern  id="SVGID_40_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_40_)" stroke="#FFFFFF" stroke-miterlimit="10" points="929.867,112.83 929.867,105.659 
-						929.867,96.896 					"/>
+					<polyline fill="url(#SVGID_40_)" stroke="#FFFFFF" stroke-miterlimit="10" points="929.867,44.301 929.867,32.743 
+						929.867,24.71 					"/>
+					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="929.676" y1="-6.178" x2="929.676" y2="-13.456"/>
 					<pattern  id="SVGID_41_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_41_)" stroke="#FFFFFF" stroke-miterlimit="10" points="992.024,155.862 992.024,154.666 
-						992.024,105.659 992.024,104.857 					"/>
+					<polyline fill="url(#SVGID_41_)" stroke="#FFFFFF" stroke-miterlimit="10" points="929.867,112.83 929.867,105.659 
+						929.867,96.896 					"/>
 					<pattern  id="SVGID_42_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_42_)" stroke="#FFFFFF" stroke-miterlimit="10" points="929.867,212.438 929.867,154.666 
-						929.867,152.874 					"/>
+					<polyline fill="url(#SVGID_42_)" stroke="#FFFFFF" stroke-miterlimit="10" points="992.024,155.862 992.024,154.666 
+						992.024,105.659 992.024,104.857 					"/>
 					<pattern  id="SVGID_43_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_43_)" stroke="#FFFFFF" stroke-miterlimit="10" points="1023.51,212.438 1023.51,154.666 
-						1023.51,153.471 					"/>
+					<polyline fill="url(#SVGID_43_)" stroke="#FFFFFF" stroke-miterlimit="10" points="929.867,212.438 929.867,154.666 
+						929.867,152.874 					"/>
 					<pattern  id="SVGID_44_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_44_)" stroke="#FFFFFF" stroke-miterlimit="10" points="929.867,154.666 992.024,154.666 
-						1023.51,154.666 1025.303,154.666 					"/>
-					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1079.284" y1="189.713" x2="1131.878" y2="189.713"/>
+					<polyline fill="url(#SVGID_44_)" stroke="#FFFFFF" stroke-miterlimit="10" points="1023.51,212.438 1023.51,154.666 
+						1023.51,153.471 					"/>
 					<pattern  id="SVGID_45_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_45_)" stroke="#FFFFFF" stroke-miterlimit="10" points="987.649,270.996 1023.104,270.996 
+					<polyline fill="url(#SVGID_45_)" stroke="#FFFFFF" stroke-miterlimit="10" points="929.867,154.666 992.024,154.666 
+						1023.51,154.666 1025.303,154.666 					"/>
+					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1079.284" y1="189.713" x2="1131.878" y2="189.713"/>
+					<pattern  id="SVGID_46_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
+					</pattern>
+					<polyline fill="url(#SVGID_46_)" stroke="#FFFFFF" stroke-miterlimit="10" points="987.649,270.996 1023.104,270.996 
 						1131.878,270.996 					"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="929.474" y1="258.242" x2="929.474" y2="488.94"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="945.407" y1="270.996" x2="930.07" y2="270.996"/>
-					<pattern  id="SVGID_46_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
+					<pattern  id="SVGID_47_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_46_)" stroke="#FFFFFF" stroke-miterlimit="10" points="1023.104,309.664 1023.104,307.873 
+					<polyline fill="url(#SVGID_47_)" stroke="#FFFFFF" stroke-miterlimit="10" points="1023.104,309.664 1023.104,307.873 
 						1023.104,270.996 1023.104,259.354 					"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1110.363" y1="307.873" x2="1131.878" y2="307.873"/>
 					<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1023.104" y1="307.873" x2="1035.463" y2="307.873"/>
-					<pattern  id="SVGID_47_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
-					</pattern>
-					<polyline fill="url(#SVGID_47_)" stroke="#FFFFFF" stroke-miterlimit="10" points="711.529,425.205 733.439,425.205 
-						735.207,425.205 					"/>
 					<pattern  id="SVGID_48_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
 					</pattern>
-					<polyline fill="url(#SVGID_48_)" stroke="#FFFFFF" stroke-miterlimit="10" points="733.439,424.009 733.439,425.205 
+					<polyline fill="url(#SVGID_48_)" stroke="#FFFFFF" stroke-miterlimit="10" points="711.529,425.205 733.439,425.205 
+						735.207,425.205 					"/>
+					<pattern  id="SVGID_49_" xlink:href="#Pompadour" patternTransform="matrix(1 0 0 -1 -257.6953 -17420.207)">
+					</pattern>
+					<polyline fill="url(#SVGID_49_)" stroke="#FFFFFF" stroke-miterlimit="10" points="733.439,424.009 733.439,425.205 
 						733.439,481.781 					"/>
 				</g>
 			</g>
@@ -3858,8 +3866,8 @@
 		</g>
 		<rect x="916.501" y="264.127" fill="#D7DF23" width="2.953" height="2.917"/>
 		<g>
-			<polygon id="shadow.pillowLR" fill="#D1D3D4" points="897.034,270.192 893.483,279.534 888.012,287.908 897.542,291.108 
-				905.734,296.929 909.533,287.709 914.752,279.212 905.276,275.91 			"/>
+			<polygon fill="#D1D3D4" points="897.034,270.192 893.483,279.534 888.012,287.908 897.542,291.108 905.734,296.929 
+				909.533,287.709 914.752,279.212 905.276,275.91 			"/>
 			<g>
 				<polygon fill="#E3F4FF" points="892.703,278.407 896.254,269.064 904.496,274.783 913.972,278.084 908.752,286.582 
 					904.954,295.801 896.762,289.98 887.232,286.78 				"/>
@@ -3951,7 +3959,7 @@
 				c-1.421,0-2.583-0.934-2.583-2.074v-81.253c0-1.143,1.162-2.077,2.583-2.077H621.609z"/>
 			<rect x="556.506" y="323.251" fill="#FFFFFF" width="67.687" height="79.616"/>
 		</g>
-		<g id="shadow.bedlarge">
+		<g>
 			<polygon fill="#D1D3D4" points="533.218,371.602 538.478,385.027 540.742,399.267 554.019,393.458 568.408,391.743 
 				563.539,378.212 560.885,364.078 547.566,369.731 			"/>
 			<polygon fill="#D1D3D4" points="539.664,338.759 534.051,352.04 548.391,354.136 561.507,360.296 564.537,346.238 
@@ -3969,17 +3977,17 @@
 			<polygon fill="#FFFFFF" points="541.537,340.889 543.646,329.579 554.148,334.372 565.55,336.167 561.38,346.856 
 				558.963,358.072 548.499,353.158 537.06,351.484 			"/>
 		</g>
+		<polygon fill="#D1D3D4" points="554.441,381.473 561.003,383.966 566.883,387.808 569.131,381.115 573.219,375.362 
+			566.744,372.695 560.776,369.029 558.458,375.685 		"/>
+		<polygon fill="#D1D3D4" points="556.563,342.755 552.546,348.543 559.107,351.037 564.988,354.88 567.234,348.187 
+			571.323,342.434 564.848,339.766 558.88,336.101 		"/>
 		<g>
-			<polygon id="shadow.bedsmall2" fill="#D1D3D4" points="554.441,381.473 561.003,383.966 566.883,387.808 569.131,381.115 
-				573.219,375.362 566.744,372.695 560.776,369.029 558.458,375.685 			"/>
 			<polygon fill="#C0C71F" points="560.033,384.451 553.472,381.957 557.488,376.169 559.807,369.516 565.774,373.18 
 				572.248,375.849 568.161,381.601 565.913,388.293 			"/>
 			<polygon fill="#D7DF23" points="560.823,382.905 556.089,381.104 558.988,376.935 560.659,372.134 564.962,374.778 
 				569.629,376.703 566.68,380.851 565.063,385.673 			"/>
 		</g>
 		<g>
-			<polygon id="shadow.bedsmall1" fill="#D1D3D4" points="556.563,342.755 552.546,348.543 559.107,351.037 564.988,354.88 
-				567.234,348.187 571.323,342.434 564.848,339.766 558.88,336.101 			"/>
 			<polygon fill="#C0C71F" points="557.997,351.537 551.436,349.043 555.452,343.255 557.769,336.601 563.735,340.266 
 				570.212,342.934 566.122,348.687 563.877,355.38 			"/>
 			<polygon fill="#D7DF23" points="558.785,349.991 554.053,348.191 556.95,344.021 558.621,339.22 562.924,341.863 
@@ -5768,15 +5776,30 @@
 	</g>
 </g>
 <g id="Middle_Buttons">
-	<rect id="scene.home" x="326.545" y="-40.5" fill="#FFFFFF" fill-opacity="0" width="166.016" height="64.571"/>
-	<rect id="script.away_spotify" x="326.375" y="25.325" fill="#FFFFFF" fill-opacity="0" width="166.016" height="64.571"/>
-	<rect id="scene.tv_time" x="326.375" y="228.497" fill="#FFFFFF" fill-opacity="0" width="166.03" height="68.181"/>
-	<rect id="scene.living_room_on" x="326.375" y="160.344" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.406"/>
-	<rect id="script.guest_mode" x="326.375" y="91.146" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.676"/>
-	<rect id="scene.kitchen_on" x="326.375" y="297.928" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.898"/>
-	<rect id="scene.cooking_lights" x="326.375" y="366.854" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.258"/>
-	<rect id="scene.bedtime" x="326.375" y="435.779" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.5"/>
-	<rect id="scene.all_off" x="326.375" y="504.705" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
-	<rect id="refresh_button" onclick="location.reload();" x="1082.254" y="556.173" fill="#FFFFFF" fill-opacity="0" width="69.746" height="69.327"/>
+	<rect id="scene.home" x="326.545" y="-71.5" fill="#FFFFFF" fill-opacity="0" width="166.016" height="64.571"/>
+	<rect id="script.away_spotify" x="326.375" y="-5.675" fill="#FFFFFF" fill-opacity="0" width="166.016" height="64.571"/>
+	<rect id="scene.tv_time" x="326.375" y="197.497" fill="#FFFFFF" fill-opacity="0" width="166.03" height="68.181"/>
+	<rect id="scene.living_room_on" x="326.375" y="129.344" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.406"/>
+	<rect id="scene.entertain" x="326.375" y="60.146" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.676"/>
+	<rect id="scene.kitchen_on" x="326.375" y="266.928" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.898"/>
+	<rect id="scene.cooking_lights" x="326.375" y="335.854" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.258"/>
+	<rect id="scene.bedtime" x="326.375" y="404.779" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.5"/>
+	<rect id="scene.all_off" x="326.375" y="473.705" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+	<rect id="refresh_button" x="1082.254" y="556.173" fill="#FFFFFF" fill-opacity="0" width="69.746" height="69.327"/>
+	<rect id="rooms_button" x="327.625" y="542.999" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+</g>
+<g id="room_buttons_layer">
+	<rect x="494.805" y="543.197" fill="#00A5D0" width="166.53" height="68.303"/>
+	<rect x="494.805" y="404.779" fill="#00A5D0" width="166.354" height="67.676"/>
+	<rect x="494.98" y="473.705" fill="#00A5D0" width="166.354" height="68.247"/>
+	
+		<text id="buttonDEN" transform="matrix(1 0 0 1 511.9712 514.9961)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">LIVING ROOM</text>
+	
+		<text id="buttonKITCHEN_1_" transform="matrix(1 0 0 1 557.3633 585.376)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">DEN</text>
+	
+		<text id="buttonLIVINGROOM2" transform="matrix(1 0 0 1 534.4121 447.7891)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">KITCHEN</text>
+	<rect id="switch.kitchen_group" x="494.143" y="404.612" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+	<rect id="switch.living_room_group" x="494.804" y="473.732" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+	<rect id="switch.den_group" x="494.804" y="542.999" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 </g>
 </svg>
