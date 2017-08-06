@@ -157,6 +157,7 @@ groups:
         - scene.bedtime
         - scene.all_off
         - scene.home
+        - scene.entertain
       text_template: ' '
       action:
         service: turn_on

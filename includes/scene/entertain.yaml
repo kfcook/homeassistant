@@ -1,0 +1,3 @@
+- name: Entertain
+  entities:
+    scene.entertain_lutron: on
