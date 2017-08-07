@@ -135,6 +135,10 @@ groups:
           case "wind":
             imageName = "wind";
             break;
+
+          default:
+            imageName = "blank";
+            break;
         }
 
         return "local/custom_ui/floorplan/icons/" + imageName + ".svg";
