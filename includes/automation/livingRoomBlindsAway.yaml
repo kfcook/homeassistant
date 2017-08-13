@@ -1,0 +1,49 @@
+#Lower Living Room Blinds to 80% when:
+#Home mode is set to away and
+#it's not between (sunset - 20 mins) and sunrise
+#
+#Raise blinds after (sunset - 20 mins) if away
+#Raise blinds when mode goes from away to home
+
+- id: lr_blinds_down_daylight
+  alias: 'Lower living room blinds when away/daytime'
+  trigger:
+    platform: state
+    entity_id: sensor.home_mode
+    to: 'Away'
+  condition:
+    condition: numeric_state
+    entity_id: sun.sun
+    value_template: "{{ state.attributes.elevation }}"
+    above: 4.1
+  action:
+    service: cover.set_cover_position
+    entity_id: group.living_room_blinds
+    data:
+      position: 35
+
+- id: lr_blinds_up_sunset
+  alias: 'Raise living room blinds when away/sunset'
+  trigger:
+    platform: numeric_state
+    entity_id: sun.sun
+    value_template: "{{ state.attributes.elevation }}"
+    below: 4.0
+  condition:
+    condition: state
+    entity_id: sensor.home_mode
+    state: Away
+  action:
+    service: cover.open_cover
+    entity_id: group.living_room_blinds
+
+- id: lr_blinds_up_home
+  alias: 'Raise living room blinds when away to home'
+  trigger:
+    platform: state
+    entity_id: sensor.home_mode
+    from: 'Away'
+    to: 'Home'
+  action:
+    service: scene.turn_on
+    entity_id: scene.living_room_windows_open
