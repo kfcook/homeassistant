@@ -2,9 +2,7 @@ away_spotify:
   alias: 'Away with Spotify'
   sequence:
     - service: scene.turn_on
-      entity_id: scene.all_off
-    - service: remote.turn_off
-      entity_id: remote.living_room_tv
+      entity_id: scene.away
     - service: media_player.select_source
       data:
         entity_id: media_player.spotify
