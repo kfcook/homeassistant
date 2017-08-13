@@ -243,17 +243,22 @@ groups:
       action:
         service: toggle
 
-    - name: Covers
+    - name: Cover Toggles
       entities:
-        - cover.living_room_left
-        - cover.living_room_middle
-        - cover.living_room_right
-        - group.living_room_blinds
+        - switch.living_room_left_cover
+        - switch.living_room_middle_cover
+        - switch.living_room_right_cover
       states:
-        - state: 'open'
+        - state: 'on'
           class: 'blind-open'
-        - state: 'closed'
+        - state: 'off'
           class: 'blind-closed'
+      action:
+        service: toggle
+
+    - name: Cover Groups
+      entities:
+        - group.living_room_blinds
 
     - name: Remotes
       entities:

@@ -95,20 +95,37 @@ switch.bedroom_fan:
 
 switch.master_bedroom_group:
   emulated_hue: false
+  homebridge_hidden: true
 switch.master_bathroom_group:
   emulated_hue: false
+  homebridge_hidden: true
 switch.living_room_group:
   emulated_hue: false
+  homebridge_hidden: true
 switch.kitchen_group:
   emulated_hue: false
+  homebridge_hidden: true
 switch.den_group:
   emulated_hue: false
+  homebridge_hidden: true
 switch.guest_bathroom_group:
   emulated_hue: false
+  homebridge_hidden: true
 switch.office_group:
   emulated_hue: false
+  homebridge_hidden: true
 switch.hallway_group:
   emulated_hue: false
+  homebridge_hidden: true
+switch.living_room_left_cover:
+  emulated_hue: false
+  homebridge_hidden: true
+switch.living_room_middle_cover:
+  emulated_hue: false
+  homebridge_hidden: true
+switch.living_room_right_cover:
+  emulated_hue: false
+  homebridge_hidden: true
 
 climate.living_room:
   friendly_name: Thermostat

@@ -2409,17 +2409,17 @@
 		<line id="cover.bedroom" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="568.173" y1="451.128" x2="683.522" y2="451.128"/>
 	
 		<line id="cover.office" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="998.085" y1="489.773" x2="1063.435" y2="489.773"/>
-	<g id="cover.living_room_middle">
+	<g id="switch.living_room_middle_cover">
 		
 			<line id="middle" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="809.606" y1="481.406" x2="847.662" y2="481.406"/>
 		<ellipse opacity="0" fill="#FFDE00" cx="828.635" cy="480.071" rx="23.83" ry="14.568"/>
 	</g>
-	<g id="cover.living_room_right">
+	<g id="switch.living_room_right_cover">
 		
 			<line id="right" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="763.801" y1="481.31" x2="800.856" y2="481.31"/>
 		<ellipse opacity="0" fill="#FFDE00" cx="782.329" cy="478.07" rx="23.83" ry="15.569"/>
 	</g>
-	<g id="cover.living_room_left">
+	<g id="switch.living_room_left_cover">
 		<ellipse opacity="0" fill="#FFDE00" cx="877.288" cy="478.446" rx="23.83" ry="14.193"/>
 		
 			<line id="left" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="856.412" y1="481.31" x2="892.764" y2="481.31"/>
