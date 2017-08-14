@@ -3,6 +3,7 @@
 
 - id: monitor_actions
   alias: 'Monitor last action'
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id:

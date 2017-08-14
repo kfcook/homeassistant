@@ -5,6 +5,7 @@
 
 - id: under_cabinet_away_sunset
   alias: 'Turn on under cabinet lights when away/sunset'
+  initial_state: 'on'
   trigger:
     platform: sun
     event: sunset
@@ -20,6 +21,7 @@
 
 - id: under_cabinet_away_dark
   alias: 'Turn on under cabinet lights when away set/dark'
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: sensor.home_mode

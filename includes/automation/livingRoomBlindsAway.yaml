@@ -7,6 +7,7 @@
 
 - id: lr_blinds_down_daylight
   alias: 'Lower living room blinds when away/daytime'
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: sensor.home_mode
@@ -24,6 +25,7 @@
 
 - id: lr_blinds_up_sunset
   alias: 'Raise living room blinds when away/sunset'
+  initial_state: 'on'
   trigger:
     platform: numeric_state
     entity_id: sun.sun
@@ -39,6 +41,7 @@
 
 - id: lr_blinds_up_home
   alias: 'Raise living room blinds when away to home'
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: sensor.home_mode

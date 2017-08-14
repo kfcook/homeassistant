@@ -3,6 +3,7 @@
 
 - id: lr_tv_powered_off_hub
   alias: "Living Room TV powered off from Hub"
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: remote.living_room_tv
@@ -17,6 +18,7 @@
 
 - id: lr_tv_watch_tv_hub
   alias: "Watch TV triggered on Living Room TV from Hub"
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: remote.living_room_tv
@@ -31,6 +33,7 @@
 
 - id: lr_tv_watch_apple_tv_hub
   alias: "Watch Apple TV triggered on Living Room TV from Hub"
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: remote.living_room_tv
@@ -45,6 +48,7 @@
 
 - id: lr_tv_watch_fire_tv_hub
   alias: "Watch Fire TV triggered on Living Room TV from Hub"
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: remote.living_room_tv
@@ -59,6 +63,7 @@
 
 - id: lr_tv_listen_to_music_hub
   alias: "Listen to Music triggered on Living Room TV from Hub"
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: remote.living_room_tv
@@ -73,6 +78,7 @@
 
 - id: lr_tv_play_ps3_hub
   alias: "Play PS3 triggered on Living Room TV from Hub"
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: remote.living_room_tv
@@ -87,6 +93,7 @@
 
 - id: lr_tv_play_wii_hub
   alias: "Play Wii triggered on Living Room TV from Hub"
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: remote.living_room_tv
@@ -101,6 +108,7 @@
 
 - id: lr_tv_watch_dlna_hub
   alias: "Watch DLNA triggered on Living Room TV from Hub"
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: remote.living_room_tv

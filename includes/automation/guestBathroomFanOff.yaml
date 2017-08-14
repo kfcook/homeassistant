@@ -3,6 +3,7 @@
 
 - id: fan_off_guest_bathroom
   alias: 'Turn off fan in guest bathroom'
+  initial_state: 'on'
   trigger:
     - platform: state
       entity_id: light.guest_bathroom_overhead

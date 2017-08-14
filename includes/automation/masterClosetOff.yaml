@@ -2,6 +2,7 @@
 
 - id: closet_off_bathroom
   alias: 'Turn off master closet light with bathroom'
+  initial_state: 'on'
   trigger:
     platform: state
     entity_id: light.bathroom_overhead

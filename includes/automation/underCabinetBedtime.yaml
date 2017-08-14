@@ -2,6 +2,7 @@
 
 - id: under_cabinet_off_bedtime
   alias: 'Turn off under cabinet lights after bedtime'
+  initial_state: 'on'
   trigger:
     platform: event
     event_type: call_service

@@ -1,6 +1,7 @@
 #Turn on balcony lights at sunset
 - id: balcony_on_sunset
   alias: 'Turn on balcony lights at sunset'
+  initial_state: 'on'
   trigger:
     platform: sun
     event: sunset
@@ -15,6 +16,7 @@
 #Turn balcony lights to 50% at 11pm
 - id: balcony_half_11
   alias: 'Turn balcony lights to 50% at 11'
+  initial_state: 'on'
   trigger:
     platform: time
     at: "23:00:00"
@@ -28,6 +30,7 @@
 #Turn off balcony lights 1am
 - id: balcony_off_1
   alias: 'Turn off balcony lights at 1'
+  initial_state: 'on'
   trigger:
     platform: time
     at: "01:00:00"

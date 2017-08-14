@@ -3,6 +3,7 @@
 
 - id: away_home
   alias: 'Away to home mode'
+  initial_state: 'on'
   trigger:
     - platform: state
       entity_id: group.everything_except_under_cabinet
