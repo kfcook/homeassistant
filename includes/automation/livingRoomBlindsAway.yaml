@@ -15,7 +15,7 @@
     condition: numeric_state
     entity_id: sun.sun
     value_template: "{{ state.attributes.elevation }}"
-    above: 4.1
+    above: 6
   action:
     service: cover.set_cover_position
     entity_id: group.living_room_blinds
@@ -28,7 +28,7 @@
     platform: numeric_state
     entity_id: sun.sun
     value_template: "{{ state.attributes.elevation }}"
-    below: 4.0
+    below: 5
   condition:
     condition: state
     entity_id: sensor.home_mode
