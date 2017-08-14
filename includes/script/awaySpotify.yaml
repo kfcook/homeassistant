@@ -3,6 +3,9 @@ away_spotify:
   sequence:
     - service: scene.turn_on
       entity_id: scene.away
+    - service: shell_command.save_mode
+      data_template:
+        value: "echo Away"
     - service: media_player.select_source
       data:
         entity_id: media_player.spotify
@@ -24,6 +27,3 @@ away_spotify:
     - service: media_player.media_next_track
       data:
         entity_id: media_player.spotify
-    - service: shell_command.save_mode
-      data_template:
-        value: "echo Away"
