@@ -1,0 +1,16 @@
+#When Vacation mode is set:
+#  - Lower Living Room Blinds to closed 
+#  - Turn off everything except balcony
+
+- id: vacation_mode_set
+  alias: 'Vacation mode set actions'
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: sensor.home_mode
+    to: 'Vacation'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.living_room_windows_closed
+    - service: scene.turn_on
+      entity_id: scene.all_off

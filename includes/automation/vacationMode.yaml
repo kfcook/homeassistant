@@ -1,0 +1,39 @@
+#Change the home mode to "vacation" when ecobee is in vacation mode
+#Change the home mode to "away" when ecobee comes out of vacation mode
+#Save home mode to shell_outputs/homeMode.sh via shell_command/homeMode.yaml (home_mode)
+
+- id: vacation_mode
+  alias: 'Set vacation mode'
+  initial_state: 'on'
+  trigger:
+    - platform: template
+      value_template: >
+        {% if states.climate.living_room.attributes.hold_mode == 'vacation' %}
+          true
+        {% else %}
+          false
+        {% endif %}
+  action:
+    - service: shell_command.save_mode
+      data_template:
+        value: "echo Vacation"
+
+- id: remove_vacation_mode
+  alias: 'Unset vacation mode'
+  initial_state: 'on'
+  trigger:
+    - platform: template
+      value_template: >
+        {% if states.climate.living_room.attributes.hold_mode == 'vacation' %}
+          false
+        {% else %}
+          true
+        {% endif %}
+  condition:
+    condition: state
+    entity_id: sensor.home_mode
+    state: Vacation
+  action:
+    - service: shell_command.save_mode
+      data_template:
+        value: "echo Away"

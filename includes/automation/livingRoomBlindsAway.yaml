@@ -39,7 +39,7 @@
     service: cover.open_cover
     entity_id: group.living_room_blinds
 
-- id: lr_blinds_up_home
+- id: lr_blinds_up_away_home
   alias: 'Raise living room blinds when away to home'
   initial_state: 'on'
   trigger:
