@@ -11,6 +11,6 @@
     to: 'Vacation'
   action:
     - service: scene.turn_on
-      entity_id: scene.living_room_windows_closed
+      entity_id: scene.all_windows_closed
     - service: scene.turn_on
       entity_id: scene.all_off

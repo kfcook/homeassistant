@@ -2406,7 +2406,7 @@
 		<line fill="none" stroke="#F9B233" stroke-width="3" stroke-miterlimit="10" x1="700.865" y1="104.5" x2="700.865" y2="81.462"/>
 	</g>
 	
-		<line id="cover.bedroom" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="568.173" y1="451.128" x2="683.522" y2="451.128"/>
+		<line id="switch.bedroom_cover" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="568.173" y1="451.128" x2="683.522" y2="451.128"/>
 	
 		<line id="cover.office" fill="none" stroke="#9CFF00" stroke-width="6" stroke-miterlimit="10" x1="998.085" y1="489.773" x2="1063.435" y2="489.773"/>
 	<g id="switch.living_room_middle_cover">

@@ -248,6 +248,7 @@ groups:
         - switch.living_room_left_cover
         - switch.living_room_middle_cover
         - switch.living_room_right_cover
+        - switch.bedroom_cover
       states:
         - state: 'on'
           class: 'blind-open'

@@ -24,3 +24,11 @@
       turn_off:
         service: cover.close_cover
         entity_id: cover.living_room_right
+    bedroom_cover:
+      value_template: "{{ is_state_attr('cover.bedroom', 'current_position', 100) }}"
+      turn_on:
+        service: cover.open_cover
+        entity_id: cover.bedroom
+      turn_off:
+        service: cover.close_cover
+        entity_id: cover.bedroom

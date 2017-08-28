@@ -1,0 +1,13 @@
+#Lower Bedroom Blinds to closed when:
+#Home mode is set to away
+
+- id: br_blinds_down_away
+  alias: 'Lower bedroom blinds when away'
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: sensor.home_mode
+    to: 'Away'
+  action:
+    service: cover.close_cover
+    entity_id: cover.bedroom
