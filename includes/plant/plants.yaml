@@ -1,0 +1,21 @@
+TV_Plant:
+  sensors:
+    moisture: sensor.tv_plant_moisture
+    battery: sensor.tv_plant_battery
+    temperature: sensor.tv_plant_temperature
+    conductivity: sensor.tv_plant_conductivity
+    brightness: sensor.tv_plant_light_intensity
+Basil:
+  sensors:
+    moisture: sensor.basil_moisture
+    battery: sensor.basil_battery
+    temperature: sensor.basil_temperature
+    conductivity: sensor.basil_conductivity
+    brightness: sensor.basil_light_intensity
+Foyer_Plant:
+  sensors:
+    moisture: sensor.foyer_plant_moisture
+    battery: sensor.foyer_plant_battery
+    temperature: sensor.foyer_plant_temperature
+    conductivity: sensor.foyer_plant_conductivity
+    brightness: sensor.foyer_plant_light_intensity

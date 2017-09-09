@@ -37,6 +37,9 @@ climate_view:
   view: yes
   entities:
     - group.temp_humidity
+    - plant.basil
+    - plant.foyer_plant
+    - plant.tv_plant
 
 entertainment:
   name: Entertainment
