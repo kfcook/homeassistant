@@ -2,3 +2,4 @@
   entities:
     scene.all_off_lutron: on
     group.nonlutron: off
+    remote.living_room_tv: off
