@@ -137,7 +137,7 @@ groups:
             break;
 
           default:
-            imageName = "blank";
+            imageName = "none";
             break;
         }
 
