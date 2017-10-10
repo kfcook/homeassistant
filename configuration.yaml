@@ -15,22 +15,35 @@ homeassistant:
 
 #enable logging
 #logger: 
-#  default: critical
+#  default: info
 #  logs:
 #    homeassistant.components.light: debug
 #    homeassistant.components.light.template: debug
 #    homeassistant.core: debug
 
-#recorder:
-#  purge_days: 3
-#  exclude:
-#    entities:
-#      - sun.sun
-#      - sensor.floorplan_song
-#      - sensor.floorplan_artist
-#      - sensor.dark*
-#      - sensor.floorplan_date
-#      - sensor.floorplan_time
+recorder:
+#  purge_interval: 2
+  purge_days: 3
+  exclude:
+    entities:
+      - sun.sun
+      - sensor.floorplan_song
+      - sensor.floorplan_artist
+      - sensor.dark_sky_daily_high_temperature
+      - sensor.dark_sky_daily_low_temperature
+      - sensor.dark_sky_humidity
+      - sensor.dark_sky_icon
+      - sensor.dark_sky_temperature
+      - sensor.floorplan_date
+      - sensor.floorplan_time
+      - sensor.cedrone88_iphone_battery_level
+      - sensor.cedrone88_iphone_battery_state
+      - sensor.chriss_ipad_battery_level
+      - sensor.chriss_ipad_battery_state
+      - sensor.date
+      - sensor.kevins_iphone_battery_level
+      - sensor.kevins_iphone_battery_state
+      - sensor.last_message
 
 # Enables the frontend
 frontend:
@@ -93,7 +106,7 @@ sensor: !include_dir_merge_list includes/sensor
 shell_command: !include_dir_merge_named includes/shell_command
 switch: !include_dir_merge_list includes/switch
 cover:
-plant: !include_dir_merge_named includes/plant
+#plant: !include_dir_merge_named includes/plant
 
 panel_custom: 
   - name: floorplan
