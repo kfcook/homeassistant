@@ -11,3 +11,21 @@
   action:
     service: cover.close_cover
     entity_id: cover.bedroom
+
+- id: br_blinds_up_home_daylight
+  alias: 'Raise bedroom blinds when home/daytime'
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: sensor.home_mode
+    to: 'Home'
+  condition:
+    condition: numeric_state
+    entity_id: sun.sun
+    value_template: "{{ state.attributes.elevation }}"
+    above: 6
+  action:
+    service: cover.set_cover_position
+    entity_id: cover.bedroom
+    data:
+      position: 15

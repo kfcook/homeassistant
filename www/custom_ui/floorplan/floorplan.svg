@@ -1616,7 +1616,7 @@
 		</linearGradient>
 		<rect x="326.375" y="297.928" fill="url(#SVGID_8_)" width="166.03" height="67.676"/>
 		
-			<text id="buttonKITCHEN" transform="matrix(1 0 0 1 346.8696 340.8252)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">KITCHEN DIM</text>
+			<text id="buttonKITCHEN" transform="matrix(1 0 0 1 361 340.8252)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">MORNING</text>
 		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="326.375" y1="400.6172" x2="492.4053" y2="400.6172">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
@@ -5834,7 +5834,7 @@
 	<rect id="scene.tv_time" x="326.375" y="228.497" fill="#FFFFFF" fill-opacity="0" width="166.03" height="68.181"/>
 	<rect id="scene.dining" x="326.375" y="160.344" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.406"/>
 	<rect id="scene.entertain" x="326.375" y="91.146" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.676"/>
-	<rect id="scene.kitchen_dim" x="326.375" y="297.928" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.898"/>
+	<rect id="scene.morning" x="326.375" y="297.928" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.898"/>
 	<rect id="scene.bedtime" x="326.375" y="366.779" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.5"/>
 	<rect id="scene.all_off" x="326.375" y="435.705" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 	<rect id="refresh_button" onclick="location.reload();" x="1071.034" y="545.021" fill="#FFFFFF" fill-opacity="0" width="80.966" height="80.479"/>

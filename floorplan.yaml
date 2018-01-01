@@ -155,7 +155,7 @@ groups:
     - name: scene_buttons
       entities:
         - scene.tv_time
-        - scene.kitchen_dim
+        - scene.morning
         - scene.bedtime
         - scene.all_off
         - scene.home

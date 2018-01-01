@@ -15,35 +15,35 @@ homeassistant:
 
 #enable logging
 #logger: 
-#  default: info
+#  default: debug
 #  logs:
 #    homeassistant.components.light: debug
 #    homeassistant.components.light.template: debug
 #    homeassistant.core: debug
 
-recorder:
+#recorder:
 #  purge_interval: 2
-  purge_days: 3
-  exclude:
-    entities:
-      - sun.sun
-      - sensor.floorplan_song
-      - sensor.floorplan_artist
-      - sensor.dark_sky_daily_high_temperature
-      - sensor.dark_sky_daily_low_temperature
-      - sensor.dark_sky_humidity
-      - sensor.dark_sky_icon
-      - sensor.dark_sky_temperature
-      - sensor.floorplan_date
-      - sensor.floorplan_time
-      - sensor.cedrone88_iphone_battery_level
-      - sensor.cedrone88_iphone_battery_state
-      - sensor.chriss_ipad_battery_level
-      - sensor.chriss_ipad_battery_state
-      - sensor.date
-      - sensor.kevins_iphone_battery_level
-      - sensor.kevins_iphone_battery_state
-      - sensor.last_message
+#  purge_days: 3
+#  exclude:
+#    entities:
+#      - sun.sun
+#      - sensor.floorplan_song
+#      - sensor.floorplan_artist
+#      - sensor.dark_sky_daily_high_temperature
+#      - sensor.dark_sky_daily_low_temperature
+#      - sensor.dark_sky_humidity
+#      - sensor.dark_sky_icon
+#      - sensor.dark_sky_temperature
+#      - sensor.floorplan_date
+#      - sensor.floorplan_time
+#      - sensor.cedrone88_iphone_battery_level
+#      - sensor.cedrone88_iphone_battery_state
+#      - sensor.chriss_ipad_battery_level
+#      - sensor.chriss_ipad_battery_state
+#      - sensor.date
+#      - sensor.kevins_iphone_battery_level
+#      - sensor.kevins_iphone_battery_state
+#      - sensor.last_message
 
 # Enables the frontend
 frontend:
@@ -72,22 +72,23 @@ updater:
 discovery:
   ignore:
     - google_cast
+    - apple_tv
 
 # Allows you to issue voice commands from the frontend in enabled browsers
-conversation:
+#conversation:
 
 # Enables support for tracking state changes over time.
-history:
+#history:
 
 # View all events in a logbook
-logbook:
+#logbook:
 
 # Track the sun
 sun:
 
 # Text to speech
-tts:
-  platform: google
+#tts:
+#  platform: google
 
 wink:
   email: !secret wink_email
@@ -124,6 +125,9 @@ ios:
 
 lutron_caseta:
   host: !secret lutron_caseta_host
+  key: lutron.key
+  cert: lutron.crt
+  ca: lutron-ca.crt
 
 emulated_hue:
   off_maps_to_on_domains:
@@ -138,12 +142,12 @@ emulated_hue:
 #  usb_path: /dev/zwave
 
 zha:
-  usb_path: /dev/zigbee
+  usb_path: /dev/ttyUSB1
   database_path: /home/homeassistant/.homeassistant/zigbee.db
 
 remote:
   - platform: harmony
-    name: Living Room TV
+    name: living_room_tv
     host: !secret remote_harmony_host
 
 input_select:

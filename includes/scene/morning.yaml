@@ -1,0 +1,3 @@
+- name: Morning
+  entities:
+    scene.morning_lutron: on
