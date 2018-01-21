@@ -34,6 +34,14 @@ svg, svg * {
   font-size : 1.5em;
 }
 
+/*Now Playing Heading*/
+*[id^='NOWPLAYING']{
+  fill: #4D4D4D;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight : bold;
+  font-size : 1.5em;
+}
+
 /*Internal Climate*/ 
 *[id^='temp']{
   fill: #333333;

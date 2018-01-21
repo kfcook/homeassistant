@@ -1532,116 +1532,106 @@
 </pattern>
 <g id="Background">
 	<rect id="Full" x="316.375" y="-89.5" fill="#B3B3B3" width="835.625" height="715"/>
-	<g id="Middle" display="none">
-		<g display="inline">
-			<g>
-				
-					<image overflow="visible" opacity="0.5" width="175" height="561" xlink:href="B0E7B4D0.png"  transform="matrix(1 0 0 1 344.5 -12.5)">
-				</image>
-				<rect x="352.723" fill="#727272" width="150.59" height="536"/>
-			</g>
-		</g>
-	</g>
 	<g id="Middle_Panel">
 		<g id="refresh">
 			<g>
-				<path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M1134.462,612.498
-					c4.141-2.777,7.137-7.843,7.137-13.125c0-8.442-6.808-15.25-15.251-15.25c-8.441,0-15.25,6.808-15.25,15.25
-					c0,7.623,5.556,13.941,12.854,15.086c0.6,0.109,1.198,0.163,1.799,0.163"/>
+				<path fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" d="M1123.605,608.053
+					c6.958-4.667,11.993-13.179,11.993-22.056c0-14.187-11.439-25.626-25.628-25.626c-14.185,0-25.626,11.439-25.626,25.626
+					c0,12.81,9.336,23.428,21.599,25.351c1.008,0.184,2.014,0.274,3.023,0.274"/>
 				
-					<polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-					1133.375,605.201 1133.375,613.314 1141.488,613.314 				"/>
+					<polyline fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+					1121.78,595.791 1121.78,609.425 1135.413,609.425 				"/>
 			</g>
 		</g>
 		<g>
-			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="326.5449" y1="-8.2144" x2="492.5605" y2="-8.2144">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="326.4751" y1="-50" x2="491.4751" y2="-50">
 				<stop  offset="0" style="stop-color:#F3944C"/>
 				<stop  offset="0.5" style="stop-color:#ED6D05"/>
 				<stop  offset="1" style="stop-color:#D25917"/>
 			</linearGradient>
-			<rect x="326.545" y="-40.5" fill="url(#SVGID_1_)" width="166.016" height="64.571"/>
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="326.5449" y1="-8.2144" x2="492.5605" y2="-8.2144">
+			<rect x="326.475" y="-89" fill="url(#SVGID_1_)" width="165" height="78"/>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="326.4751" y1="-50" x2="491.4751" y2="-50">
 				<stop  offset="0" style="stop-color:#F3944C"/>
 				<stop  offset="0.5" style="stop-color:#ED6D05"/>
 				<stop  offset="1" style="stop-color:#D25917"/>
 			</linearGradient>
-			<rect x="326.545" y="-40.5" fill="url(#SVGID_2_)" width="166.016" height="64.571"/>
+			<rect x="326.475" y="-89" fill="url(#SVGID_2_)" width="165" height="78"/>
 		</g>
 		
-			<text id="buttonHOME" transform="matrix(0.9822 0 0 1 380.5908 -0.3242)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">HOME</text>
+			<text id="buttonHOME" transform="matrix(0.9822 0 0 1 381.0112 -39.3242)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">HOME</text>
 		<g>
-			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="326.375" y1="57.6104" x2="492.3906" y2="57.6104">
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="326.8828" y1="29.5625" x2="491.8828" y2="29.5625">
 				<stop  offset="0" style="stop-color:#F3944C"/>
 				<stop  offset="0.5" style="stop-color:#ED6D05"/>
 				<stop  offset="1" style="stop-color:#D25917"/>
 			</linearGradient>
-			<rect x="326.375" y="25.325" fill="url(#SVGID_3_)" width="166.016" height="64.571"/>
-			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="326.375" y1="57.6104" x2="492.3906" y2="57.6104">
+			<rect x="326.883" y="-9.438" fill="url(#SVGID_3_)" width="165" height="78"/>
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="326.8828" y1="29.5625" x2="491.8828" y2="29.5625">
 				<stop  offset="0" style="stop-color:#F3944C"/>
 				<stop  offset="0.5" style="stop-color:#ED6D05"/>
 				<stop  offset="1" style="stop-color:#D25917"/>
 			</linearGradient>
-			<rect x="326.375" y="25.325" fill="url(#SVGID_4_)" width="166.016" height="64.571"/>
+			<rect x="326.883" y="-9.438" fill="url(#SVGID_4_)" width="165" height="78"/>
 		</g>
 		
-			<text id="buttonAWAYMODE" transform="matrix(0.9822 0 0 1 382.0112 67.2246)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">AWAY</text>
-		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="326.375" y1="124.9844" x2="492.4053" y2="124.9844">
+			<text id="buttonAWAYMODE" transform="matrix(0.9822 0 0 1 382.0112 39.2246)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">AWAY</text>
+		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="326.8901" y1="109.125" x2="491.8901" y2="109.125">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="91.146" fill="url(#SVGID_5_)" width="166.03" height="67.676"/>
+		<rect x="326.89" y="70.125" fill="url(#SVGID_5_)" width="165" height="78"/>
 		
-			<text id="buttonGUESTMODE" transform="matrix(1 0 0 1 354.0161 133.0586)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ENTERTAIN</text>
-		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="326.375" y1="193.9111" x2="492.4053" y2="193.9111">
+			<text id="buttonGUESTMODE" transform="matrix(1 0 0 1 354.0161 117.0586)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ENTERTAIN</text>
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="326.8901" y1="188.6875" x2="491.8901" y2="188.6875">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="160.072" fill="url(#SVGID_6_)" width="166.03" height="67.678"/>
+		<rect x="326.89" y="149.688" fill="url(#SVGID_6_)" width="165" height="78"/>
 		
-			<text id="buttonLIVINGROOM" transform="matrix(1 0 0 1 375.4282 203.0537)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">DINING</text>
-		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="326.375" y1="262.8389" x2="492.4053" y2="262.8389">
+			<text id="buttonLIVINGROOM" transform="matrix(1 0 0 1 375.4282 195.0537)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">DINING</text>
+		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="326.8901" y1="268.25" x2="491.8901" y2="268.25">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="229" fill="url(#SVGID_7_)" width="166.03" height="67.678"/>
+		<rect x="326.89" y="229.25" fill="url(#SVGID_7_)" width="165" height="78"/>
 		
-			<text id="buttonTVTIME" transform="matrix(1 0 0 1 370.7681 272.0186)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">TV TIME</text>
-		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="326.375" y1="331.7656" x2="492.4053" y2="331.7656">
+			<text id="buttonTVTIME" transform="matrix(1 0 0 1 370.7681 277.0186)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">TV TIME</text>
+		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="326.8901" y1="347.8125" x2="491.8901" y2="347.8125">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="297.928" fill="url(#SVGID_8_)" width="166.03" height="67.676"/>
+		<rect x="326.89" y="308.813" fill="url(#SVGID_8_)" width="165" height="78"/>
 		
-			<text id="buttonKITCHEN" transform="matrix(1 0 0 1 361 340.8252)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">MORNING</text>
-		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="326.375" y1="400.6172" x2="492.4053" y2="400.6172">
+			<text id="buttonMORNING" transform="matrix(1 0 0 1 362.8696 356.8252)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">MORNING</text>
+		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="326.8901" y1="427.375" x2="491.8901" y2="427.375">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="366.779" fill="url(#SVGID_9_)" width="166.03" height="67.676"/>
+		<rect x="326.89" y="388.375" fill="url(#SVGID_9_)" width="165" height="78"/>
 		
-			<text id="buttonBEDTIME" transform="matrix(1 0 0 1 365.313 409.6621)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">BEDTIME</text>
-		<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="326.375" y1="469.8564" x2="492.73" y2="469.8564">
+			<text id="buttonBEDTIME" transform="matrix(1 0 0 1 365.313 435.1309)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">BEDTIME</text>
+		<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="327.0527" y1="506.9375" x2="492.0527" y2="506.9375">
 			<stop  offset="0" style="stop-color:#F3944C"/>
 			<stop  offset="0.5" style="stop-color:#ED6D05"/>
 			<stop  offset="1" style="stop-color:#D25917"/>
 		</linearGradient>
-		<rect x="326.375" y="435.705" fill="url(#SVGID_10_)" width="166.355" height="68.303"/>
+		<rect x="327.053" y="467.938" fill="url(#SVGID_10_)" width="165" height="78"/>
 		
-			<text id="buttonALLOFF" transform="matrix(1 0 0 1 368.2134 476.9961)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ALL OFF</text>
-		<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="326.625" y1="540.3486" x2="492.98" y2="540.3486">
+			<text id="buttonALLOFF" transform="matrix(1 0 0 1 368.2134 516.0303)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ALL OFF</text>
+		<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="327.0527" y1="586.5" x2="492.0527" y2="586.5">
 			<stop  offset="0.0112" style="stop-color:#00A5D0"/>
 			<stop  offset="0.3667" style="stop-color:#018EB3"/>
 			<stop  offset="0.759" style="stop-color:#037A9A"/>
 			<stop  offset="0.9944" style="stop-color:#037290"/>
 		</linearGradient>
-		<rect x="326.625" y="506.197" fill="url(#SVGID_11_)" width="166.355" height="68.303"/>
+		<rect x="327.053" y="547.5" fill="url(#SVGID_11_)" width="165" height="78"/>
 		
-			<text id="buttonROOMS" transform="matrix(1 0 0 1 372.4087 548.376)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ROOMS</text>
+			<text id="buttonROOMS" transform="matrix(1 0 0 1 372.4087 595.376)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ROOMS</text>
 	</g>
 	<g id="Left">
 		<g>
@@ -1652,80 +1642,70 @@
 <g id="Left_Panel">
 	<g id="Layout_Original" display="none">
 		
-			<image display="inline" overflow="visible" enable-background="new    " width="589" height="561" xlink:href="B0E7B4D0.jpg"  transform="matrix(0.9235 0 0 0.9216 240.0518 10.9795)">
+			<image display="inline" overflow="visible" enable-background="new    " width="589" height="561" xlink:href="FD8FC525.jpg"  transform="matrix(0.9235 0 0 0.9216 240.0518 10.9795)">
 		</image>
 	</g>
 	<rect id="message_box" x="-128" y="592.376" fill="#666666" width="455.625" height="33.124"/>
 	
-		<text id="sensor.last_message" transform="matrix(1 0 0 1 -119.2754 614.249)" fill="#F2F2F2" font-family="'ArialNarrow'" font-size="17.5">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</text>
+		<text id="sensor.last_message" transform="matrix(1 0 0 1 -119.2754 616.249)" fill="#F2F2F2" font-family="'ArialNarrow'" font-size="17.5">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</text>
 	
-		<rect id="LR_Box_2" x="-99.563" y="471.797" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="398.438" height="58.205"/>
+		<rect id="LR_Box_2" x="-96.563" y="429.167" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="391.396" height="108"/>
 	
-		<rect id="LR_Box1" x="-105.525" y="432.834" fill="#31B29D" stroke="#31B29D" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="410.025" height="33.55"/>
+		<rect id="LR_Box1" x="-122.271" y="419.834" display="none" fill="#31B29D" stroke="#31B29D" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="401.438" height="47.5"/>
 	
-		<text id="headerNOWPLAYING" transform="matrix(1 0 0 1 -58.042 458.6504)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">NOW PLAYING</text>
+		<text id="NOWPLAYING" transform="matrix(1 0 0 1 -50.29 458.9072)" fill="#4D4D4D" font-family="'ArialNarrow-Bold'" font-size="24">NOW PLAYING</text>
 	
-		<text id="sensor.floorplan_artist" transform="matrix(1 0 0 1 -94.6885 525.0303)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="17.5">ARTIST:</text>
+		<text id="sensor.floorplan_artist" transform="matrix(1 0 0 1 -86.6885 522.0303)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="17.5">ARTIST:</text>
 	
-		<text id="sensor.floorplan_song" transform="matrix(1 0 0 1 -94.6885 497.6055)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="17.5">SONG:</text>
+		<text id="sensor.floorplan_song" transform="matrix(1 0 0 1 -86.6885 494.6055)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="17.5">SONG:</text>
 	
-		<rect id="Status_box" x="118.875" y="191.064" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="180" height="75"/>
+		<rect id="Status_box" x="68.571" y="181.326" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="226.263" height="37"/>
 	
-		<rect x="113.353" y="190.997" fill="#00B1CF" stroke="#00B1CF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="191.147" height="28.125"/>
+		<rect id="home_status_title" x="-99.666" y="176.076" fill="#00B1CF" stroke="#00B1CF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="163.307" height="47.5"/>
 	
-		<text id="headerHOMESTATUS" transform="matrix(1 0 0 1 141.1909 213.9209)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">HOME STATUS</text>
+		<text id="headerHOMESTATUS" transform="matrix(1 0 0 1 -87.4072 208.9131)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">HOME STATUS</text>
 	
-		<text id="sensor.home_mode" transform="matrix(1 0 0 1 149.748 257.2754)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="22.5">XXXXX XXXX</text>
+		<text id="sensor.home_mode" transform="matrix(1 0 0 1 127.7715 209.0186)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="22.5">XXXXX XXXX</text>
 	
-		<rect id="LR_Box2" x="-99.563" y="291.96" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="180.938" height="75"/>
+		<rect id="LR_Box2" x="67.853" y="251.191" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="226.98" height="37"/>
 	
-		<rect id="LR_Box" x="-105.525" y="291.049" fill="#00B1CF" stroke="#00B1CF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="193.565" height="28.125"/>
+		<rect id="LR_title" x="-99.666" y="245.94" fill="#00B1CF" stroke="#00B1CF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="163.713" height="47.5"/>
 	
-		<text id="headerLIVINGROOM" transform="matrix(1 0 0 1 -77.293 314.8428)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">LIVING ROOM</text>
+		<text id="headerLIVINGROOM" transform="matrix(1 0 0 1 -83.3994 278.8428)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">LIVING ROOM</text>
 	
-		<text id="sensor.living_room_temperature" transform="matrix(1 0 0 1 -71.3096 357.8496)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="22.5">1XX</text>
+		<text id="sensor.living_room_temperature" transform="matrix(1 0 0 1 132.5205 278.6973)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="22.5">1XX</text>
 	
-		<text id="sensor.living_room_humidity" transform="matrix(1 0 0 1 24.9399 357.8496)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="22.5">XX</text>
-	<path fill="#333333" d="M-79.303,351.59v-10.957c0-1.152-0.543-2.18-1.387-2.838c-0.609-0.479-1.377-0.761-2.211-0.761
+		<text id="sensor.living_room_humidity" transform="matrix(1 0 0 1 229.77 278.6973)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="22.5">XX</text>
+	<path fill="#333333" d="M124.527,272.438V261.48c0-1.152-0.543-2.18-1.387-2.838c-0.609-0.479-1.377-0.761-2.211-0.761
 		c-0.835,0-1.603,0.283-2.213,0.761c-0.844,0.655-1.386,1.686-1.386,2.838v10.863c-1.413,1.068-2.324,2.766-2.324,4.673
-		c0,3.239,2.626,5.863,5.862,5.863c3.237,0,5.863-2.625,5.863-5.863C-77.097,354.317-77.957,352.664-79.303,351.59z
-		 M-82.905,360.621c-2.449,0-4.433-1.985-4.433-4.434c0-0.967,0.31-1.863,0.839-2.593c0.368-0.508,0.84-0.936,1.386-1.25v-1.629
+		c0,3.239,2.626,5.863,5.862,5.863c3.237,0,5.863-2.625,5.863-5.863C126.733,275.165,125.873,273.512,124.527,272.438z
+		 M120.925,281.469c-2.449,0-4.433-1.985-4.433-4.434c0-0.967,0.31-1.863,0.839-2.593c0.368-0.508,0.84-0.936,1.386-1.25v-1.629
 		v-7.246v-2.502v-0.586c0.142-1.089,1.073-1.929,2.202-1.929c1.227,0,2.22,0.993,2.22,2.221v2.795v7.295v1.588
-		c0.547,0.315,1.021,0.747,1.387,1.258c0.521,0.728,0.829,1.616,0.829,2.579C-78.473,358.636-80.458,360.621-82.905,360.621z"/>
-	<path fill="#333333" d="M-80.012,356.18c0,1.604-1.299,2.9-2.9,2.9c-1.601,0-2.901-1.296-2.901-2.9c0-1.362,0.941-2.505,2.21-2.814
-		v-2.373v-5.037h1.385v5.037v2.373C-80.952,353.675-80.012,354.817-80.012,356.18z"/>
-	<path fill="#333333" d="M17.763,353.424c0-4.494-7.139-15.14-7.139-15.14s-7.139,10.646-7.139,15.14c0,4.492,3.187,7.36,7.139,7.36
-		C14.576,360.784,17.763,357.947,17.763,353.424z"/>
+		c0.547,0.315,1.021,0.747,1.387,1.258c0.521,0.728,0.829,1.616,0.829,2.579C125.357,279.483,123.372,281.469,120.925,281.469z"/>
+	<path fill="#333333" d="M123.818,277.027c0,1.604-1.299,2.9-2.9,2.9c-1.601,0-2.901-1.296-2.901-2.9
+		c0-1.362,0.941-2.505,2.21-2.814v-2.373v-5.037h1.385v5.037v2.373C122.878,274.522,123.818,275.665,123.818,277.027z"/>
+	<path fill="#333333" d="M221.593,274.271c0-4.494-7.139-15.14-7.139-15.14s-7.139,10.646-7.139,15.14
+		c0,4.492,3.187,7.36,7.139,7.36C218.406,281.632,221.593,278.795,221.593,274.271z"/>
 	
-		<rect id="BR_Box2" x="118.875" y="293.116" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="180" height="75"/>
+		<rect id="BR_Box2" x="66.853" y="321.458" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="227.98" height="37"/>
 	
-		<rect id="BR_Box" x="113.353" y="290.803" fill="#00B1CF" stroke="#00B1CF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="190.835" height="28.125"/>
+		<rect id="BR_title" x="-99.666" y="316.208" fill="#00B1CF" stroke="#00B1CF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="163.677" height="47.5"/>
 	
-		<text id="headerBEDROOM" transform="matrix(1 0 0 1 158.353 314.5977)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">BEDROOM</text>
+		<text id="headerBEDROOM" transform="matrix(1 0 0 1 -68.6221 348.6094)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">BEDROOM</text>
 	
-		<text id="sensor.bedroom_temperature" transform="matrix(1 0 0 1 143.7109 357.6035)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="22.5">1XX</text>
+		<text id="sensor.bedroom_temperature" transform="matrix(1 0 0 1 132.7109 348.6035)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="22.5">1XX</text>
 	
-		<text id="sensor.bedroom_humidity" transform="matrix(1 0 0 1 244.2104 357.6035)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="22.5">XX</text>
-	<path fill="#333333" d="M138.294,351.345v-10.957c0-1.152-0.544-2.181-1.388-2.838c-0.609-0.479-1.377-0.761-2.211-0.761
+		<text id="sensor.bedroom_humidity" transform="matrix(1 0 0 1 231.2104 348.6035)" fill="#3C3C3B" font-family="'ArialNarrow'" font-size="22.5">XX</text>
+	<path fill="#333333" d="M124.294,342.345v-10.957c0-1.152-0.544-2.181-1.388-2.838c-0.609-0.479-1.377-0.761-2.211-0.761
 		c-0.835,0-1.603,0.283-2.214,0.761c-0.843,0.655-1.386,1.686-1.386,2.838v10.863c-1.412,1.067-2.323,2.766-2.323,4.673
-		c0,3.239,2.626,5.863,5.862,5.863c3.236,0,5.862-2.625,5.862-5.863C140.497,354.072,139.637,352.419,138.294,351.345z
-		 M134.69,360.375c-2.449,0-4.433-1.984-4.433-4.434c0-0.967,0.31-1.862,0.839-2.592c0.367-0.508,0.84-0.936,1.386-1.25v-1.629
+		c0,3.239,2.626,5.863,5.862,5.863c3.236,0,5.862-2.625,5.862-5.863C126.497,345.072,125.637,343.419,124.294,342.345z
+		 M120.69,351.375c-2.449,0-4.433-1.984-4.433-4.434c0-0.967,0.31-1.862,0.839-2.592c0.367-0.508,0.84-0.936,1.386-1.25v-1.629
 		v-7.246v-2.502v-0.586c0.143-1.09,1.074-1.93,2.203-1.93c1.226,0,2.22,0.994,2.22,2.221v2.796v7.295v1.588
-		c0.547,0.315,1.022,0.747,1.388,1.257c0.521,0.729,0.828,1.617,0.828,2.58C139.123,358.391,137.136,360.375,134.69,360.375z"/>
-	<path fill="#333333" d="M137.582,355.935c0,1.604-1.299,2.9-2.899,2.9c-1.601,0-2.901-1.296-2.901-2.9
-		c0-1.362,0.941-2.505,2.21-2.815v-2.373v-5.036h1.385v5.036v2.373C136.643,353.43,137.582,354.572,137.582,355.935z"/>
-	<path fill="#333333" d="M237.383,353.178c0-4.493-7.139-15.139-7.139-15.139s-7.138,10.646-7.138,15.139
-		c0,4.492,3.187,7.361,7.139,7.361C234.197,360.539,237.383,357.702,237.383,353.178z"/>
-	
-		<rect id="NameBox" x="-105.525" y="190.944" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" width="193.565" height="75"/>
-	
-		<text id="statusKEVIN" transform="matrix(1 0 0 1 -82.4819 218.4092)" fill="#333333" font-family="'ArialNarrow-Bold'" font-size="24">KEVIN</text>
-	
-		<text id="statusCHRIS" transform="matrix(1 0 0 1 -83.1445 255.7676)" fill="#333333" font-family="'ArialNarrow-Bold'" font-size="24">CHRIS</text>
-	
-		<text id="device_tracker.cedrone88_iphone" transform="matrix(1 0 0 1 11.7246 255.7676)" fill="#ED6D2F" font-family="'ArialNarrow'" font-size="24">XXXX</text>
-	
-		<text id="device_tracker.kevins_iphone" transform="matrix(1 0 0 1 11.8164 217.1592)" fill="#ED6D2F" font-family="'ArialNarrow'" font-size="24">XXXX</text>
+		c0.547,0.315,1.022,0.747,1.388,1.257c0.521,0.729,0.828,1.617,0.828,2.58C125.123,349.391,123.136,351.375,120.69,351.375z"/>
+	<path fill="#333333" d="M123.582,346.935c0,1.604-1.299,2.9-2.899,2.9c-1.601,0-2.901-1.296-2.901-2.9
+		c0-1.362,0.941-2.505,2.21-2.815v-2.373v-5.036h1.385v5.036v2.373C122.643,344.43,123.582,345.572,123.582,346.935z"/>
+	<path fill="#333333" d="M223.383,344.178c0-4.493-7.139-15.139-7.139-15.139s-7.138,10.646-7.138,15.139
+		c0,4.492,3.187,7.361,7.139,7.361C220.197,351.539,223.383,348.702,223.383,344.178z"/>
 	
 		<text id="panelRALEIGH" transform="matrix(1 0 0 1 -74.6758 130.4404)" fill="#FFFFFF" font-family="'ArialNarrow'" font-size="22.5">RALEIGH</text>
 	
@@ -1743,19 +1723,19 @@
 	
 		<text id="sensor.floorplan_date" transform="matrix(1 0 0 1 -96.7754 -8.834)" fill="#FFFFFF" font-family="'ArialNarrow'" font-size="24">SATURDAY, SEPTEMBER 09</text>
 	<g id="spotifylogo">
-		<path fill="#FFFFFF" d="M-80.059,435.746c-7.758,0-14.069,6.313-14.069,14.069c0,7.756,6.311,14.068,14.069,14.068
-			c7.757,0,14.068-6.313,14.068-14.068C-65.99,442.059-72.301,435.746-80.059,435.746z M-74.602,456.173
+		<path fill="#4D4D4D" d="M-74.676,435.223c-7.758,0-14.069,6.313-14.069,14.069c0,7.756,6.311,14.068,14.069,14.068
+			c7.757,0,14.068-6.313,14.068-14.068C-60.607,441.535-66.918,435.223-74.676,435.223z M-69.219,455.649
 			c-0.224,0-0.394-0.057-0.562-0.225c-1.969-1.182-4.389-1.802-6.976-1.802c-1.463,0-2.925,0.171-4.276,0.45
 			c-0.224,0.059-0.505,0.112-0.675,0.112c-0.506,0-0.844-0.392-0.844-0.844c0-0.563,0.338-0.845,0.731-0.899
 			c1.688-0.394,3.319-0.619,5.063-0.619c2.982,0,5.569,0.674,7.875,2.025c0.338,0.17,0.563,0.395,0.563,0.899
-			C-73.759,455.834-74.152,456.173-74.602,456.173z M-73.084,452.628c-0.281,0-0.45-0.112-0.675-0.224
+			C-68.376,455.311-68.769,455.649-69.219,455.649z M-67.701,452.104c-0.281,0-0.45-0.112-0.675-0.224
 			c-2.193-1.295-5.232-2.196-8.55-2.196c-1.688,0-3.206,0.225-4.388,0.563c-0.282,0.057-0.394,0.169-0.675,0.169
 			c-0.563,0-1.068-0.451-1.068-1.066c0-0.564,0.281-0.96,0.843-1.127c1.52-0.395,3.095-0.732,5.345-0.732
-			c3.542,0,6.975,0.899,9.619,2.475c0.451,0.282,0.62,0.563,0.62,1.069C-72.07,452.123-72.521,452.628-73.084,452.628z
-			 M-71.451,448.467c-0.282,0-0.45-0.058-0.674-0.228c-2.419-1.461-6.246-2.251-9.903-2.251c-1.855,0-3.713,0.17-5.4,0.675
+			c3.542,0,6.975,0.899,9.619,2.475c0.451,0.282,0.62,0.563,0.62,1.069C-66.688,451.6-67.138,452.104-67.701,452.104z
+			 M-66.068,447.943c-0.282,0-0.45-0.058-0.674-0.228c-2.419-1.461-6.246-2.251-9.903-2.251c-1.855,0-3.713,0.17-5.4,0.675
 			c-0.168,0.058-0.449,0.17-0.674,0.17c-0.732,0-1.294-0.563-1.294-1.295c0-0.729,0.449-1.124,0.958-1.292
 			c1.912-0.562,4.05-0.845,6.412-0.845c3.939,0,8.159,0.788,11.195,2.587c0.394,0.229,0.674,0.564,0.674,1.238
-			C-70.156,447.903-70.776,448.467-71.451,448.467z"/>
+			C-64.773,447.38-65.394,447.943-66.068,447.943z"/>
 	</g>
 </g>
 <g id="Floorplan">
@@ -5770,83 +5750,79 @@
 </g>
 <g id="room_buttons_layer">
 	<g id="switch.kitchen_group">
-		<rect x="494.805" y="506.197" fill="#00A5D0" width="166.53" height="68.303"/>
+		<rect x="494.805" y="557.197" fill="#00A5D0" width="166.53" height="68.303"/>
 		
-			<text id="buttonKITCHEN2" transform="matrix(1 0 0 1 534.9199 548.376)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">KITCHEN</text>
-		<rect x="494.804" y="505.999" display="none" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+			<text id="buttonKITCHEN2" transform="matrix(1 0 0 1 534.9199 599.376)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">KITCHEN</text>
+		<rect x="494.804" y="556.999" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 	</g>
 	<g id="switch.living_room_group">
-		<rect x="494.98" y="435.705" fill="#00A5D0" width="166.354" height="68.247"/>
+		<rect x="494.98" y="486.705" fill="#00A5D0" width="166.354" height="68.247"/>
 		
-			<text id="buttonLR" transform="matrix(1 0 0 1 512.478 479.0342)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">LIVING ROOM</text>
-		<rect x="494.804" y="435.732" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+			<text id="buttonLR" transform="matrix(1 0 0 1 512.478 530.0342)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">LIVING ROOM</text>
+		<rect x="494.804" y="486.732" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 	</g>
 	<g id="switch.master_bedroom_group">
-		<rect x="494.805" y="366.779" fill="#00A5D0" width="166.354" height="67.676"/>
+		<rect x="494.805" y="417.779" fill="#00A5D0" width="166.354" height="67.676"/>
 		
-			<text id="buttonBEDROOM" transform="matrix(1 0 0 1 527.2559 410.7666)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">BEDROOM</text>
-		<rect x="494.143" y="366.612" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+			<text id="buttonBEDROOM" transform="matrix(1 0 0 1 527.2559 461.7666)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">BEDROOM</text>
+		<rect x="494.143" y="417.612" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 	</g>
 	<g id="switch.master_bathroom_group">
-		<rect x="495.01" y="297.838" fill="#00A5D0" width="166.354" height="67.676"/>
+		<rect x="495.01" y="348.838" fill="#00A5D0" width="166.354" height="67.676"/>
 		
-			<text id="buttonBATHROOM" transform="matrix(1 0 0 1 521.4258 339.6719)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">BATHROOM</text>
-		<rect x="494.911" y="297.73" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+			<text id="buttonBATHROOM" transform="matrix(1 0 0 1 521.4258 390.6719)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">BATHROOM</text>
+		<rect x="494.911" y="348.73" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 	</g>
 	<g id="switch.hallway_group">
-		<rect x="495.01" y="229.09" fill="#00A5D0" width="166.354" height="67.514"/>
+		<rect x="495.01" y="280.09" fill="#00A5D0" width="166.354" height="67.514"/>
 		
-			<text id="buttonHALLWAY" transform="matrix(1 0 0 1 531.4375 271.8721)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">HALLWAY</text>
-		<rect x="494.911" y="228.464" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+			<text id="buttonHALLWAY" transform="matrix(1 0 0 1 531.4375 322.8721)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">HALLWAY</text>
+		<rect x="494.911" y="279.464" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 	</g>
 	<g id="switch.guest_bathroom_group">
-		<rect x="495.01" y="159.749" fill="#00A5D0" width="166.354" height="67.676"/>
+		<rect x="495.01" y="210.749" fill="#00A5D0" width="166.354" height="67.677"/>
 		
-			<text id="buttonGUESTBATH" transform="matrix(1 0 0 1 514.6875 203.0186)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">GUEST BATH</text>
-		<rect x="494.25" y="159.344" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+			<text id="buttonGUESTBATH" transform="matrix(1 0 0 1 514.6875 254.0186)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">GUEST BATH</text>
+		<rect x="494.25" y="210.344" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 	</g>
 	<g id="switch.office_group">
-		<rect x="495.01" y="90.736" fill="#00A5D0" width="166.354" height="67.514"/>
+		<rect x="495.01" y="141.736" fill="#00A5D0" width="166.354" height="67.514"/>
 		
-			<text id="buttonOFFICE" transform="matrix(1 0 0 1 542.5547 134.8135)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">OFFICE</text>
-		<rect x="495.79" y="90.259" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+			<text id="buttonOFFICE" transform="matrix(1 0 0 1 542.5547 185.8135)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">OFFICE</text>
+		<rect x="495.79" y="141.259" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 	</g>
 	<g id="switch.den_group">
-		<rect x="495.01" y="21.395" fill="#00A5D0" width="166.354" height="67.676"/>
+		<rect x="495.01" y="72.395" fill="#00A5D0" width="166.354" height="67.676"/>
 		
-			<text id="buttonDEN" transform="matrix(1 0 0 1 557.8711 65.667)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">DEN</text>
-		<rect x="495.129" y="21.139" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+			<text id="buttonDEN" transform="matrix(1 0 0 1 557.8711 116.667)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">DEN</text>
+		<rect x="495.129" y="72.139" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
 	</g>
-	<linearGradient id="SVGID_49_" gradientUnits="userSpaceOnUse" x1="327.625" y1="540.3486" x2="492.98" y2="540.3486">
+	<linearGradient id="SVGID_49_" gradientUnits="userSpaceOnUse" x1="327.625" y1="586.7373" x2="492.98" y2="586.7373">
 		<stop  offset="0" style="stop-color:#037290"/>
 		<stop  offset="0.2232" style="stop-color:#037796"/>
 		<stop  offset="0.5272" style="stop-color:#0285A8"/>
 		<stop  offset="0.8763" style="stop-color:#019CC4"/>
 		<stop  offset="1" style="stop-color:#00A5D0"/>
 	</linearGradient>
-	<rect x="327.625" y="506.197" fill="url(#SVGID_49_)" width="165.355" height="68.303"/>
+	<rect x="327.625" y="547.975" fill="url(#SVGID_49_)" width="165.355" height="77.525"/>
 	
-		<text id="buttonROOMS2" transform="matrix(1 0 0 1 372.4087 548.376)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ROOMS</text>
+		<text id="buttonROOMS2" transform="matrix(1 0 0 1 372.4087 595.376)" fill="#FFFFFF" font-family="'ArialNarrow-Bold'" font-size="24">ROOMS</text>
 </g>
 <g id="Middle_Buttons">
-	<rect id="scene.home" x="326.545" y="-40.5" fill="#FFFFFF" fill-opacity="0" width="166.016" height="64.571"/>
-	<rect id="script.away_spotify" x="326.375" y="25.325" fill="#FFFFFF" fill-opacity="0" width="166.016" height="64.571"/>
-	<rect id="scene.tv_time" x="326.375" y="228.497" fill="#FFFFFF" fill-opacity="0" width="166.03" height="68.181"/>
-	<rect id="scene.dining" x="326.375" y="160.344" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.406"/>
-	<rect id="scene.entertain" x="326.375" y="91.146" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.676"/>
-	<rect id="scene.morning" x="326.375" y="297.928" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.898"/>
-	<rect id="scene.bedtime" x="326.375" y="366.779" fill="#FFFFFF" fill-opacity="0" width="166.03" height="67.5"/>
-	<rect id="scene.all_off" x="326.375" y="435.705" fill="#FFFFFF" fill-opacity="0" width="166.355" height="68.247"/>
+	<rect id="scene.home" x="326.975" y="-89" fill="#FFFFFF" fill-opacity="0" width="166" height="78"/>
+	<rect id="script.away_spotify" x="326.167" y="-9.211" fill="#FFFFFF" fill-opacity="0" width="166.224" height="77.774"/>
+	<rect id="scene.tv_time" x="327.625" y="228.497" fill="#FFFFFF" fill-opacity="0" width="164.78" height="78.021"/>
+	<rect id="scene.dining" x="327.375" y="150.336" fill="#FFFFFF" fill-opacity="0" width="166.03" height="77.352"/>
+	<rect id="scene.entertain" x="327.375" y="69.829" fill="#FFFFFF" fill-opacity="0" width="166.03" height="77.881"/>
+	<rect id="scene.morning" x="327.788" y="308.49" fill="#FFFFFF" fill-opacity="0" width="166.03" height="78.322"/>
+	<rect id="scene.bedtime" x="327.788" y="387.808" fill="#FFFFFF" fill-opacity="0" width="164.618" height="77.968"/>
+	<rect id="scene.all_off" x="327.625" y="466.375" fill="#FFFFFF" fill-opacity="0" width="166.355" height="79.563"/>
 	<rect id="refresh_button" onclick="location.reload();" x="1071.034" y="545.021" fill="#FFFFFF" fill-opacity="0" width="80.966" height="80.479"/>
-	<linearGradient id="rooms_button_1_" gradientUnits="userSpaceOnUse" x1="327.625" y1="540.123" x2="493.9805" y2="540.123">
-		<stop  offset="0" style="stop-color:#00747D"/>
-		<stop  offset="0.0661" style="stop-color:#008295"/>
-		<stop  offset="0.1482" style="stop-color:#008FAB"/>
-		<stop  offset="0.2451" style="stop-color:#0099BC"/>
-		<stop  offset="0.365" style="stop-color:#00A0C7"/>
-		<stop  offset="0.5331" style="stop-color:#00A4CE"/>
-		<stop  offset="1" style="stop-color:#00A5D0"/>
+	<linearGradient id="rooms_button_1_" gradientUnits="userSpaceOnUse" x1="327.6255" y1="586.5" x2="493.981" y2="586.5">
+		<stop  offset="0" style="stop-color:#EF7B5A"/>
+		<stop  offset="0.5" style="stop-color:#E30613"/>
+		<stop  offset="1" style="stop-color:#CB181A"/>
 	</linearGradient>
-	<rect id="rooms_button" x="327.625" y="505.999" fill="url(#rooms_button_1_)" fill-opacity="0" width="166.355" height="68.247"/>
+	<rect id="rooms_button" x="327.625" y="547.5" fill="url(#rooms_button_1_)" fill-opacity="0" width="166.355" height="78"/>
 </g>
 </svg>

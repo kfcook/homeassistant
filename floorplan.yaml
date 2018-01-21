@@ -70,17 +70,17 @@ groups:
       text_template: '${entity.state ? entity.state : "Not Playing"}'
       class_template: 'return "static-text-media";'
 
-    - name: Family
-      entities:
-        - device_tracker.kevins_iphone
-        - device_tracker.cedrone88_iphone
-      text_template: '${entity.state ? entity.state.replace("not_home", "Away").replace("home", "Home") : "undefined"}'
-
-      states:
-        - state: 'home'
-          class: 'text-home'
-        - state: 'not_home'
-          class: 'text-away'
+#    - name: Family
+#      entities:
+#        - device_tracker.kevins_iphone
+#        - device_tracker.cedrone88_iphone
+#      text_template: '${entity.state ? entity.state.replace("not_home", "Away").replace("home", "Home") : "undefined"}'
+#
+#      states:
+#        - state: 'home'
+#          class: 'text-home'
+#        - state: 'not_home'
+#          class: 'text-away'
 
     - name: home_mode
       entities:
