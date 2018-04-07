@@ -123,11 +123,18 @@ media_player:
 
 ios:
 
-lutron_caseta:
-  host: !secret lutron_caseta_host
-  key: lutron.key
-  cert: lutron.crt
-  ca: lutron-ca.crt
+#lutron_caseta:
+#  host: !secret lutron_caseta_host
+#  key: caseta.key
+#  cert: caseta.crt
+#  ca: caseta-bridge.crt
+
+#https://github.com/upsert/lutron-caseta-pro
+lutron_caseta_pro:
+  bridges:
+    - host: !secret lutron_caseta_host
+      switch: [ 8, 9, 11, 22 ]
+      cover: [ 34, 35, 36, 38]
 
 emulated_hue:
   off_maps_to_on_domains:

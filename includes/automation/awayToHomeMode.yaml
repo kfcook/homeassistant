@@ -10,11 +10,11 @@
       from: 'off'
       to: 'on'
     - platform: numeric_state
-      entity_id: light.under_cabinet
+      entity_id: light.kitchen_under_cabinet
       value_template: '{{ state.attributes.brightness }}'
       above: 89
     - platform: numeric_state
-      entity_id: light.under_cabinet
+      entity_id: light.kitchen_under_cabinet
       value_template: '{{ state.attributes.brightness }}'
       below: 89
   condition:

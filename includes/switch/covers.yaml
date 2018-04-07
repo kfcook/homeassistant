@@ -1,34 +1,42 @@
 - platform: template
   switches:
     living_room_left_cover:
-      value_template: "{{ is_state_attr('cover.living_room_left', 'current_position', 100) }}"
+      value_template: "{{ is_state_attr('cover.living_room_left_blind', 'current_position', 100) }}"
       turn_on:
         service: cover.open_cover
-        entity_id: cover.living_room_left
+        entity_id: cover.living_room_left_blind
       turn_off:
         service: cover.close_cover
-        entity_id: cover.living_room_left
+        entity_id: cover.living_room_left_blind
     living_room_middle_cover:
-      value_template: "{{ is_state_attr('cover.living_room_middle', 'current_position', 100) }}"
+      value_template: "{{ is_state_attr('cover.living_room_middle_blind', 'current_position', 100) }}"
       turn_on:
         service: cover.open_cover
-        entity_id: cover.living_room_middle
+        entity_id: cover.living_room_middle_blind
       turn_off:
         service: cover.close_cover
-        entity_id: cover.living_room_middle
+        entity_id: cover.living_room_middle_blind
     living_room_right_cover:
-      value_template: "{{ is_state_attr('cover.living_room_right', 'current_position', 100) }}"
+      value_template: "{{ is_state_attr('cover.living_room_right_blind', 'current_position', 100) }}"
       turn_on:
         service: cover.open_cover
-        entity_id: cover.living_room_right
+        entity_id: cover.living_room_right_blind
       turn_off:
         service: cover.close_cover
-        entity_id: cover.living_room_right
+        entity_id: cover.living_room_right_blind
+    living_room_covers:
+      value_template: "{{ is_state_attr('cover.living_room_right_blind' and 'cover.living_room_right_blind' and 'cover.living_room_left_blind' , 'current_position', 100) }}"
+      turn_on:
+        service: cover.open_cover
+        entity_id: group.living_room_blinds
+      turn_off:
+        service: cover.close_cover
+        entity_id: group.living_room_blinds
     bedroom_cover:
-      value_template: "{{ is_state_attr('cover.bedroom', 'current_position', 100) }}"
+      value_template: "{{ is_state_attr('cover.master_bedroom_blind', 'current_position', 100) }}"
       turn_on:
         service: cover.open_cover
-        entity_id: cover.bedroom
+        entity_id: cover.master_bedroom_blind
       turn_off:
         service: cover.close_cover
-        entity_id: cover.bedroom
+        entity_id: cover.master_bedroom_blind

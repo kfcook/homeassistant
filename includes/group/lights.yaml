@@ -2,51 +2,51 @@ master_bedroom:
   name: Master Bedroom
   icon: mdi:hotel
   entities:
-    - light.chris
-    - light.kevins
-    - cover.bedroom
+    - light.master_bedroom_chris
+    - light.master_bedroom_kevins
+    - cover.master_bedroom_blind
 
 master_bathroom:
   name: Master Bathroom
   icon: mdi:broom
   entities:
-    - light.bathroom_overhead
-    - light.closet
-    - light.shower
-    - switch.bathroom_fan
+    - light.master_bathroom_overhead
+    - light.master_closet_overhead
+    - light.master_bathroom_shower
+    - switch.master_bathroom_fan
 
 master_bathroom_minus_fan:
   name: Master Bathroom Minus Fan
   icon: mdi:broom
   entities:
-    - light.bathroom_overhead
-    - light.closet
-    - light.shower
+    - light.master_bathroom_overhead
+    - light.master_closet_overhead
+    - light.master_bathroom_shower
 
 living_room:
   name: Living Room
   icon: mdi:television
   entities:
     - light.zha_fe0299fd_10
-    - light.couch
-    - light.tv
+    - light.living_room_couch
+    - light.living_room_tv
 
 kitchen:
   name: Kitchen
   icon: mdi:kettle
   entities:
-    - light.pendant
-    - light.under_cabinet
+    - light.kitchen_pendant
+    - light.kitchen_under_cabinet
     - switch.entry
     - switch.kitchen_overhead
-    - light.foyer
+    - light.front_foyer_foyer
 
 den:
   name: Den
   entities:
-    - light.bullet
+    - light.den_bullet
     - light.den_overhead
-    - light.floor
+    - light.den_floor
 
 guest_bathroom:
   name: Guest Bathroom
@@ -67,25 +67,25 @@ office:
   name: Office
   icon: mdi:desktop-classic
   entities:
-    - light.office_lamp
+    - light.office_lamps
     - switch.office_fan
 
 office_minus_fan:
   name: Office Minus Fan
   icon: mdi:desktop-classic
   entities:
-    - light.office_lamp
+    - light.office_lamps
 
 hallway:
   name: Hallway
   entities:
-    - light.hallway_light
-    - switch.laundry
+    - light.hallway_overhead
+    - switch.hallway_laundry
 
 balcony:
   name: Balcony
   entities:
-    - light.balcony
+    - light.exterior_balcony
 
 everything:
   name: Everything
@@ -110,10 +110,10 @@ everything_except_under_cabinet:
     - group.guest_bathroom
     - group.office
     - group.hallway
-    - light.pendant
+    - light.kitchen_pendant
     - switch.entry
     - switch.kitchen_overhead
-    - light.foyer
+    - light.front_foyer_foyer
 
 non-lutron:
   name: Non-Lutron

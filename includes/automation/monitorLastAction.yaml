@@ -7,30 +7,31 @@
   trigger:
     platform: state
     entity_id:
-      - light.balcony
-      - light.bathroom_overhead
-      - light.bullet
       - light.zha_fe0299fd_10
-      - light.chris
-      - light.closet
-      - light.couch
+      - light.den_bullet
+      - light.den_floor
       - light.den_overhead
-      - light.floor
-      - light.foyer
+      - light.exterior_balcony
+      - light.front_foyer_foyer
       - light.guest_bathroom_overhead
       - light.guest_bathroom_shower
-      - light.hallway_light
-      - light.kevins
-      - light.office_lamp
-      - light.pendant
-      - light.shower
-      - light.tv
-      - light.under_cabinet
-      - switch.bathroom_fan
+      - light.hallway_laundry
+      - light.hallway_overhead
+      - light.kitchen_pendant
+      - light.kitchen_under_cabinet
+      - light.living_room_couch
+      - light.living_room_tv
+      - light.master_bathroom_overhead
+      - light.master_bathroom_shower
+      - light.master_bedroom_chris
+      - light.master_bedroom_kevins
+      - light.master_closet_overhead
+      - light.office_lamps
+      - switch.master_bathroom_fan
       - switch.entry
       - switch.guest_bathroom_fan
       - switch.kitchen_overhead
-      - switch.laundry
+      - switch.hallway_laundry
       - switch.office_fan
   action:
     - service: shell_command.save_state

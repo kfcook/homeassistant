@@ -199,28 +199,28 @@ groups:
 
     - name: Lights
       entities:
-        - light.balcony
-        - light.bathroom_overhead
-        - light.bullet
+        - light.exterior_balcony
+        - light.master_bathroom_overhead
+        - light.den_bullet
         - light.zha_fe0299fd_10
-        - light.chris
-        - light.closet
-        - light.couch
+        - light.master_bedroom_chris
+        - light.master_closet_overhead
+        - light.living_room_couch
         - light.den_overhead
-        - light.floor
-        - light.foyer
+        - light.den_floor
+        - light.front_foyer_foyer
         - light.guest_bathroom_overhead
         - light.guest_bathroom_shower
-        - light.hallway_light
-        - light.kevins
-        - light.office_lamp
-        - light.pendant
-        - light.shower
-        - light.tv
-        - light.under_cabinet
+        - light.hallway_overhead
+        - light.master_bedroom_kevins
+        - light.office_lamps
+        - light.kitchen_pendant
+        - light.master_bathroom_shower
+        - light.living_room_tv
+        - light.kitchen_under_cabinet
         - switch.entry
         - switch.kitchen_overhead
-        - switch.laundry
+        - switch.hallway_laundry
       states:
         - state: 'on'
           class: 'light-on'
@@ -231,10 +231,10 @@ groups:
 
     - name: Fans
       entities:
-        - switch.bathroom_fan
+        - switch.master_bathroom_fan
         - switch.guest_bathroom_fan
         - switch.office_fan
-        - switch.bedroom_fan
+#        - switch.master_bedroom_fan
       states:
         - state: 'on'
           class: 'fan-on'

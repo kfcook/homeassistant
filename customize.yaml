@@ -1,10 +1,10 @@
-light.balcony:
+light.exterior_balcony:
   friendly_name: Balcony Lights
   emulated_hue_name: Balcony
-light.bathroom_overhead:
+light.master_bathroom_overhead:
   friendly_name: Master Bathroom Overhead Light
   emulated_hue_name: Bathroom Overhead
-light.bullet:
+light.den_bullet:
   friendly_name: Den Bullet Lamp
   icon: mdi:lamp
   emulated_hue_name: Den Bullet
@@ -12,25 +12,25 @@ light.zha_fe0299fd_10:
   friendly_name: Living Room Chair Lamp
   icon: mdi:lamp
   emulated_hue_name: Chair
-light.chris:
+light.master_bedroom_chris:
   friendly_name: Chris' Lamp
   icon: mdi:lamp
   emulated_hue_name: Chris
-light.closet:
+light.master_closet_overhead:
   friendly_name: Master Closet Overhead Light
   emulated_hue_name: Closet Overhead
-light.couch:
+light.living_room_couch:
   friendly_name: Couch Lamp
   icon: mdi:lamp
   emulated_hue_name: Couch
 light.den_overhead:
   friendly_name: Den Overhead Light
   emulated_hue_name: Den Overhead
-light.floor:
+light.den_floor:
   friendly_name: Den Floor Lamp
   icon: mdi:lamp
   emulated_hue_name: Den Floor
-light.foyer:
+light.front_foyer_foyer:
   friendly_name: Foyer Lamp
   icon: mdi:lamp
   emulated_hue_name: Foyer
@@ -40,31 +40,31 @@ light.guest_bathroom_overhead:
 light.guest_bathroom_shower:
   friendly_name: Guest Bathroom Shower Light
   emulated_hue_name: Guest Bathroom Shower
-light.hallway_light:
+light.hallway_overhead:
   friendly_name: Hallway Overhead Light
   emulated_hue_name: Hallway
-light.kevins:
+light.master_bedroom_kevins:
   friendly_name: Kevin's Lamp
   icon: mdi:lamp
   emulated_hue_name: Kevins
-light.office_lamp:
+light.office_lamps:
   friendly_name: Office Lamps
   icon: mdi:lamp
   emulated_hue_name: Office
-light.pendant:
+light.kitchen_pendant:
   friendly_name: Kitchen Pendant Lights
   emulated_hue_name: Pendant
-light.shower:
+light.master_bathroom_shower:
   friendly_name: Master Bathroom Shower Light
   emulated_hue_name: Shower
-light.tv:
+light.living_room_tv:
   friendly_name: TV Lamp
   icon: mdi:lamp
   emulated_hue_name: TV Lamp
-light.under_cabinet:
+light.kitchen_under_cabinet:
   friendly_name: Kitchen Under Cabinet Lights
   emulated_hue_name: Under Cabinet
-switch.bathroom_fan:
+switch.master_bathroom_fan:
   friendly_name: Master Bathroom Fan
   icon: mdi:fan
   emulated_hue_name: Bathroom Fan
@@ -80,7 +80,7 @@ switch.kitchen_overhead:
   friendly_name: Kitchen Overhead Lights
   icon: mdi:lightbulb
   emulated_hue_name: Kitchen Overhead
-switch.laundry:
+switch.hallway_laundry:
   friendly_name: Laundry Light
   icon: mdi:lightbulb
   emulated_hue_name: Laundry
@@ -88,7 +88,7 @@ switch.office_fan:
   friendly_name: Office Fan
   icon: mdi:fan
   emulated_hue_name: Office Fan
-switch.bedroom_fan:
+switch.master_bedroom_fan:
   friendly_name: Master Bedroom Fan
   icon: mdi:fan
   emulated_hue_name: Bedroom Fan
@@ -118,35 +118,32 @@ switch.hallway_group:
   emulated_hue: false
   homebridge_hidden: true
 switch.living_room_left_cover:
-  emulated_hue: false
-  homebridge_hidden: true
+  friendly_name: Left Living Room Blind
+  emulated_hue_name: Left Living Room Blind
 switch.living_room_middle_cover:
-  emulated_hue: false
-  homebridge_hidden: true
+  friendly_name: Middle Living Room Blind
+  emulated_hue_name: Middle Living Room Blind
 switch.living_room_right_cover:
-  emulated_hue: false
-  homebridge_hidden: true
+  friendly_name: Right Living Room Blind
+  emulated_hue_name: Right Living Room Blind
+switch.living_room_covers:
+  friendly_name: Living Room Blinds
+  emulated_hue_name: Living Room Blinds
 
 climate.living_room:
   friendly_name: Thermostat
-cover.living_room_left:
+cover.living_room_left_blind:
   friendly_name: Left Living Room Window
   icon: mdi:window-closed
   emulated_hue_name: Left Living Room Window
   homebridge_cover_type: rollershutter
-cover.living_room_Middle:
+cover.living_room_middle_blind:
   friendly_name: Middle Living Room Window
   icon: mdi:window-closed
   emulated_hue_name: Middle Living Room Window
   homebridge_cover_type: rollershutter
-cover.living_room_Right:
+cover.living_room_right_blind:
   friendly_name: Right Living Room Window
   icon: mdi:window-closed
   emulated_hue_name: Right Living Room Window
   homebridge_cover_type: rollershutter
-
-zone.home:
-  beacon:
-    uuid: E00675D7-3AFC-4919-B04D-E9394A867767
-    major: 1
-    minor: 0

@@ -10,7 +10,7 @@
     to: 'Away'
   action:
     service: cover.close_cover
-    entity_id: cover.bedroom
+    entity_id: cover.master_bedroom_blind
 
 - id: br_blinds_up_home_daylight
   alias: 'Raise bedroom blinds when home/daytime'
@@ -26,6 +26,6 @@
     above: 6
   action:
     service: cover.set_cover_position
-    entity_id: cover.bedroom
+    entity_id: cover.master_bedroom_blind
     data:
       position: 15
