@@ -1,5 +1,4 @@
 - name: Bedtime
   entities:
     scene.bedtime_lutron: on
-    group.nonlutron: off
     remote.living_room_tv: off

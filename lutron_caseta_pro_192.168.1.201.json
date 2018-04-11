@@ -62,7 +62,7 @@
             "Number" : 14
           },
           {
-            "Name" : "Button 15",
+            "Name" : "Cooking Lutron",
             "Number" : 15
           },
           {
@@ -920,6 +920,20 @@
         "Name" : "Fan",
         "Area" : {
           "Name" : "Office"
+        }
+      },
+      {
+        "ID" : 40,
+        "Name" : "Overhead",
+        "Area" : {
+          "Name" : "Kitchen"
+        }
+      },
+      {
+        "ID" : 41,
+        "Name" : "Overhead",
+        "Area" : {
+          "Name" : "Front Foyer"
         }
       }
     ]

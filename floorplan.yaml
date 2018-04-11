@@ -218,8 +218,8 @@ groups:
         - light.master_bathroom_shower
         - light.living_room_tv
         - light.kitchen_under_cabinet
-        - switch.entry
-        - switch.kitchen_overhead
+        - light.kitchen_overhead
+        - light.front_foyer_overhead
         - switch.hallway_laundry
       states:
         - state: 'on'

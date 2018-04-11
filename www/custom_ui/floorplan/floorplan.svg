@@ -2536,7 +2536,7 @@
 		</g>
 		<circle opacity="0" fill="#FFDE00" cx="613.622" cy="-96.591" r="24.758"/>
 	</g>
-	<g id="switch.kitchen_overhead" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
+	<g id="light.kitchen_overhead" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
 			<g>
 				<g id="a_7_">
@@ -2556,7 +2556,7 @@
 		</g>
 		<circle opacity="0" fill="#FFDE00" cx="724.003" cy="-59.569" r="24.758"/>
 	</g>
-	<g id="switch.entry" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
+	<g id="light.front_foyer_overhead" transform="matrix( 1, 0, 0, 1, 71.9,89.4) ">
 		<g transform="matrix( 1, 0, 0, 1, 0,0) ">
 			<g>
 				<g id="a_6_">

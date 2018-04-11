@@ -19,6 +19,7 @@
       - light.hallway_overhead
       - light.kitchen_pendant
       - light.kitchen_under_cabinet
+      - light.kitchen_overhead
       - light.living_room_couch
       - light.living_room_tv
       - light.master_bathroom_overhead
@@ -27,10 +28,9 @@
       - light.master_bedroom_kevins
       - light.master_closet_overhead
       - light.office_lamps
+      - light.front_foyer_overhead
       - switch.master_bathroom_fan
-      - switch.entry
       - switch.guest_bathroom_fan
-      - switch.kitchen_overhead
       - switch.hallway_laundry
       - switch.office_fan
   action:

@@ -1,0 +1,92 @@
+#Turn on or off or dim the living room chair lamp (Zigbee smart bulb - light.zha_fe0299fd_10) when the Chair Lamp Pico (Lutron pico) buttons are pressed
+
+- id: living_room_chair_pico_on
+  alias: 'Turn LR chair on with pico'
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: sensor.living_room_chair_pico
+    to: '1'
+  condition: []
+  action:
+    - service: light.turn_on
+      data:
+        entity_id: light.zha_fe0299fd_10
+        brightness: 255
+
+- id: living_room_chair_pico_off
+  alias: 'Turn LR chair off with pico'
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: sensor.living_room_chair_pico
+    to: '4'
+  condition: []
+  action:
+    - service: light.turn_on
+      data:
+        entity_id: light.zha_fe0299fd_10
+        brightness: 0
+
+- id: living_room_chair_pico_50
+  alias: 'Turn LR chair to 50 with pico'
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: sensor.living_room_chair_pico
+    to: '2'
+  condition: []
+  action:
+    - service: light.turn_on
+      data:
+        entity_id: light.zha_fe0299fd_10
+        brightness: 128
+
+- id: living_room_chair_pico_up
+  alias: 'Turn LR chair up 10 with pico'
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: sensor.living_room_chair_pico
+    to: '8'
+  condition: []
+  action:
+    - service: light.turn_on
+      entity_id: light.zha_fe0299fd_10
+      data_template:
+        brightness: '{% if states.light.zha_fe0299fd_10.attributes.brightness %}
+  {{ states.light.zha_fe0299fd_10.attributes.brightness + 10 }}
+{% else %}
+  10
+{% endif %}'
+
+- id: living_room_chair_pico_down
+  alias: 'Turn LR chair down 10 with pico'
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: sensor.living_room_chair_pico
+    to: '16'
+  condition: []
+  action:
+    - service: light.turn_on
+      entity_id: light.zha_fe0299fd_10
+      data_template:
+        brightness: '{% if states.light.zha_fe0299fd_10.attributes.brightness %}
+  {{ states.light.zha_fe0299fd_10.attributes.brightness - 10 }}
+{% else %}
+  0
+{% endif %}'
+
+- id: living_room_chair_pico_down_off
+  alias: 'Turn LR chair off if 0 with pico'
+  initial_state: 'on'
+  trigger:
+  - platform: numeric_state
+    entity_id: light.zha_fe0299fd_10
+    value_template: '{{ state.attributes.brightness }}'
+    below: 1
+  condition: []
+  action:
+    - service: light.turn_off
+      entity_id: light.zha_fe0299fd_10

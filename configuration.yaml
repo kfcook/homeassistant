@@ -90,11 +90,11 @@ sun:
 #tts:
 #  platform: google
 
-wink:
-  email: !secret wink_email
-  password: !secret wink_password
-  client_id: !secret wink_client_id
-  client_secret: !secret wink_client_secret
+#wink:
+#  email: !secret wink_email
+#  password: !secret wink_password
+#  client_id: !secret wink_client_id
+#  client_secret: !secret wink_client_secret
 
 ecobee:
   api_key: !secret ecobee_api_key

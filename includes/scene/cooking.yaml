@@ -1,0 +1,3 @@
+- name: Cooking
+  entities:
+    scene.cooking_lutron: on

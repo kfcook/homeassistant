@@ -68,7 +68,7 @@ switch.master_bathroom_fan:
   friendly_name: Master Bathroom Fan
   icon: mdi:fan
   emulated_hue_name: Bathroom Fan
-switch.entry:
+light.front_foyer_overhead:
   friendly_name: Entry Light
   icon: mdi:lightbulb
   emulated_hue_name: Entry
@@ -76,7 +76,7 @@ switch.guest_bathroom_fan:
   friendly_name: Guest Bathroom Fan
   icon: mdi:fan
   emulated_hue_name: Guest Bathroom Fan
-switch.kitchen_overhead:
+light.kitchen_overhead:
   friendly_name: Kitchen Overhead Lights
   icon: mdi:lightbulb
   emulated_hue_name: Kitchen Overhead
