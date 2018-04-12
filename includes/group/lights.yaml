@@ -4,7 +4,6 @@ master_bedroom:
   entities:
     - light.master_bedroom_chris
     - light.master_bedroom_kevins
-    - cover.master_bedroom_blind
 
 master_bathroom:
   name: Master Bathroom

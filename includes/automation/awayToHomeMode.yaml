@@ -16,7 +16,7 @@
     - platform: numeric_state
       entity_id: light.kitchen_under_cabinet
       value_template: '{{ state.attributes.brightness }}'
-      below: 89
+      below: 88.9
   condition:
     condition: and
     conditions:
