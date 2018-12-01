@@ -23,6 +23,9 @@ light.living_room_couch:
   friendly_name: Couch Lamp
   icon: mdi:lamp
   emulated_hue_name: Couch
+light.living_room_christmas_tree:
+  friendly_name: Christmas Tree
+  emulated_hue_name: Christmas Tree
 light.den_overhead:
   friendly_name: Den Overhead Light
   emulated_hue_name: Den Overhead

@@ -1,0 +1,24 @@
+light.zha_fe0299fd_10:
+  name:
+  platform: zha
+  unique_id: e2:0d:b9:ff:fe:02:99:fd-10
+light.zha_fe0299d3_10:
+  name:
+  platform: zha
+  unique_id: e2:0d:b9:ff:fe:02:99:d3-10
+sensor.kevins_iphone_battery_level:
+  name:
+  platform: ios
+  unique_id: level_kevins_iphone
+sensor.cedrone88_iphone_battery_level:
+  name:
+  platform: ios
+  unique_id: level_cedrone88_iphone
+sensor.kevins_iphone_battery_state:
+  name:
+  platform: ios
+  unique_id: state_kevins_iphone
+sensor.cedrone88_iphone_battery_state:
+  name:
+  platform: ios
+  unique_id: state_cedrone88_iphone

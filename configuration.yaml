@@ -121,7 +121,7 @@ media_player:
     client_id: !secret media_player_spotify_client_id
     client_secret: !secret media_player_spotify_client_secret
 
-ios:
+#ios:
 
 #lutron_caseta:
 #  host: !secret lutron_caseta_host
@@ -133,7 +133,7 @@ ios:
 lutron_caseta_pro:
   bridges:
     - host: !secret lutron_caseta_host
-      switch: [ 8, 9, 11, 22 ]
+      switch: [ 8, 9, 11, 18, 22 ]
       cover: [ 34, 35, 36, 38]
 
 emulated_hue:

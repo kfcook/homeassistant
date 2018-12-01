@@ -730,6 +730,30 @@
             "Number" : 6
           }
         ]
+      },
+      {
+        "ID" : 43,
+        "Area" : {
+          "Name" : "Living Room"
+        },
+        "Name" : "Christmas Tree Pico",
+        "Buttons" : [
+          {
+            "Number" : 2
+          },
+          {
+            "Number" : 3
+          },
+          {
+            "Number" : 4
+          },
+          {
+            "Number" : 5
+          },
+          {
+            "Number" : 6
+          }
+        ]
       }
     ],
     "Zones" : [
@@ -935,7 +959,15 @@
         "Area" : {
           "Name" : "Front Foyer"
         }
+      },
+      {
+        "ID" : 42,
+        "Name" : "Christmas Tree",
+        "Area" : {
+          "Name" : "Living Room"
+        }
       }
     ]
   }
 }
+

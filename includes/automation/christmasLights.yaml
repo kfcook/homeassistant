@@ -1,0 +1,60 @@
+#Turn on christmas lights at sunset
+- id: christmas_on_sunset
+  alias: 'Turn on christmas lights at sunset'
+  initial_state: 'on'
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-00:30:00"
+  action:
+    service: light.turn_on
+    entity_id: light.living_room_christmas_tree
+    data:
+      brightness: 255
+      transition: 300
+
+#Turn off christmas lights 1am
+- id: christmas_off_1
+  alias: 'Turn off christmas lights at 1'
+  initial_state: 'on'
+  trigger:
+    platform: time
+    at: "01:00:00"
+  action:
+    service: light.turn_off
+    entity_id: light.living_room_christmas_tree
+    data:
+      transition: 300 
+
+#Turn off under christmas lights when "Bedtime" scene is triggered:
+- id: christmas_lights_off_bedtime
+  alias: 'Turn off christmas lights at bedtime'
+  initial_state: 'on'
+  trigger:
+    platform: event
+    event_type: call_service
+    event_data:
+      service_data:
+        entity_id: scene.bedtime
+      domain: scene
+      service: turn_on
+  action:
+    service: light.turn_off
+    entity_id: light.living_room_christmas_tree
+
+#Turn off christmas lights when away/daytime
+- id: christmas_lights_off_daylight
+  alias: 'Christmas lights off when away/daytime'
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: sensor.home_mode
+    to: 'Away'
+  condition:
+    condition: numeric_state
+    entity_id: sun.sun
+    value_template: "{{ state.attributes.elevation }}"
+    above: 6
+  action:
+    service: light.turn_off
+    entity_id: light.living_room_christmas_tree
